@@ -1,0 +1,1 @@
+The program works much better on linux due to strict file permissions on windows for now
