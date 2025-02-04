@@ -1,5 +1,5 @@
--injars       target/jgit_stresstest-SNAPSHOT.jar
--outjars      proguard_out.jar
+-injars       target/artifact.jar
+-outjars      artifacts/artifact_proguard.jar
 # Identified with jdeps
 -libraryjars  <java.home>/jmods/java.base.jmod
 -libraryjars  <java.home>/jmods/java.management.jmod
@@ -8,7 +8,7 @@
 -libraryjars  <java.home>/jmods/java.security.jgss.jmod
 
 #-dontobfuscate # Might break stuff, especially enums
--printmapping mapping.txt
+-printmapping artifacts/mapping.txt
 
 # Keep our program
 -keep class org.example.LocalGitCommitStressTest {

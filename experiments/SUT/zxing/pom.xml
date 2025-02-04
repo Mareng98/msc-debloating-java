@@ -47,6 +47,7 @@
     </properties>
 
     <build>
+        <finalName>artifact</finalName> <!-- This ensures that the JAR file is always named 'artifact.jar' -->
         <plugins>
             <!-- Maven Compiler Plugin -->
             <plugin>

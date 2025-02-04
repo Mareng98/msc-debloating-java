@@ -1,11 +1,12 @@
--injars       target/stresstest-qrcode-1.0-SNAPSHOT.jar
--outjars      proguard_out.jar
+-injars       target/artifact.jar
+-outjars      artifacts/artifact_proguard.jar
+# Identified with jdeps
 -libraryjars  <java.home>/jmods/java.base.jmod
 -libraryjars  <java.home>/jmods/java.desktop.jmod
 -libraryjars  <java.home>/jmods/java.xml.jmod
 
 #-dontobfuscate # Might break stuff, especially enums
--printmapping mapping.txt
+-printmapping artifacts/mapping.txt
 
 -keep class org.stresstest.StressTestQRCode {
     *;
