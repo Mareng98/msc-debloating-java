@@ -41,14 +41,9 @@ Alternatively, generate pom-debloated.xml yourself and then use this pom file to
 Ensure that the original artifact was built before executing this command to not mix debloating tools.
 
 - **JLink**: Use jdeps to list all the necessary dependencies
-`jdeps --ignore-missing-deps --list-deps full/path/to/jar`
-
-Then add the listed java modules to the jlink command and run it to create the jlink artifact:
-`jlink --compress=2 --strip-debug --no-header-files --no-man-pages --add-modules identified-modules-here --output jlink-runtime`
-
-Use the resulting artifact to run the vanilla jar file:
-`.artifacts/jlink-runtime/bin/java.exe -jar path/to/vanilla.jar`
-It can be used for any of the artifact jar files for the same project, but in the experiments it was only used on the vanilla version.
+`jdeps --ignore-missing-deps --list-deps full/path/to/jar` Then add the listed java modules to the jlink command and run it to create the jlink artifact:
+`jlink --compress=2 --strip-debug --no-header-files --no-man-pages --add-modules identified-modules-here --output jlink-runtime` Use the resulting artifact to run the vanilla jar file:
+`.artifacts/jlink-runtime/bin/java.exe -jar path/to/vanilla.jar` It can be used for any of the artifact jar files for the same project, but in the experiments it was only used on the vanilla version.
 
 - **Energibridge:**
 Run the measurements. Result.csv will be outputted next to where you ran the command after the program finishes. 
