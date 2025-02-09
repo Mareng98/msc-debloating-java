@@ -16,12 +16,12 @@ public class LocalGitCommitStressTest {
 
     public static void main(String[] args) throws InterruptedException, IOException, GitAPIException {
         String repositoryPath = "local-repo"; // Local repository path
-        int numOfIterations = 10;
+        int numOfIterations = 1;
         for (int j = 0; j < numOfIterations; j++){
             // ✅ Reset the repository before running the stress test
             resetRepository(repositoryPath);
 
-            int numOfCommits = 100; // Number of iterations for testing
+            int numOfCommits = 1000; // Number of iterations for testing
             for (int i = 0; i < numOfCommits; i++) {
                 int commit = i;
                 try {
@@ -114,8 +114,6 @@ public class LocalGitCommitStressTest {
             git.add().addFilepattern(fileName).call();
             git.commit().setMessage("Added new file: " + fileName).call();
 
-            System.out.println("✅ Committed new file: " + fileName + " in branch " + branchName);
-
             // Switch back to 'main' after committing
             git.checkout().setName("main").call();
 
@@ -124,7 +122,6 @@ public class LocalGitCommitStressTest {
 
             git.rm().addFilepattern(fileName).call();
             git.commit().setMessage("Removed file: " + fileName + " after merging").call();
-            System.out.println("✅ Committed deletion of " + fileName + " from main");
         }
     }
     // Merges a branch into main and deletes it
@@ -134,7 +131,6 @@ public class LocalGitCommitStressTest {
             git.checkout().setName("main").call();
 
             // Merge the specified branch into main
-            System.out.println("🔄 Merging branch " + branchName + " into main...");
             git.merge()
                     .include(repository.findRef(branchName))
                     .setMessage("Merged " + branchName + " into main")
@@ -142,7 +138,6 @@ public class LocalGitCommitStressTest {
 
             // Delete the merged branch
             git.branchDelete().setBranchNames(branchName).setForce(true).call();
-            System.out.println("✅ Merged and deleted branch: " + branchName);
         }
     }
 
