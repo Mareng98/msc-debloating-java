@@ -1,2 +1,2 @@
 # msc-debloating-java
-A project to measure energy efficiency of java debloating tools
+This is a Master's thesis project to measure the effects on energy efficiency of Java debloating tools, in collaboration with Chalmers University of Technology.
