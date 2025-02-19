@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example</groupId>
-  <artifactId>jgit_stresstest</artifactId>
-  <version>SNAPSHOT</version>
+  <artifactId>FlyingSaucer</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <properties>
     <maven.compiler.target>17</maven.compiler.target>
     <maven.compiler.source>17</maven.compiler.source>
@@ -12,20 +11,17 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>org.eclipse.jgit</groupId>
-      <artifactId>org.eclipse.jgit</artifactId>
-      <version>7.1.0.202411261347-r</version>
+      <groupId>se.kth.castor.deptrim.spl</groupId>
+      <artifactId>flying-saucer-core</artifactId>
+      <version>9.11.3</version>
       <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <groupId>com.googlecode.javaewah</groupId>
-          <artifactId>JavaEWAH</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>commons-codec</groupId>
-          <artifactId>commons-codec</artifactId>
-        </exclusion>
-      </exclusions>
+      <optional>false</optional>
+    </dependency>
+    <dependency>
+      <groupId>se.kth.castor.deptrim.spl</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.0-alpha1</version>
+      <scope>compile</scope>
       <optional>false</optional>
     </dependency>
   </dependencies>

@@ -28,6 +28,12 @@ SET DEPCLEAN_DEBLOATED_POM=%PROJECT_DIR%\pom-debloated.xml
 SET DEPCLEAN_POM=%PROJECT_DIR%\pom-depclean.xml
 SET POM=%PROJECT_DIR%\pom.xml
 
+echo 0. Ensure artifacts folder exists
+IF NOT EXIST "%ARTIFACTS_FOLDER%" (
+    echo Creating artifacts directory at %ARTIFACTS_FOLDER%
+    mkdir "%ARTIFACTS_FOLDER%"
+)
+
 REM Setup vanilla
 echo 1. Building vanilla jar
 call mvn clean install
@@ -63,7 +69,7 @@ call jlink --compress=2 --strip-debug --no-header-files --no-man-pages --module-
 
 REM Setup depclean
 echo 1. Generating pom-debloated.xml with depclean
-call mvn se.kth.castor:depclean-maven-plugin:2.0.6:depclean -DcreatePomDebloated=true
+call mvn se.kth.castor:depclean-maven-plugin:2.0.6:depclean -DcreatePomDebloated=true -DignoreDependencies="org.slf4j.*
 
 echo 2. Renaming pom-debloated.xml to pom-depclean.xml
 REN "%PROJECT_DIR%\pom-debloated.xml" pom-depclean.xml
@@ -83,7 +89,7 @@ RMDIR /S /Q "%PROJECT_DIR%\target"
 REM Setup deptrim
 echo SETTING UP DEPTRIM
 echo 1. Creating pom-deptrim.xml from pom.xml
-COPY "%POM%" "%DEPTRIM_POM%"
+call COPY "%POM%" "%DEPTRIM_POM%"
 
 REM Insert deptrim plugin inside <build><plugins>...</plugins> (Single Line)
 powershell -Command "& {$pomFile='!DEPTRIM_POM!'; $xml=[xml](Get-Content $pomFile); $ns=$xml.DocumentElement.NamespaceURI; if(-not $xml.project.build){$build=$xml.CreateElement('build', $ns);$xml.project.AppendChild($build)|Out-Null}; if(-not $xml.project.build.plugins){$plugins=$xml.CreateElement('plugins', $ns);$xml.project.build.AppendChild($plugins)|Out-Null}; $plugin=$xml.CreateElement('plugin', $ns); $groupId=$xml.CreateElement('groupId', $ns);$groupId.InnerText='se.kth.castor'; $artifactId=$xml.CreateElement('artifactId', $ns);$artifactId.InnerText='deptrim-maven-plugin'; $version=$xml.CreateElement('version', $ns);$version.InnerText='0.1.2'; $execution=$xml.CreateElement('execution', $ns); $goals=$xml.CreateElement('goals', $ns); $goal=$xml.CreateElement('goal', $ns);$goal.InnerText='deptrim'; $goals.AppendChild($goal)|Out-Null; $configuration=$xml.CreateElement('configuration', $ns); $singlePom=$xml.CreateElement('createSinglePomSpecialized', $ns); $singlePom.InnerText='true'; $configuration.AppendChild($singlePom)|Out-Null; $execution.AppendChild($goals)|Out-Null; $execution.AppendChild($configuration)|Out-Null; $executions=$xml.CreateElement('executions', $ns); $executions.AppendChild($execution)|Out-Null; $plugin.AppendChild($groupId)|Out-Null; $plugin.AppendChild($artifactId)|Out-Null; $plugin.AppendChild($version)|Out-Null; $plugin.AppendChild($executions)|Out-Null; $xml.project.build.plugins.AppendChild($plugin)|Out-Null; $xml.Save($pomFile)}"
@@ -92,8 +98,8 @@ echo 2. Running deptrim with modified pom-deptrim.xml
 call mvn -f "%DEPTRIM_POM%" clean install
 
 echo 3. Remvoing deptrim's pom-debloated.xml and pom-deptrim.xml
-del "pom-debloated.xml"
-del "pom-deptrim.xml"
+call del "pom-debloated.xml"
+call del "pom-deptrim.xml"
 
 echo 3. Renaming generated pom-specialized.xml to pom-deptrim-specialized.xml
 REN "%PROJECT_DIR%\pom-specialized.xml" "pom-deptrim-specialized.xml"

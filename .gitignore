@@ -1,2 +1,5 @@
 # Ignore all target directories recursively
 **/target/
+**/JGitRepo/
+**/artifacts/
+**/libs-specialized/

@@ -60,6 +60,7 @@
               <goal>shade</goal>
             </goals>
             <configuration>
+              <createDependencyReducedPom>false</createDependencyReducedPom>
               <filters>
                 <filter>
                   <artifact>*:*</artifact>
@@ -72,7 +73,7 @@
               </filters>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>org.example.LocalGitCommitStressTest</mainClass>
+                  <mainClass>org.example.BenchmarkRunner</mainClass>
                 </transformer>
               </transformers>
             </configuration>

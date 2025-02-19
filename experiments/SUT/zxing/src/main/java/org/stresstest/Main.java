@@ -44,7 +44,6 @@ class StressTestQRCode {
 
             // Save the image to file
             ImageIO.write(image, "PNG", new File(FILE_PATH));
-            System.out.println("QR code generated and saved to " + FILE_PATH);
         } catch (WriterException | IOException e) {
             e.printStackTrace();
         }
@@ -61,7 +60,6 @@ class StressTestQRCode {
             MultiFormatReader reader = new MultiFormatReader();
             // Decode the barcode
             String result = reader.decode(bitmap).getText();
-            System.out.println("Decoded text: " + result);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -69,11 +67,9 @@ class StressTestQRCode {
 
     public static void main(String[] args) {
         // Stress test: Generate and decode QR codes 10 times
-        for (int i = 0; i < 10000; i++) {
-            System.out.println("Running test " + (i + 1) + "...");
+        for (int i = 0; i < 100000; i++) {
             generateQRCode();  // Generate QR code
             decodeQRCode();    // Decode QR code
-            System.out.println("-------------------------");
         }
     }
 }

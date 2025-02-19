@@ -2,11 +2,10 @@
 -outjars      artifacts/artifact_proguard.jar
 # Identified with jdeps
 -libraryjars  <java.home>/jmods/java.base.jmod
--libraryjars  <java.home>/jmods/java.management.jmod
+-libraryjars  <java.home>/jmods/java.desktop.jmod
+-libraryjars  <java.home>/jmods/java.logging.jmod
 -libraryjars  <java.home>/jmods/java.xml.jmod
--libraryjars  <java.home>/jmods/java.sql.jmod
--libraryjars  <java.home>/jmods/java.security.jgss.jmod
-
+-libraryjars  <java.home>/jmods/jdk.xml.dom.jmod
 
 #-dontobfuscate # Might break stuff, especially enums
 -printmapping artifacts/mapping.txt
@@ -16,17 +15,14 @@
     *;
 }
 
-# Keep necessary enums
--keep public enum org.eclipse.jgit.lib.**{*;}
--keep public enum org.eclipse.jgit.util.**{*;}
--keep public enum org.eclipse.jgit.revwalk.**{*;}
+# Ignore unuseful warnings
+-dontwarn com.google.errorprone.**
+-dontwarn org.jspecify.annotations.**
+-dontnote
 
 # Added rules after classes were found to be missing at run time
--keep class org.slf4j.simple.SimpleServiceProvider{*;}
-
-# Added rules after proguard obfuscation didn't work
--keep public class org.eclipse.jgit.internal.JGitText {*;}
--keep public class org.eclipse.jgit.api.MergeCommand$FastForwardMode$Merge {*;}
+-keep class org.xhtmlrenderer.render.**{*;}
+-keep class org.slf4j.**{*;}
 
 # ProGuard optimization options
 -verbose
