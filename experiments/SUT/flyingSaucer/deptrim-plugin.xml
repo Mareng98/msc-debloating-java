@@ -1,0 +1,16 @@
+<plugin>
+  <groupId>se.kth.castor</groupId>
+  <artifactId>deptrim-maven-plugin</artifactId>
+  <version>0.1.2</version>
+  <executions>
+    <execution>
+      <phase>package</phase>
+      <goals>
+        <goal>deptrim</goal>
+      </goals>
+      <configuration>
+        <createSinglePomSpecialized>true</createSinglePomSpecialized>
+      </configuration>
+    </execution>
+  </executions>
+</plugin>
