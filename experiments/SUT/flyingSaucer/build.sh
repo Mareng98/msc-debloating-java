@@ -140,5 +140,10 @@ rm -rf "$PROJECT_DIR/target"
 
 echo "Process completed."
 
+echo "SETTING UP PROGUARD"
+echo "1. Build original jar"
+mvn clean install
+echo "2. Debloat with proguard"
+java -jar "$PROGUARD_HOME/proguard.jar" @"$PROJECT_DIR/proguard.pro"
 #echo "Press any key to continue..."
 #read -n 1 -s  # Waits for a single key press
