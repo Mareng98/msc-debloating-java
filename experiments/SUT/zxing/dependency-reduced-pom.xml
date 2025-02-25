@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.stresstest</groupId>
-  <artifactId>stresstest-qrcode</artifactId>
-  <name>StressTestQRCode</name>
+  <groupId>org.example</groupId>
+  <artifactId>Zxing</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <description>A simple stress test for ZXing QR code generation and decoding</description>
   <build>
     <finalName>artifact</finalName>
     <plugins>
@@ -29,7 +27,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>org.stresstest.StressTestQRCode</mainClass>
+                  <mainClass>org.example.BenchmarkRunner</mainClass>
                 </transformer>
               </transformers>
             </configuration>

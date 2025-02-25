@@ -1,3 +1,0 @@
-   java.base
-   java.desktop
-   java.xml

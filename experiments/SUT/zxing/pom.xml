@@ -4,14 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.stresstest</groupId>
-    <artifactId>stresstest-qrcode</artifactId>
+    <groupId>org.example</groupId>
+    <artifactId>Zxing</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
-
-    <name>StressTestQRCode</name>
-    <description>A simple stress test for ZXing QR code generation and decoding</description>
-
     <dependencies>
         <!-- ZXing -->
         <dependency>
@@ -74,7 +69,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>org.stresstest.StressTestQRCode</mainClass>
+                                    <mainClass>org.example.BenchmarkRunner</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
