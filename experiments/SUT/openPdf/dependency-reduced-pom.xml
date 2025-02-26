@@ -37,7 +37,7 @@
               </filters>
               <transformers>
                 <transformer>
-                  <mainClass>org.example.Main</mainClass>
+                  <mainClass>org.example.BenchmarkRunner</mainClass>
                 </transformer>
               </transformers>
             </configuration>

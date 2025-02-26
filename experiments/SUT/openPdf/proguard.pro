@@ -9,7 +9,7 @@
 -printmapping artifacts/mapping.txt
 
 # Keep our program
--keep class org.example.Main {
+-keep class org.example.BenchmarkRunner {
     *;
 }
 
