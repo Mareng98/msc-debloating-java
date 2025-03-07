@@ -1,0 +1,79 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/> .
+
+# Shape for a Person
+ex:PersonShape
+    a sh:NodeShape ;
+    sh:targetClass ex:Person ;  # Target the ex:Person class
+    sh:property [
+        sh:path ex:age ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 150 ;
+        sh:message "Age must be a valid integer between 0 and 150." ;
+    ] ;
+    sh:property [
+        sh:path ex:email ;
+        sh:datatype xsd:string ;
+        sh:pattern "^\\S+@\\S+\\.\\S+$" ;  # Regex for valid email
+        sh:message "Email must be a valid email address." ;
+    ] ;
+    sh:property [
+        sh:path ex:birthDate ;
+        sh:datatype xsd:date ;
+        sh:maxExclusive "2023-01-01"^^xsd:date ;
+        sh:message "Birth date must be before 2023." ;
+    ] ;
+    sh:property [
+        sh:path ex:phoneNumber ;
+        sh:datatype xsd:string ;
+        sh:pattern "^\\+?[0-9]{1,4}[\\s\\-]?[0-9]{1,15}$" ;  # Valid phone number pattern
+        sh:message "Phone number must be in a valid format." ;
+    ] .
+
+# Shape for an Address
+ex:AddressShape
+    a sh:NodeShape ;
+    sh:targetClass ex:Address ;  # Target the ex:Address class
+    sh:property [
+        sh:path ex:street ;
+        sh:datatype xsd:string ;
+        sh:minLength 5 ;
+        sh:message "Street name must have at least 5 characters." ;
+    ] ;
+    sh:property [
+        sh:path ex:city ;
+        sh:datatype xsd:string ;
+        sh:pattern "^[A-Za-z\\s]+$" ;
+        sh:message "City name must only contain letters and spaces." ;
+    ] ;
+    sh:property [
+        sh:path ex:postalCode ;
+        sh:datatype xsd:string ;
+        sh:pattern "^\\d{5}$" ;  # Valid 5-digit postal code
+        sh:message "Postal code must be 5 digits." ;
+    ] .
+
+# Complex Shape for an Order
+ex:OrderShape
+    a sh:NodeShape ;
+    sh:targetClass ex:Order ;
+    sh:property [
+        sh:path ex:orderDate ;
+        sh:datatype xsd:date ;
+        sh:maxExclusive "2025-01-01"^^xsd:date ;
+        sh:message "Order date must be before 2025." ;
+    ] ;
+    sh:property [
+        sh:path ex:orderItems ;
+        sh:minCount 1 ;  # At least one item in the order
+        sh:maxCount 10 ; # No more than 10 items in the order
+        sh:message "Order must have between 1 and 10 items." ;
+    ] ;
+    sh:property [
+        sh:path ex:totalAmount ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 0.01 ;
+        sh:message "Total amount must be greater than 0." ;
+    ] .

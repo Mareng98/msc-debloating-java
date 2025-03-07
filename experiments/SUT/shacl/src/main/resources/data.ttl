@@ -1,0 +1,234 @@
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# A valid person
+ex:Person1 a ex:Person ;
+    ex:age 25 ;
+    ex:email "johndoe@example.com" ;
+    ex:birthDate "1998-06-15"^^xsd:date ;
+    ex:phoneNumber "+1-555-123456" .
+
+# Invalid person (age is 160, which is too high)
+ex:Person2 a ex:Person ;
+    ex:age 160 ;
+    ex:email "invalid-email" ;
+    ex:birthDate "2023-06-15"^^xsd:date ;
+    ex:phoneNumber "+1-555-123456" .
+
+# A valid address
+ex:Address1 a ex:Address ;
+    ex:street "123 Main St" ;
+    ex:city "Springfield" ;
+    ex:postalCode "12345" .
+
+# Invalid address (postal code is not 5 digits)
+ex:Address2 a ex:Address ;
+    ex:street "45a6 Elm St" ;
+    ex:city "Shelbyv2ille" ;
+    ex:postalCode "1234" .
+
+# A valid order
+ex:Order1 a ex:Order ;
+    ex:orderDate "2023-12-15"^^xsd:date ;
+    ex:orderItems ex:Item1, ex:Item2 ;
+    ex:totalAmount 199.99 .
+
+# Invalid order (order has more than 10 items)
+ex:Order2 a ex:Order ;
+    ex:orderDate "2024-01-01"^^xsd:date ;
+    ex:orderItems ex:Item1, ex:Item2, ex:Item3, ex:Item4, ex:Item5, ex:Item6, ex:Item7, ex:Item8, ex:Item9, ex:Item10, ex:Item11 ;
+    ex:totalAmount -150.50 .
+
+# A valid person
+ex:Person3 a ex:Person ;
+    ex:age 25 ;
+    ex:email "johndoe@example.com" ;
+    ex:birthDate "1998-06-15"^^xsd:date ;
+    ex:phoneNumber "+1-555-123456" .
+
+# Invalid person (age is 160, which is too high)
+ex:Person4 a ex:Person ;
+    ex:age 160 ;
+    ex:email "invalid-email" ;
+    ex:birthDate "2023-06-15"^^xsd:date ;
+    ex:phoneNumber "+1-555-123456" .
+
+# A valid address
+ex:Address3 a ex:Address ;
+    ex:street "123 Main St" ;
+    ex:city "Springfield" ;
+    ex:postalCode "12345" .
+
+# Invalid address (postal code is not 5 digits)
+ex:Address4 a ex:Address ;
+    ex:street "45a6 Elm St" ;
+    ex:city "Shelbyv2ille" ;
+    ex:postalCode "1234" .
+
+# A valid order
+ex:Order3 a ex:Order ;
+    ex:orderDate "2023-12-15"^^xsd:date ;
+    ex:orderItems ex:Item1, ex:Item2 ;
+    ex:totalAmount 199.99 .
+
+# Invalid order (order has more than 10 items)
+ex:Order4 a ex:Order ;
+    ex:orderDate "2024-01-01"^^xsd:date ;
+    ex:orderItems ex:Item1, ex:Item2, ex:Item3, ex:Item4, ex:Item5, ex:Item6, ex:Item7, ex:Item8, ex:Item9, ex:Item10, ex:Item11 ;
+    ex:totalAmount -150.50 .
+
+
+# A valid person
+ex:Person5 a ex:Person ;
+    ex:age 25 ;
+    ex:email "johndoe@example.com" ;
+    ex:birthDate "1998-06-15"^^xsd:date ;
+    ex:phoneNumber "+1-555-123456" .
+
+# Invalid person (age is 160, which is too high)
+ex:Person6 a ex:Person ;
+    ex:age 160 ;
+    ex:email "invalid-email" ;
+    ex:birthDate "2023-06-15"^^xsd:date ;
+    ex:phoneNumber "+1-555-123456" .
+
+# A valid address
+ex:Address5 a ex:Address ;
+    ex:street "123 Main St" ;
+    ex:city "Springfield" ;
+    ex:postalCode "12345" .
+
+# Invalid address (postal code is not 5 digits)
+ex:Address6 a ex:Address ;
+    ex:street "45a6 Elm St" ;
+    ex:city "Shelbyv2ille" ;
+    ex:postalCode "1234" .
+
+# A valid order
+ex:Order5 a ex:Order ;
+    ex:orderDate "2023-12-15"^^xsd:date ;
+    ex:orderItems ex:Item1, ex:Item2 ;
+    ex:totalAmount 199.99 .
+
+# Invalid order (order has more than 10 items)
+ex:Order6 a ex:Order ;
+    ex:orderDate "2024-01-01"^^xsd:date ;
+    ex:orderItems ex:Item1, ex:Item2, ex:Item3, ex:Item4, ex:Item5, ex:Item6, ex:Item7, ex:Item8, ex:Item9, ex:Item10, ex:Item11 ;
+    ex:totalAmount -150.50 .
+
+
+
+# A valid person
+ex:Person11 a ex:Person ;
+    ex:age 25 ;
+    ex:email "johndoe@example.com" ;
+    ex:birthDate "1998-06-15"^^xsd:date ;
+    ex:phoneNumber "+1-555-123456" .
+
+# Invalid person (age is 160, which is too high)
+ex:Person21 a ex:Person ;
+    ex:age 160 ;
+    ex:email "invalid-email" ;
+    ex:birthDate "2023-06-15"^^xsd:date ;
+    ex:phoneNumber "+1-555-123456" .
+
+# A valid address
+ex:Address11 a ex:Address ;
+    ex:street "123 Main St" ;
+    ex:city "Springfield" ;
+    ex:postalCode "12345" .
+
+# Invalid address (postal code is not 5 digits)
+ex:Address21 a ex:Address ;
+    ex:street "45a6 Elm St" ;
+    ex:city "Shelbyv2ille" ;
+    ex:postalCode "1234" .
+
+# A valid order
+ex:Order11 a ex:Order ;
+    ex:orderDate "2023-12-15"^^xsd:date ;
+    ex:orderItems ex:Item1, ex:Item2 ;
+    ex:totalAmount 199.99 .
+
+# Invalid order (order has more than 10 items)
+ex:Order21 a ex:Order ;
+    ex:orderDate "2024-01-01"^^xsd:date ;
+    ex:orderItems ex:Item1, ex:Item2, ex:Item3, ex:Item4, ex:Item5, ex:Item6, ex:Item7, ex:Item8, ex:Item9, ex:Item10, ex:Item11 ;
+    ex:totalAmount -150.50 .
+
+# A valid person
+ex:Person31 a ex:Person ;
+    ex:age 25 ;
+    ex:email "johndoe@example.com" ;
+    ex:birthDate "1998-06-15"^^xsd:date ;
+    ex:phoneNumber "+1-555-123456" .
+
+# Invalid person (age is 160, which is too high)
+ex:Person41 a ex:Person ;
+    ex:age 160 ;
+    ex:email "invalid-email" ;
+    ex:birthDate "2023-06-15"^^xsd:date ;
+    ex:phoneNumber "+1-555-123456" .
+
+# A valid address
+ex:Address31 a ex:Address ;
+    ex:street "123 Main St" ;
+    ex:city "Springfield" ;
+    ex:postalCode "12345" .
+
+# Invalid address (postal code is not 5 digits)
+ex:Address41 a ex:Address ;
+    ex:street "45a6 Elm St" ;
+    ex:city "Shelbyv2ille" ;
+    ex:postalCode "1234" .
+
+# A valid order
+ex:Order31 a ex:Order ;
+    ex:orderDate "2023-12-15"^^xsd:date ;
+    ex:orderItems ex:Item1, ex:Item2 ;
+    ex:totalAmount 199.99 .
+
+# Invalid order (order has more than 10 items)
+ex:Order41 a ex:Order ;
+    ex:orderDate "2024-01-01"^^xsd:date ;
+    ex:orderItems ex:Item1, ex:Item2, ex:Item3, ex:Item4, ex:Item5, ex:Item6, ex:Item7, ex:Item8, ex:Item9, ex:Item10, ex:Item11 ;
+    ex:totalAmount -150.50 .
+
+
+# A valid person
+ex:Person51 a ex:Person ;
+    ex:age 25 ;
+    ex:email "johndoe@example.com" ;
+    ex:birthDate "1998-06-15"^^xsd:date ;
+    ex:phoneNumber "+1-555-123456" .
+
+# Invalid person (age is 160, which is too high)
+ex:Person61 a ex:Person ;
+    ex:age 160 ;
+    ex:email "invalid-email" ;
+    ex:birthDate "2023-06-15"^^xsd:date ;
+    ex:phoneNumber "+1-555-123456" .
+
+# A valid address
+ex:Address51 a ex:Address ;
+    ex:street "123 Main St" ;
+    ex:city "Springfield" ;
+    ex:postalCode "12345" .
+
+# Invalid address (postal code is not 5 digits)
+ex:Address61 a ex:Address ;
+    ex:street "45a6 Elm St" ;
+    ex:city "Shelbyv2ille" ;
+    ex:postalCode "1234" .
+
+# A valid order
+ex:Order51 a ex:Order ;
+    ex:orderDate "2023-12-15"^^xsd:date ;
+    ex:orderItems ex:Item1, ex:Item2 ;
+    ex:totalAmount 199.99 .
+
+# Invalid order (order has more than 10 items)
+ex:Order61 a ex:Order ;
+    ex:orderDate "2024-01-01"^^xsd:date ;
+    ex:orderItems ex:Item1, ex:Item2, ex:Item3, ex:Item4, ex:Item5, ex:Item6, ex:Item7, ex:Item8, ex:Item9, ex:Item10, ex:Item11 ;
+    ex:totalAmount -150.50 .

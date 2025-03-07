@@ -5,21 +5,20 @@
 -libraryjars  <java.home>/jmods/java.desktop.jmod
 -libraryjars  <java.home>/jmods/java.xml.jmod
 
-#-dontobfuscate # Might break stuff, especially enums
+#-dontobfuscate # Obfuscation enabled
 -printmapping artifacts/mapping.txt
 
--keep class org.example.BenchmarkRunner {
-    *;
-}
+# Preserve critical classes and members
+-keep class org.example.BenchmarkRunner {*;}
 
 # Keep required classes for ZXing (QR Code processing)
--keep public class com.google.zxing.ResultMetadataType { *; }
+-keep public class com.google.zxing.ResultMetadataType {*;}
 
 # Keep ImageIO-related classes to prevent missing service providers
--keep class * extends javax.imageio.spi.IIOServiceProvider { *; }
+-keep class * extends javax.imageio.spi.IIOServiceProvider {*;}
 
 # ProGuard optimization options
 -verbose
 -mergeinterfacesaggressively  # Aggressively merges interfaces (use with caution)
--optimizeaggressively  # Optimizes aggressively (might break things)
+-optimizeaggressively  # Optimizes aggressively (use with caution)
 -optimizationpasses 5  # Number of optimization passes

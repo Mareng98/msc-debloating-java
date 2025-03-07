@@ -7,7 +7,6 @@
 -libraryjars  <java.home>/jmods/java.sql.jmod
 -libraryjars  <java.home>/jmods/java.security.jgss.jmod
 
-
 #-dontobfuscate # Might break stuff, especially enums
 -printmapping artifacts/mapping.txt
 
@@ -32,6 +31,4 @@
 -verbose
 -mergeinterfacesaggressively  # Aggressively merges interfaces (use with caution)
 -optimizeaggressively  # Optimizes aggressively (might break things)
-
-
 -optimizationpasses 5  # Number of optimization passes
