@@ -5,8 +5,8 @@
 -libraryjars  <java.home>/jmods/java.desktop.jmod
 -libraryjars  <java.home>/jmods/java.xml.jmod
 
-#-dontobfuscate # Obfuscation enabled
--printmapping artifacts/mapping.txt
+-dontobfuscate # Obfuscation enabled
+#-printmapping artifacts/mapping.txt
 
 # Preserve critical classes and members
 -keep class org.example.BenchmarkRunner {*;}
@@ -21,4 +21,4 @@
 -verbose
 -mergeinterfacesaggressively  # Aggressively merges interfaces (use with caution)
 -optimizeaggressively  # Optimizes aggressively (use with caution)
--optimizationpasses 5  # Number of optimization passes
+-optimizationpasses 50  # Number of optimization passes

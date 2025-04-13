@@ -31,4 +31,4 @@
 -verbose
 -mergeinterfacesaggressively  # Aggressively merges interfaces (use with caution)
 -optimizeaggressively  # Optimizes aggressively (use with caution)
--optimizationpasses 40  # Number of optimization passes
+-optimizationpasses 50  # Number of optimization passes

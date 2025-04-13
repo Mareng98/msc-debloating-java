@@ -29,9 +29,15 @@
 -dontwarn **.**
 -dontnote **
 
+-keep class * implements org.apache.jena.riot.system.ReaderRIOTFactory { *; }
+
+# Preserve method names used by lambdas (common in Jena's internal factories)
+-keepclassmembers class * {
+    *** lambda$*(...);
+}
 
 # ProGuard optimization options
 -verbose
-#-mergeinterfacesaggressively  # Aggressively merges interfaces (use with caution)
-#-optimizeaggressively  # Optimizes aggressively (use with caution)
--optimizationpasses 1  # Number of optimization passes
+-mergeinterfacesaggressively  # Aggressively merges interfaces (use with caution)
+-optimizeaggressively  # Optimizes aggressively (use with caution)
+-optimizationpasses 15  # Number of optimization passes - For shacl it repeatedly tries to remove the same 3 write-only fields ad infinitum it seems, so we shorten it to 15 to save time.

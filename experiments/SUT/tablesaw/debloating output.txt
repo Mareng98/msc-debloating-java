@@ -1,0 +1,536 @@
+Jlink: Identified modules: java.base,java.compiler,java.desktop,java.logging,java.naming,java.sql,java.xml,jdk.unsupported
+
+Depclean:
+-------------------------------------------------------
+ D E P C L E A N   A N A L Y S I S   R E S U L T S
+-------------------------------------------------------
+USED DIRECT DEPENDENCIES [2]:
+        tech.tablesaw:tablesaw-core:0.44.1:compile (632 KB)
+        ch.qos.logback:logback-classic:1.4.11:compile (276 KB)
+USED TRANSITIVE DEPENDENCIES [13]:
+        it.unimi.dsi:fastutil:8.5.13:compile (22 MB)
+        com.ibm.icu:icu4j:74.2:compile (13 MB)
+        com.google.guava:guava:33.0.0-jre:compile (2 MB)
+        org.apache.commons:commons-math3:3.6.1:compile (2 MB)
+        ch.qos.logback:logback-core:1.4.11:compile (583 KB)
+        io.github.classgraph:classgraph:4.8.168:compile (552 KB)
+        org.roaringbitmap:RoaringBitmap:1.0.5:compile (437 KB)
+        com.univocity:univocity-parsers:2.9.1:compile (436 KB)
+        org.checkerframework:checker-qual:3.41.0:compile (223 KB)
+        org.slf4j:slf4j-api:2.0.12:compile (66 KB)
+        com.google.code.findbugs:jsr305:3.0.2:compile (19 KB)
+        com.google.errorprone:error_prone_annotations:2.23.0:compile (16 KB)
+        com.google.j2objc:j2objc-annotations:2.8:compile (9 KB)
+USED INHERITED DIRECT DEPENDENCIES [0]:
+USED INHERITED TRANSITIVE DEPENDENCIES [0]:
+POTENTIALLY UNUSED DIRECT DEPENDENCIES [0]:
+POTENTIALLY UNUSED TRANSITIVE DEPENDENCIES [2]:
+        com.google.guava:failureaccess:1.0.2:compile (4 KB)
+        com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:compile (2 KB)
+POTENTIALLY UNUSED INHERITED DIRECT DEPENDENCIES [0]:
+POTENTIALLY UNUSED INHERITED TRANSITIVE DEPENDENCIES [0]:
+-------------------------------------------------------
+Dependencies ignored in the analysis by the user [4]:
+        com.univocity:univocity-parsers:2.9.1:compile
+        io.github.classgraph:classgraph:4.8.168:compile
+        org.slf4j:slf4j-api:2.0.12:compile
+        it.unimi.dsi:fastutil:8.5.13:compile
+[INFO] Starting debloating POM file...
+[INFO] Adding 13 used transitive dependencies as direct dependencies.
+[INFO] Excluding 2 unused transitive dependencies one-by-one.
+[INFO] Adding org.apache.commons:commons-math3:3.6.1:compile
+[INFO] Adding com.univocity:univocity-parsers:2.9.1:compile
+[INFO] Adding com.google.errorprone:error_prone_annotations:2.23.0:compile
+[INFO] Adding ch.qos.logback:logback-classic:1.4.11:compile
+[INFO] Adding io.github.classgraph:classgraph:4.8.168:compile
+[INFO] Adding tech.tablesaw:tablesaw-core:0.44.1:compile
+[INFO] Adding ch.qos.logback:logback-core:1.4.11:compile
+[INFO] Adding com.google.guava:guava:33.0.0-jre:compile
+[INFO] Excluding com.google.guava:failureaccess from com.google.guava:guava:33.0.0-jre
+[INFO] Excluding com.google.guava:listenablefuture from com.google.guava:guava:33.0.0-jre
+[INFO] Adding org.checkerframework:checker-qual:3.41.0:compile
+[INFO] Adding com.ibm.icu:icu4j:74.2:compile
+[INFO] Adding org.roaringbitmap:RoaringBitmap:1.0.5:compile
+[INFO] Adding org.slf4j:slf4j-api:2.0.12:compile
+[INFO] Adding com.google.code.findbugs:jsr305:3.0.2:compile
+[INFO] Adding it.unimi.dsi:fastutil:8.5.13:compile
+[INFO] Adding com.google.j2objc:j2objc-annotations:2.8:compile
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\pom-debloated.xml[INFO] Analysis done in 0min 57s
+
+Deptrim:
+[INFO] -------------------------------------------------------
+[INFO] DEPTRIM IS ANALYZING DEPENDENCIES
+[INFO] -------------------------------------------------------
+[INFO] -------------------------------------------------------
+[INFO] DEPTRIM IS SPECIALIZING DEPENDENCIES
+[INFO] -------------------------------------------------------
+[INFO] No dependencies specified, specializing all dependencies except the ignored dependencies.
+[INFO] Specializing dependency: org.apache.commons:commons-math3:3.6.1, with file commons-math3-3.6.1.jar
+[INFO] Specializing dependency org.apache.commons:commons-math3:3.6.1, removing 1001/1301 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\commons-math3-3.6.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-math3 -Dversion=3.6.1
+[INFO] Specializing dependency: com.google.errorprone:error_prone_annotations:2.23.0, with file error_prone_annotations-2.23.0.jar
+[INFO] Specializing dependency com.google.errorprone:error_prone_annotations:2.23.0, removing 12/27 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\error_prone_annotations-2.23.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=error_prone_annotations -Dversion=2.23.0
+[INFO] Specializing dependency: com.univocity:univocity-parsers:2.9.1, with file univocity-parsers-2.9.1.jar
+[INFO] Specializing dependency com.univocity:univocity-parsers:2.9.1, removing 86/273 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\univocity-parsers-2.9.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=univocity-parsers -Dversion=2.9.1
+[INFO] Specializing dependency: ch.qos.logback:logback-classic:1.4.11, with file logback-classic-1.4.11.jar
+[INFO] Specializing dependency ch.qos.logback:logback-classic:1.4.11, removing 71/179 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\logback-classic-1.4.11.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=logback-classic -Dversion=1.4.11
+[INFO] Specializing dependency: io.github.classgraph:classgraph:4.8.168, with file classgraph-4.8.168.jar
+[INFO] Specializing dependency io.github.classgraph:classgraph:4.8.168, removing 1/263 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\classgraph-4.8.168.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=classgraph -Dversion=4.8.168
+[INFO] Specializing dependency: tech.tablesaw:tablesaw-core:0.44.1, with file tablesaw-core-0.44.1.jar
+[INFO] Specializing dependency tech.tablesaw:tablesaw-core:0.44.1, removing 86/359 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\tablesaw-core-0.44.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=tablesaw-core -Dversion=0.44.1
+[INFO] Specializing dependency: ch.qos.logback:logback-core:1.4.11, with file logback-core-1.4.11.jar
+[INFO] Specializing dependency ch.qos.logback:logback-core:1.4.11, removing 124/458 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\logback-core-1.4.11.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=logback-core -Dversion=1.4.11
+[INFO] Specializing dependency: com.google.guava:guava:33.0.0-jre, with file guava-33.0.0-jre.jar
+[INFO] Specializing dependency com.google.guava:guava:33.0.0-jre, removing 1006/2018 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\guava-33.0.0-jre.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=guava -Dversion=33.0.0-jre
+[INFO] Specializing dependency: org.checkerframework:checker-qual:3.41.0, with file checker-qual-3.41.0.jar
+[INFO] Specializing dependency org.checkerframework:checker-qual:3.41.0, removing 354/366 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\checker-qual-3.41.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=checker-qual -Dversion=3.41.0
+[INFO] Specializing dependency: com.ibm.icu:icu4j:74.2, with file icu4j-74.2.jar
+[INFO] Specializing dependency com.ibm.icu:icu4j:74.2, removing 1613/1662 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\icu4j-74.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=icu4j -Dversion=74.2
+[INFO] Specializing dependency: org.roaringbitmap:RoaringBitmap:1.0.5, with file RoaringBitmap-1.0.5.jar
+[INFO] Specializing dependency org.roaringbitmap:RoaringBitmap:1.0.5, removing 72/176 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\RoaringBitmap-1.0.5.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=RoaringBitmap -Dversion=1.0.5
+[INFO] Specializing dependency: com.google.code.findbugs:jsr305:3.0.2, with file jsr305-3.0.2.jar
+[INFO] Specializing dependency com.google.code.findbugs:jsr305:3.0.2, removing 25/35 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\jsr305-3.0.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jsr305 -Dversion=3.0.2
+[INFO] Specializing dependency: org.slf4j:slf4j-api:2.0.12, with file slf4j-api-2.0.12.jar
+[INFO] Specializing dependency org.slf4j:slf4j-api:2.0.12, removing 8/55 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\slf4j-api-2.0.12.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=slf4j-api -Dversion=2.0.12
+[INFO] Specializing dependency: com.google.j2objc:j2objc-annotations:2.8, with file j2objc-annotations-2.8.jar
+[INFO] Specializing dependency com.google.j2objc:j2objc-annotations:2.8, removing 11/13 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\j2objc-annotations-2.8.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=j2objc-annotations -Dversion=2.8
+[INFO] Specializing dependency: it.unimi.dsi:fastutil:8.5.13, with file fastutil-8.5.13.jar
+[INFO] Specializing dependency it.unimi.dsi:fastutil:8.5.13, removing 11038/12795 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\libs-specialized\fastutil-8.5.13.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=fastutil -Dversion=8.5.13
+[INFO] Number of specialized dependencies: 15
+[INFO] -------------------------------------------------------
+[INFO] DEPTRIM IS CREATING SPECIALIZED POMS
+[INFO] -------------------------------------------------------
+[INFO] Starting debloating POM file...
+[INFO] Adding 13 used transitive dependencies as direct dependencies.
+[INFO] Excluding 2 unused transitive dependencies one-by-one.
+[INFO] Adding org.apache.commons:commons-math3:3.6.1:compile
+[INFO] Adding com.univocity:univocity-parsers:2.9.1:compile
+[INFO] Adding com.google.errorprone:error_prone_annotations:2.23.0:compile
+[INFO] Adding ch.qos.logback:logback-classic:1.4.11:compile
+[INFO] Adding io.github.classgraph:classgraph:4.8.168:compile
+[INFO] Adding tech.tablesaw:tablesaw-core:0.44.1:compile
+[INFO] Adding ch.qos.logback:logback-core:1.4.11:compile
+[INFO] Adding com.google.guava:guava:33.0.0-jre:compile
+[INFO] Excluding com.google.guava:failureaccess from com.google.guava:guava:33.0.0-jre
+[INFO] Excluding com.google.guava:listenablefuture from com.google.guava:guava:33.0.0-jre
+[INFO] Adding org.checkerframework:checker-qual:3.41.0:compile
+[INFO] Adding com.ibm.icu:icu4j:74.2:compile
+[INFO] Adding org.roaringbitmap:RoaringBitmap:1.0.5:compile
+[INFO] Adding org.slf4j:slf4j-api:2.0.12:compile
+[INFO] Adding com.google.code.findbugs:jsr305:3.0.2:compile
+[INFO] Adding it.unimi.dsi:fastutil:8.5.13:compile
+[INFO] Adding com.google.j2objc:j2objc-annotations:2.8:compile
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: D:\MasterThesis\msc-debloating-java\experiments\SUT\tablesaw\pom-debloated.xml
+[INFO] Created pom-specialized.xml
+[INFO] DepTrim execution done in 2min 42s
+
+Proguard:
+Ignoring unused library classes...
+  Original number of library classes:              14325
+  Final number of library classes:                 825
+Marking classes and class members to be kept...
+Inlining subroutines...
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            19979
+  Final number of program classes:               2745
+Optimizing (pass 1/50)...
+  Number of finalized classes:                   592
+  Number of unboxed enum classes:                2
+  Number of vertically merged classes:           6
+  Number of horizontally merged classes:         38
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           207
+  Number of privatized fields:                   1270
+  Number of generalized field accesses:          1921
+  Number of specialized field types:             229
+  Number of inlined constant fields:             101
+  Number of privatized methods:                  1054
+  Number of staticized methods:                  152
+  Number of finalized methods:                   5488
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        806
+  Number of removed method parameters:           421
+  Number of generalized method invocations:      5904
+  Number of specialized method parameter types:  201
+  Number of specialized method return types:     792
+  Number of inlined constant parameters:         387
+  Number of inlined constant return values:      216
+  Number of inlined short method calls:          743
+  Number of inlined unique method calls:         980
+  Number of inlined tail recursion calls:        23
+  Number of merged code blocks:                  65
+  Number of variable peephole optimizations:     6499
+  Number of arithmetic peephole optimizations:   171
+  Number of cast peephole optimizations:         46
+  Number of field peephole optimizations:        85
+  Number of branch peephole optimizations:       2608
+  Number of object peephole optimizations:       43
+  Number of string peephole optimizations:       830
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             1346
+  Number of removed instructions:                5554
+  Number of removed local variables:             381
+  Number of removed exception blocks:            67
+  Number of optimized local variable frames:     2894
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            2745
+  Final number of program classes:               2607
+Optimizing (pass 2/50)...
+  Number of finalized classes:                   10
+  Number of unboxed enum classes:                1
+  Number of vertically merged classes:           4
+  Number of horizontally merged classes:         11
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           50
+  Number of privatized fields:                   2
+  Number of generalized field accesses:          0
+  Number of specialized field types:             38
+  Number of inlined constant fields:             107
+  Number of privatized methods:                  5
+  Number of staticized methods:                  5
+  Number of finalized methods:                   3
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        248
+  Number of removed method parameters:           285
+  Number of generalized method invocations:      26
+  Number of specialized method parameter types:  123
+  Number of specialized method return types:     263
+  Number of inlined constant parameters:         398
+  Number of inlined constant return values:      56
+  Number of inlined short method calls:          47
+  Number of inlined unique method calls:         35
+  Number of inlined tail recursion calls:        3
+  Number of merged code blocks:                  6
+  Number of variable peephole optimizations:     549
+  Number of arithmetic peephole optimizations:   33
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       89
+  Number of object peephole optimizations:       22
+  Number of string peephole optimizations:       148
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             388
+  Number of removed instructions:                6229
+  Number of removed local variables:             153
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     164
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            2607
+  Final number of program classes:               2587
+Optimizing (pass 3/50)...
+  Number of finalized classes:                   2
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         1
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           53
+  Number of privatized fields:                   8
+  Number of generalized field accesses:          0
+  Number of specialized field types:             34
+  Number of inlined constant fields:             71
+  Number of privatized methods:                  0
+  Number of staticized methods:                  4
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        57
+  Number of removed method parameters:           65
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  30
+  Number of specialized method return types:     5
+  Number of inlined constant parameters:         178
+  Number of inlined constant return values:      49
+  Number of inlined short method calls:          3
+  Number of inlined unique method calls:         3
+  Number of inlined tail recursion calls:        1
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     86
+  Number of arithmetic peephole optimizations:   3
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       6
+  Number of object peephole optimizations:       3
+  Number of string peephole optimizations:       4
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             96
+  Number of removed instructions:                1402
+  Number of removed local variables:             16
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     22
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            2587
+  Final number of program classes:               2582
+Optimizing (pass 4/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           9
+  Number of privatized fields:                   7
+  Number of generalized field accesses:          0
+  Number of specialized field types:             8
+  Number of inlined constant fields:             29
+  Number of privatized methods:                  1
+  Number of staticized methods:                  1
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        27
+  Number of removed method parameters:           33
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  21
+  Number of specialized method return types:     8
+  Number of inlined constant parameters:         131
+  Number of inlined constant return values:      43
+  Number of inlined short method calls:          1
+  Number of inlined unique method calls:         1
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     36
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       11
+  Number of object peephole optimizations:       1
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             29
+  Number of removed instructions:                239
+  Number of removed local variables:             2
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     6
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            2582
+  Final number of program classes:               2580
+Optimizing (pass 5/50)...
+  Number of finalized classes:                   1
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           11
+  Number of privatized fields:                   10
+  Number of generalized field accesses:          0
+  Number of specialized field types:             4
+  Number of inlined constant fields:             25
+  Number of privatized methods:                  1
+  Number of staticized methods:                  1
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        7
+  Number of removed method parameters:           8
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  23
+  Number of specialized method return types:     2
+  Number of inlined constant parameters:         112
+  Number of inlined constant return values:      40
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     16
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             7
+  Number of removed instructions:                69
+  Number of removed local variables:             1
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     1
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            2580
+  Final number of program classes:               2580
+Optimizing (pass 6/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           2
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             3
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  1
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        2
+  Number of removed method parameters:           2
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  7
+  Number of specialized method return types:     1
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     1
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                9
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            2580
+  Final number of program classes:               2580
+Optimizing (pass 7/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           0
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             1
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  2
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                0
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            2580
+  Final number of program classes:               2580
+Optimizing (pass 8/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           0
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  1
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                0
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            2580
+  Final number of program classes:               2580
+Optimizing (pass 9/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           0
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                0
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...

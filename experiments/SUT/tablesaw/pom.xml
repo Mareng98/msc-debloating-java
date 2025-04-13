@@ -20,11 +20,11 @@
             <version>1.4.11</version>
         </dependency>
     </dependencies>
+    
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <slf4j.version>1.7.27</slf4j.version>
     </properties>
     <build>
         <finalName>artifact</finalName> <!-- This ensures that the JAR file is always named 'artifact.jar' -->

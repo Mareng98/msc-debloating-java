@@ -1,0 +1,441 @@
+Jlink:
+Identified modules: java.base,java.desktop,java.xml
+
+Depclean:
+-------------------------------------------------------
+ D E P C L E A N   A N A L Y S I S   R E S U L T S
+-------------------------------------------------------
+USED DIRECT DEPENDENCIES [1]:
+        com.github.librepdf:openpdf:2.0.3:compile (3 MB)
+USED TRANSITIVE DEPENDENCIES [0]:
+USED INHERITED DIRECT DEPENDENCIES [0]:
+USED INHERITED TRANSITIVE DEPENDENCIES [0]:
+POTENTIALLY UNUSED DIRECT DEPENDENCIES [0]:
+POTENTIALLY UNUSED TRANSITIVE DEPENDENCIES [0]:
+POTENTIALLY UNUSED INHERITED DIRECT DEPENDENCIES [0]:
+POTENTIALLY UNUSED INHERITED TRANSITIVE DEPENDENCIES [0]:
+-------------------------------------------------------
+Dependencies ignored in the analysis by the user [1]:
+        com.github.librepdf:openpdf:2.0.3:compile
+[INFO] Starting debloating POM file...
+[INFO] Adding com.github.librepdf:openpdf:2.0.3:compile
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: D:\MasterThesis\msc-debloating-java\experiments\SUT\openPdf\pom-debloated.xml
+[INFO] Analysis done in 0min 3s
+
+Deptrim:
+ -------------------------------------------------------
+[INFO] DEPTRIM IS ANALYZING DEPENDENCIES
+[INFO] -------------------------------------------------------
+[INFO] -------------------------------------------------------
+[INFO] DEPTRIM IS SPECIALIZING DEPENDENCIES
+[INFO] -------------------------------------------------------
+[INFO] No dependencies specified, specializing all dependencies except the ignored dependencies.
+[INFO] Specializing dependency: com.github.librepdf:openpdf:2.0.3, with file openpdf-2.0.3.jar
+[INFO] Specializing dependency com.github.librepdf:openpdf:2.0.3, removing 625/970 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\msc-debloating-java\experiments\SUT\openPdf\libs-specialized\openpdf-2.0.3.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=openpdf -Dversion=2.0.3
+[INFO] Number of specialized dependencies: 1
+[INFO] -------------------------------------------------------
+[INFO] DEPTRIM IS CREATING SPECIALIZED POMS
+[INFO] -------------------------------------------------------
+[INFO] Starting debloating POM file...
+[INFO] Adding com.github.librepdf:openpdf:2.0.3:compile
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: D:\MasterThesis\msc-debloating-java\experiments\SUT\openPdf\pom-debloated.xml
+[INFO] Created pom-specialized.xml
+[INFO] DepTrim execution done in 0min 8s
+
+Proguard:
+Ignoring unused library classes...
+  Original number of library classes:              13801
+  Final number of library classes:                 589
+Marking classes and class members to be kept...
+Inlining subroutines...
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            488
+  Final number of program classes:               282
+Optimizing (pass 1/50)...
+  Number of finalized classes:                   202
+  Number of unboxed enum classes:                1
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         27
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           480
+  Number of privatized fields:                   1040
+  Number of generalized field accesses:          1207
+  Number of specialized field types:             128
+  Number of inlined constant fields:             193
+  Number of privatized methods:                  440
+  Number of staticized methods:                  37
+  Number of finalized methods:                   1873
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        45
+  Number of removed method parameters:           31
+  Number of generalized method invocations:      2627
+  Number of specialized method parameter types:  115
+  Number of specialized method return types:     29
+  Number of inlined constant parameters:         147
+  Number of inlined constant return values:      1
+  Number of inlined short method calls:          487
+  Number of inlined unique method calls:         345
+  Number of inlined tail recursion calls:        4
+  Number of merged code blocks:                  23
+  Number of variable peephole optimizations:     3258
+  Number of arithmetic peephole optimizations:   186
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        27
+  Number of branch peephole optimizations:       864
+  Number of object peephole optimizations:       364
+  Number of string peephole optimizations:       4
+  Number of math peephole optimizations:         1
+  Number of simplified instructions:             875
+  Number of removed instructions:                13050
+  Number of removed local variables:             150
+  Number of removed exception blocks:            40
+  Number of optimized local variable frames:     671
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            282
+  Final number of program classes:               226
+Optimizing (pass 2/50)...
+  Number of finalized classes:                   10
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         5
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           159
+  Number of privatized fields:                   121
+  Number of generalized field accesses:          0
+  Number of specialized field types:             7
+  Number of inlined constant fields:             105
+  Number of privatized methods:                  20
+  Number of staticized methods:                  3
+  Number of finalized methods:                   30
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        72
+  Number of removed method parameters:           101
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  25
+  Number of specialized method return types:     13
+  Number of inlined constant parameters:         144
+  Number of inlined constant return values:      17
+  Number of inlined short method calls:          70
+  Number of inlined unique method calls:         29
+  Number of inlined tail recursion calls:        1
+  Number of merged code blocks:                  1
+  Number of variable peephole optimizations:     204
+  Number of arithmetic peephole optimizations:   24
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       48
+  Number of object peephole optimizations:       53
+  Number of string peephole optimizations:       3
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             422
+  Number of removed instructions:                4988
+  Number of removed local variables:             14
+  Number of removed exception blocks:            1
+  Number of optimized local variable frames:     76
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            226
+  Final number of program classes:               216
+Optimizing (pass 3/50)...
+  Number of finalized classes:                   5
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         1
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           41
+  Number of privatized fields:                   17
+  Number of generalized field accesses:          0
+  Number of specialized field types:             3
+  Number of inlined constant fields:             30
+  Number of privatized methods:                  4
+  Number of staticized methods:                  1
+  Number of finalized methods:                   37
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        31
+  Number of removed method parameters:           40
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  8
+  Number of specialized method return types:     3
+  Number of inlined constant parameters:         72
+  Number of inlined constant return values:      7
+  Number of inlined short method calls:          3
+  Number of inlined unique method calls:         3
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     26
+  Number of arithmetic peephole optimizations:   6
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       3
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             84
+  Number of removed instructions:                950
+  Number of removed local variables:             5
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     14
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            216
+  Final number of program classes:               214
+Optimizing (pass 4/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           7
+  Number of privatized fields:                   1
+  Number of generalized field accesses:          0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             8
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        21
+  Number of removed method parameters:           23
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  1
+  Number of specialized method return types:     4
+  Number of inlined constant parameters:         41
+  Number of inlined constant return values:      7
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     6
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             14
+  Number of removed instructions:                183
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     4
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            214
+  Final number of program classes:               214
+Optimizing (pass 5/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           0
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             3
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        6
+  Number of removed method parameters:           7
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         24
+  Number of inlined constant return values:      7
+  Number of inlined short method calls:          2
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     3
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             9
+  Number of removed instructions:                69
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     4
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            214
+  Final number of program classes:               214
+Optimizing (pass 6/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           0
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             2
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        5
+  Number of removed method parameters:           5
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         19
+  Number of inlined constant return values:      7
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     7
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             1
+  Number of removed instructions:                26
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            214
+  Final number of program classes:               214
+Optimizing (pass 7/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           0
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        1
+  Number of removed method parameters:           1
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     1
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                8
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            214
+  Final number of program classes:               214
+Optimizing (pass 8/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           0
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                2
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            214
+  Final number of program classes:               214
+Optimizing (pass 9/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           0
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                0
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...

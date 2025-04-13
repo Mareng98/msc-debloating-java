@@ -7,8 +7,8 @@
 -libraryjars  <java.home>/jmods/java.sql.jmod
 -libraryjars  <java.home>/jmods/java.security.jgss.jmod
 
-#-dontobfuscate # Might break stuff, especially enums
--printmapping artifacts/mapping.txt
+-dontobfuscate # Might break stuff, especially enums
+#-printmapping artifacts/mapping.txt
 
 # Keep our program
 -keep class org.example.BenchmarkRunner {
@@ -24,11 +24,11 @@
 -keep class org.slf4j.simple.SimpleServiceProvider{*;}
 
 # Added rules after proguard obfuscation didn't work
--keep public class org.eclipse.jgit.internal.JGitText {*;}
--keep public class org.eclipse.jgit.api.MergeCommand$FastForwardMode$Merge {*;}
+#-keep public class org.eclipse.jgit.internal.JGitText {*;}
+#-keep public class org.eclipse.jgit.api.MergeCommand$FastForwardMode$Merge {*;}
 
 # ProGuard optimization options
 -verbose
 -mergeinterfacesaggressively  # Aggressively merges interfaces (use with caution)
 -optimizeaggressively  # Optimizes aggressively (might break things)
--optimizationpasses 5  # Number of optimization passes
+-optimizationpasses 50  # Number of optimization passes

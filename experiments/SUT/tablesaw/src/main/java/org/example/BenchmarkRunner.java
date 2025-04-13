@@ -45,7 +45,7 @@ public class BenchmarkRunner {
         if (args.length > 2){
             verifyResult = Boolean.parseBoolean(args[2]);
         }
-        BenchmarkTask flyingSaucerBenchmark = new TablesawBenchmark(iterations);
-        runBenchmark(flyingSaucerBenchmark, iterations, writeResult, verifyResult);
+        BenchmarkTask benchmarkTask = new TablesawBenchmark(iterations);
+        runBenchmark(benchmarkTask, iterations, writeResult, verifyResult);
     }
 }

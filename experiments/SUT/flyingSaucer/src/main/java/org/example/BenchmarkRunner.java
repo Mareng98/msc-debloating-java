@@ -7,7 +7,7 @@ public class BenchmarkRunner {
      * @param iterations The number of iterations to execute.
      * @param writeResult If the result should be outputted for later comparison.
      */
-    public static void runBenchmark(BenchmarkTask task, int iterations, boolean writeResult) {
+    public static void runBenchmark(BenchmarkTask task, int iterations, boolean writeResult, boolean verifyResult) {
         System.out.println("Starting benchmark: " + task.getName());
         task.setup();
         long startTime = System.currentTimeMillis();
@@ -25,22 +25,27 @@ public class BenchmarkRunner {
             task.writeResult();
         }
 
-        // Clean up any resources and verify that output is as expected
-        if(task.cleanupAndVerify()){
-            System.out.println("Success");
-        }else{
-            System.out.println("Failure");
+        if(verifyResult){
+            // Clean up any resources and verify that output is as expected
+            if(task.cleanupAndVerify()){
+                System.out.println("Success");
+            }else{
+                System.out.println("Failure");
+            }
         }
-
     }
 
     public static void main(String[] args) {
         int iterations = Integer.parseInt(args[0]);
         boolean writeResult = false;
+        boolean verifyResult = false;
         if (args.length > 1){
             writeResult = Boolean.parseBoolean(args[1]);
         }
-        BenchmarkTask flyingSaucerBenchmark = new FlyingSaucerBenchmark(iterations);
-        runBenchmark(flyingSaucerBenchmark, iterations, writeResult);
+        if (args.length > 2){
+            verifyResult = Boolean.parseBoolean(args[2]);
+        }
+        BenchmarkTask benchmarkTask = new FlyingSaucerBenchmark(iterations);
+        runBenchmark(benchmarkTask, iterations, writeResult, verifyResult);
     }
 }

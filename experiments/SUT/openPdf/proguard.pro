@@ -5,7 +5,7 @@
 -libraryjars  <java.home>/jmods/java.desktop.jmod
 -libraryjars  <java.home>/jmods/java.xml.jmod
 
-#-dontobfuscate # Might break stuff, especially enums
+-dontobfuscate # Might break stuff, especially enums
 -printmapping artifacts/mapping.txt
 
 # Keep our program
@@ -13,6 +13,8 @@
     *;
 }
 
+# Keep classes after runtime errors
+-keep class com.lowagie.bouncycastle.BouncyCastleHelper {*;}
 # Added rules to not produce warnings for libraries we do not use
 -dontwarn org.bouncycastle.**
 -dontwarn org.apache.fop.**
@@ -23,7 +25,6 @@
 -verbose
 -mergeinterfacesaggressively  # Aggressively merges interfaces (use with caution)
 # Aggressive optimization ruined the program so we can't use this feature
-#-optimizeaggressively  # Optimizes aggressively (might break things)
+-optimizeaggressively  # Optimizes aggressively (might break things)
 
-
--optimizationpasses 5  # Number of optimization passes
+-optimizationpasses 50  # Number of optimization passes

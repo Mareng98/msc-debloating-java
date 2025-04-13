@@ -43,26 +43,11 @@ echo 4. Cleaning up target folder
 RMDIR /S /Q "%PROJECT_DIR%\target"
 
 REM Setup jlink
-echo 1. Extracting required modules for jlink
-jdeps --ignore-missing-deps --list-deps "%VANILLA_JAR%" > modules.txt
+echo 1. Extracting modules for JLINK did not work, so it's hardcoded
+echo Modules: java.base,java.compiler,java.desktop,java.logging,java.sql,java.xml,jdk.unsupported
 
-SET MODULES=
-for /F "tokens=*" %%i in (modules.txt) do (
-    if NOT "!MODULES!"=="" (
-        SET MODULES=!MODULES!,%%i
-    ) else (
-        SET MODULES=%%i
-    )
-)
-
-del modules.txt
-
-echo Identified modules: %MODULES%
-
-echo 2. Creating jlink runtime image
-call jlink --compress=2 --strip-debug --no-header-files --no-man-pages --module-path "%JAVA_HOME%\jmods" --add-modules %MODULES% --output "%JLINK_RUNTIME_DIR%"
-
-
+echo 2. Creating jlink runtime image with hardcoded modules
+call jlink --compress=2 --strip-debug --no-header-files --no-man-pages --module-path "%JAVA_HOME%\jmods" --add-modules java.base,java.compiler,java.desktop,java.logging,java.sql,java.xml,jdk.unsupported --output "%JLINK_RUNTIME_DIR%"
 
 echo SETTING UP DEPCLEAN
 echo 1. Creating pom-depclean.xml from pom.xml

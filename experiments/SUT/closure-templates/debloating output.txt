@@ -1,0 +1,9 @@
+JLink:
+Identified modules: java.base,java.compiler,java.desktop,java.logging,java.sql,java.xml,jdk.unsupported
+
+DepClean:
+
+DepTrim:
+
+ProGuard:
+

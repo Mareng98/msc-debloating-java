@@ -7,8 +7,8 @@
 -libraryjars  <java.home>/jmods/java.xml.jmod
 -libraryjars  <java.home>/jmods/jdk.xml.dom.jmod
 
-#-dontobfuscate # Might break stuff, especially enums
--printmapping artifacts/mapping.txt
+-dontobfuscate # Might break stuff, especially enums
+#-printmapping artifacts/mapping.txt
 
 # Keep our program
 -keep class org.example.BenchmarkRunner {
@@ -30,4 +30,4 @@
 -optimizeaggressively  # Optimizes aggressively (might break things)
 
 
--optimizationpasses 5  # Number of optimization passes
+-optimizationpasses 50  # Number of optimization passes
