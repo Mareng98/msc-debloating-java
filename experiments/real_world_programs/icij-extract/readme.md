@@ -42,6 +42,6 @@ mvn -f pom-deptrim-specialized.xml clean install -DskipTests -D"gpg.skip"=true
 The same dependency as in depclean is creating issues, you have to delete that one from the specialized pom too.
 
 JLINK:
-jlink --compress=2 --strip-debug --no-header-files --no-man-pages --add-modules java.base,java.desktop,java.xml,java.logging,java.sql,jdk.management --output jlink-runtime
+jlink --compress=2 --strip-debug --no-header-files --no-man-pages --add-modules java.base,java.desktop,java.xml,java.logging,java.sql,jdk.management,java.naming --output jlink-runtime
 
 
