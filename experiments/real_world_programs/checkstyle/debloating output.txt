@@ -1,0 +1,934 @@
+Jlink:
+Identified dependencies: java.base,java.compiler,java.desktop,java.instrument,java.logging,java.management,java.naming,java.security.jgss,java.sql,java.xml,jdk.attach,jdk.jdi,jdk.unsupported
+
+DepClean:
+-------------------------------------------------------
+ D E P C L E A N   A N A L Y S I S   R E S U L T S
+-------------------------------------------------------
+USED DIRECT DEPENDENCIES [19]:
+        net.sf.saxon:Saxon-HE:12.5:compile (5 MB)
+        org.eclipse.jgit:org.eclipse.jgit:6.10.0.202406032230-r:test (3 MB)
+        com.google.guava:guava:33.4.0-jre:compile (2 MB)
+        org.apache.ant:ant:1.10.15:provided (2 MB)
+        commons-io:commons-io:2.18.0:test (526 KB)
+        de.thetaphi:forbiddenapis:3.8:test (443 KB)
+        info.picocli:picocli:4.7.6:compile (405 KB)
+        org.antlr:antlr4-runtime:4.13.2:compile (318 KB)
+        com.google.truth:truth:1.4.4:test (268 KB)
+        org.junit.jupiter:junit-jupiter-engine:5.11.4:test (254 KB)
+        nl.jqno.equalsverifier:equalsverifier:3.19:test (248 KB)
+        commons-beanutils:commons-beanutils:1.10.0:compile (240 KB)
+        org.checkerframework:checker-qual:3.48.4:compile (233 KB)
+        org.apache.maven.doxia:doxia-core:1.12.0:compile (213 KB)
+        org.junit.jupiter:junit-jupiter-api:5.11.4:test (211 KB)
+        org.junit-pioneer:junit-pioneer:2.3.0:test (192 KB)
+        org.reflections:reflections:0.10.2:compile (127 KB)
+        org.apache.maven.doxia:doxia-module-xdoc:1.12.0:compile (36 KB)
+        org.itsallcode:junit5-system-extensions:1.2.2:test (15 KB)
+USED TRANSITIVE DEPENDENCIES [39]:
+        net.bytebuddy:byte-buddy:1.17.0:test (8 MB)
+        com.tngtech.archunit:archunit:1.3.0:test (4 MB)
+        org.javassist:javassist:3.28.0-GA:compile (831 KB)
+        org.apache.httpcomponents.core5:httpcore5:5.1.3:runtime (830 KB)
+        org.apache.httpcomponents.client5:httpclient5:5.1.3:runtime (779 KB)
+        org.apache.httpcomponents:httpclient:4.5.13:compile (762 KB)
+        org.mockito:mockito-core:5.2.0:test (671 KB)
+        org.junit.jupiter:junit-jupiter-params:5.11.2:test (577 KB)
+        commons-collections:commons-collections:3.2.2:compile (574 KB)
+        org.apache.commons:commons-lang3:3.8.1:compile (490 KB)
+        junit:junit:4.13.2:test (375 KB)
+        commons-codec:commons-codec:1.17.0:runtime (363 KB)
+        org.apache.httpcomponents:httpcore:4.4.14:compile (320 KB)
+        org.codehaus.plexus:plexus-utils:3.3.0:compile (257 KB)
+        net.bytebuddy:byte-buddy-agent:1.14.1:test (250 KB)
+        org.junit.platform:junit-platform-engine:1.11.4:test (241 KB)
+        org.codehaus.plexus:plexus-container-default:2.1.0:compile (224 KB)
+        org.junit.platform:junit-platform-launcher:1.11.2:test (184 KB)
+        org.apache.commons:commons-text:1.3:compile (178 KB)
+        com.googlecode.javaewah:JavaEWAH:1.2.3:test (166 KB)
+        org.xmlresolver:xmlresolver:5.2.2:compile (161 KB)
+        org.apache.xbean:xbean-reflect:3.7:compile (144 KB)
+        org.junit.platform:junit-platform-commons:1.11.4:test (138 KB)
+        org.ow2.asm:asm:9.7:test (122 KB)
+        commons-logging:commons-logging:1.2:compile (60 KB)
+        org.codehaus.plexus:plexus-classworlds:2.6.0:compile (51 KB)
+        org.objenesis:objenesis:3.4:test (47 KB)
+        org.hamcrest:hamcrest-core:1.3:test (43 KB)
+        org.slf4j:slf4j-api:1.7.32:compile (40 KB)
+        com.google.code.findbugs:jsr305:3.0.2:compile (19 KB)
+        com.google.errorprone:error_prone_annotations:2.36.0:compile (18 KB)
+        org.apache.ant:ant-launcher:1.10.15:provided (18 KB)
+        org.opentest4j:opentest4j:1.3.0:test (13 KB)
+        com.google.j2objc:j2objc-annotations:3.0.0:compile (12 KB)
+        org.apache.maven.doxia:doxia-logging-api:1.12.0:compile (11 KB)
+        org.apache.maven.doxia:doxia-sink-api:1.12.0:compile (11 KB)
+        org.apiguardian:apiguardian-api:1.1.2:test (6 KB)
+        org.codehaus.plexus:plexus-component-annotations:2.1.0:compile (4 KB)
+        org.jspecify:jspecify:0.3.0:test (2 KB)
+USED INHERITED DIRECT DEPENDENCIES [0]:
+USED INHERITED TRANSITIVE DEPENDENCIES [0]:
+POTENTIALLY UNUSED DIRECT DEPENDENCIES [5]:
+        org.jacoco:org.jacoco.agent:0.8.12:test (295 KB)
+        com.github.caciocavallosilano:cacio-tta:1.11:test (22 KB)
+        org.slf4j:slf4j-simple:2.0.16:test (15 KB)
+        org.mockito:mockito-inline:5.2.0:test (1 KB)
+        com.tngtech.archunit:archunit-junit5:1.3.0:test (525 bytes)
+POTENTIALLY UNUSED TRANSITIVE DEPENDENCIES [8]:
+        org.apache.httpcomponents.core5:httpcore5-h2:5.1.3:runtime (226 KB)
+        com.github.caciocavallosilano:cacio-shared:1.11:test (97 KB)
+        com.tngtech.archunit:archunit-junit5-engine:1.3.0:test (53 KB)
+        com.google.auto.value:auto-value-annotations:1.11.0:test (7 KB)
+        com.tngtech.archunit:archunit-junit5-api:1.3.0:test (5 KB)
+        com.google.guava:failureaccess:1.0.2:compile (4 KB)
+        com.tngtech.archunit:archunit-junit5-engine-api:1.3.0:test (4 KB)
+        com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:compile (2 KB)
+POTENTIALLY UNUSED INHERITED DIRECT DEPENDENCIES [0]:
+POTENTIALLY UNUSED INHERITED TRANSITIVE DEPENDENCIES [0]:
+[INFO] Starting debloating POM file...
+[INFO] Adding 39 used transitive dependencies as direct dependencies.
+[INFO] Removing 5 unused direct dependencies.
+[INFO] Excluding 8 unused transitive dependencies one-by-one.
+[INFO] Adding org.junit.platform:junit-platform-launcher:1.11.2:test
+[INFO] Adding org.apache.maven.doxia:doxia-logging-api:1.12.0:compile
+[INFO] Adding org.codehaus.plexus:plexus-classworlds:2.6.0:compile
+[INFO] Adding org.apache.maven.doxia:doxia-sink-api:1.12.0:compile
+[INFO] Adding com.tngtech.archunit:archunit:1.3.0:test
+[INFO] Adding commons-io:commons-io:2.18.0:test
+[INFO] Adding org.junit.platform:junit-platform-engine:1.11.4:test
+[INFO] Adding org.codehaus.plexus:plexus-component-annotations:2.1.0:compile
+[INFO] Adding org.reflections:reflections:0.10.2:compile
+[INFO] Adding org.xmlresolver:xmlresolver:5.2.2:compile
+[INFO] Adding nl.jqno.equalsverifier:equalsverifier:3.19:test
+[INFO] Adding org.junit-pioneer:junit-pioneer:2.3.0:test
+[INFO] Adding de.thetaphi:forbiddenapis:3.8:test
+[INFO] Adding org.junit.platform:junit-platform-commons:1.11.4:test
+[INFO] Adding org.apache.maven.doxia:doxia-module-xdoc:1.12.0:compile
+[INFO] Adding org.mockito:mockito-core:5.2.0:test
+[INFO] Adding org.antlr:antlr4-runtime:4.13.2:compile
+[INFO] Adding org.checkerframework:checker-qual:3.48.4:compile
+[INFO] Adding org.apache.commons:commons-text:1.3:compile
+[INFO] Adding org.apache.commons:commons-lang3:3.8.1:compile
+[INFO] Adding info.picocli:picocli:4.7.6:compile
+[INFO] Adding commons-logging:commons-logging:1.2:compile
+[INFO] Adding org.jspecify:jspecify:0.3.0:test
+[INFO] Adding org.javassist:javassist:3.28.0-GA:compile
+[INFO] Adding org.apache.httpcomponents:httpcore:4.4.14:compile
+[INFO] Adding com.google.j2objc:j2objc-annotations:3.0.0:compile
+[INFO] Adding org.opentest4j:opentest4j:1.3.0:test
+[INFO] Adding org.slf4j:slf4j-api:1.7.32:compile
+[INFO] Adding net.bytebuddy:byte-buddy-agent:1.14.1:test
+[INFO] Adding org.apache.ant:ant:1.10.15:provided
+[INFO] Adding com.google.guava:guava:33.4.0-jre:compile
+[INFO] Excluding com.google.guava:failureaccess from com.google.guava:guava:33.4.0-jre
+[INFO] Excluding com.google.guava:listenablefuture from com.google.guava:guava:33.4.0-jre
+[INFO] Adding org.ow2.asm:asm:9.7:test
+[INFO] Adding org.itsallcode:junit5-system-extensions:1.2.2:test
+[INFO] Adding org.junit.jupiter:junit-jupiter-params:5.11.2:test
+[INFO] Adding net.sf.saxon:Saxon-HE:12.5:compile
+[INFO] Adding commons-beanutils:commons-beanutils:1.10.0:compile
+[INFO] Adding com.google.truth:truth:1.4.4:test
+[INFO] Excluding com.google.auto.value:auto-value-annotations from com.google.truth:truth:1.4.4
+[INFO] Adding com.google.errorprone:error_prone_annotations:2.36.0:compile
+[INFO] Adding commons-codec:commons-codec:1.17.0:runtime
+[INFO] Adding org.apache.httpcomponents.client5:httpclient5:5.1.3:runtime
+[INFO] Excluding org.apache.httpcomponents.core5:httpcore5-h2 from org.apache.httpcomponents.client5:httpclient5:5.1.3
+[INFO] Adding org.apache.xbean:xbean-reflect:3.7:compile
+[INFO] Adding org.hamcrest:hamcrest-core:1.3:test
+[INFO] Adding com.google.code.findbugs:jsr305:3.0.2:compile
+[INFO] Adding org.apache.ant:ant-launcher:1.10.15:provided
+[INFO] Adding org.codehaus.plexus:plexus-utils:3.3.0:compile
+[INFO] Adding org.codehaus.plexus:plexus-container-default:2.1.0:compile
+[INFO] Adding junit:junit:4.13.2:test
+[INFO] Adding com.googlecode.javaewah:JavaEWAH:1.2.3:test
+[INFO] Adding net.bytebuddy:byte-buddy:1.17.0:test
+[INFO] Adding org.apiguardian:apiguardian-api:1.1.2:test
+[INFO] Adding org.objenesis:objenesis:3.4:test
+[INFO] Adding org.junit.jupiter:junit-jupiter-engine:5.11.4:test
+[INFO] Adding commons-collections:commons-collections:3.2.2:compile
+[INFO] Adding org.apache.httpcomponents.core5:httpcore5:5.1.3:runtime
+[INFO] Adding org.eclipse.jgit:org.eclipse.jgit:6.10.0.202406032230-r:test
+[INFO] Adding org.junit.jupiter:junit-jupiter-api:5.11.4:test
+[INFO] Adding org.apache.maven.doxia:doxia-core:1.12.0:compile
+[INFO] Adding org.apache.httpcomponents:httpclient:4.5.13:compile
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\pom-debloated.xml
+[INFO] Analysis done in 0min 59s
+
+DepTrim:
+-------------------------------------------------------
+[INFO] DEPTRIM IS ANALYZING DEPENDENCIES
+[INFO] -------------------------------------------------------
+[INFO] -------------------------------------------------------
+[INFO] DEPTRIM IS SPECIALIZING DEPENDENCIES
+[INFO] -------------------------------------------------------
+[INFO] No dependencies specified, specializing all dependencies except the ignored dependencies.
+[INFO] Specializing dependency: org.junit.platform:junit-platform-launcher:1.11.2, with file junit-platform-launcher-1.11.2.jar
+[INFO] Specializing dependency org.junit.platform:junit-platform-launcher:1.11.2, removing 115/116 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\junit-platform-launcher-1.11.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=junit-platform-launcher -Dversion=1.11.2
+[INFO] Specializing dependency: org.apache.maven.doxia:doxia-logging-api:1.12.0, with file doxia-logging-api-1.12.0.jar
+[INFO] Specializing dependency org.apache.maven.doxia:doxia-logging-api:1.12.0, removing 1/4 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\doxia-logging-api-1.12.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=doxia-logging-api -Dversion=1.12.0
+[INFO] Specializing dependency: org.codehaus.plexus:plexus-classworlds:2.6.0, with file plexus-classworlds-2.6.0.jar
+[INFO] Specializing dependency org.codehaus.plexus:plexus-classworlds:2.6.0, removing 16/37 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\plexus-classworlds-2.6.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=plexus-classworlds -Dversion=2.6.0
+[INFO] Specializing dependency: org.apache.maven.doxia:doxia-sink-api:1.12.0, with file doxia-sink-api-1.12.0.jar
+[INFO] Specializing dependency org.apache.maven.doxia:doxia-sink-api:1.12.0, removing 1/4 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\doxia-sink-api-1.12.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=doxia-sink-api -Dversion=1.12.0
+[INFO] Specializing dependency: com.tngtech.archunit:archunit:1.3.0, with file archunit-1.3.0.jar
+[INFO] Specializing dependency com.tngtech.archunit:archunit:1.3.0, removing 1044/2984 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\archunit-1.3.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=archunit -Dversion=1.3.0
+[INFO] Specializing dependency: commons-io:commons-io:2.18.0, with file commons-io-2.18.0.jar
+[INFO] Specializing dependency commons-io:commons-io:2.18.0, removing 225/371 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\commons-io-2.18.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-io -Dversion=2.18.0
+[INFO] Specializing dependency: org.junit.platform:junit-platform-engine:1.11.4, with file junit-platform-engine-1.11.4.jar
+[INFO] Specializing dependency org.junit.platform:junit-platform-engine:1.11.4, removing 157/158 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\junit-platform-engine-1.11.4.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=junit-platform-engine -Dversion=1.11.4
+[INFO] Specializing dependency: org.codehaus.plexus:plexus-component-annotations:2.1.0, with file plexus-component-annotations-2.1.0.jar
+[INFO] Specializing dependency org.codehaus.plexus:plexus-component-annotations:2.1.0, removing 1/3 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\plexus-component-annotations-2.1.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=plexus-component-annotations -Dversion=2.1.0
+[INFO] Specializing dependency: org.reflections:reflections:0.10.2, with file reflections-0.10.2.jar
+[INFO] Specializing dependency org.reflections:reflections:0.10.2, removing 11/74 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\reflections-0.10.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=reflections -Dversion=0.10.2
+[INFO] Specializing dependency: org.xmlresolver:xmlresolver:5.2.2, with file xmlresolver-5.2.2.jar
+[INFO] Specializing dependency org.xmlresolver:xmlresolver:5.2.2, removing 8/90 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\xmlresolver-5.2.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=xmlresolver -Dversion=5.2.2
+[INFO] Specializing dependency: org.junit-pioneer:junit-pioneer:2.3.0, with file junit-pioneer-2.3.0.jar
+[INFO] Specializing dependency org.junit-pioneer:junit-pioneer:2.3.0, removing 146/154 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\junit-pioneer-2.3.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=junit-pioneer -Dversion=2.3.0
+[INFO] Specializing dependency: nl.jqno.equalsverifier:equalsverifier:3.19, with file equalsverifier-3.19.jar
+[INFO] Specializing dependency nl.jqno.equalsverifier:equalsverifier:3.19, removing 16/140 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\equalsverifier-3.19.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=equalsverifier -Dversion=3.19
+[INFO] Specializing dependency: de.thetaphi:forbiddenapis:3.8, with file forbiddenapis-3.8.jar
+[INFO] Specializing dependency de.thetaphi:forbiddenapis:3.8, removing 117/118 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\forbiddenapis-3.8.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=forbiddenapis -Dversion=3.8
+[INFO] Specializing dependency: org.junit.platform:junit-platform-commons:1.11.4, with file junit-platform-commons-1.11.4.jar
+[INFO] Specializing dependency org.junit.platform:junit-platform-commons:1.11.4, removing 8/68 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\junit-platform-commons-1.11.4.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=junit-platform-commons -Dversion=1.11.4
+[INFO] Specializing dependency: org.apache.maven.doxia:doxia-module-xdoc:1.12.0, with file doxia-module-xdoc-1.12.0.jar
+[INFO] Specializing dependency org.apache.maven.doxia:doxia-module-xdoc:1.12.0, removing 3/14 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\doxia-module-xdoc-1.12.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=doxia-module-xdoc -Dversion=1.12.0
+[INFO] Specializing dependency: org.mockito:mockito-core:5.2.0, with file mockito-core-5.2.0.jar
+[INFO] Specializing dependency org.mockito:mockito-core:5.2.0, removing 81/565 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\mockito-core-5.2.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=mockito-core -Dversion=5.2.0
+[INFO] Specializing dependency: org.antlr:antlr4-runtime:4.13.2, with file antlr4-runtime-4.13.2.jar
+[INFO] Specializing dependency org.antlr:antlr4-runtime:4.13.2, removing 24/215 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\antlr4-runtime-4.13.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=antlr4-runtime -Dversion=4.13.2
+[INFO] Specializing dependency: org.checkerframework:checker-qual:3.48.4, with file checker-qual-3.48.4.jar
+[INFO] Specializing dependency org.checkerframework:checker-qual:3.48.4, removing 368/381 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\checker-qual-3.48.4.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=checker-qual -Dversion=3.48.4
+[INFO] Specializing dependency: org.apache.commons:commons-text:1.3, with file commons-text-1.3.jar
+[INFO] Specializing dependency org.apache.commons:commons-text:1.3, removing 94/115 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\commons-text-1.3.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-text -Dversion=1.3
+[INFO] Specializing dependency: org.apache.commons:commons-lang3:3.8.1, with file commons-lang3-3.8.1.jar
+[INFO] Specializing dependency org.apache.commons:commons-lang3:3.8.1, removing 201/272 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\commons-lang3-3.8.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-lang3 -Dversion=3.8.1
+[INFO] Specializing dependency: info.picocli:picocli:4.7.6, with file picocli-4.7.6.jar
+[INFO] Specializing dependency info.picocli:picocli:4.7.6, removing 12/228 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\picocli-4.7.6.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=picocli -Dversion=4.7.6
+[INFO] Specializing dependency: org.jspecify:jspecify:0.3.0, with file jspecify-0.3.0.jar
+[INFO] Specializing dependency org.jspecify:jspecify:0.3.0, removing 3/5 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\jspecify-0.3.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jspecify -Dversion=0.3.0
+[INFO] Specializing dependency: commons-logging:commons-logging:1.2, with file commons-logging-1.2.jar
+[INFO] Specializing dependency commons-logging:commons-logging:1.2, removing 5/28 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\commons-logging-1.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-logging -Dversion=1.2
+[INFO] Specializing dependency: org.javassist:javassist:3.28.0-GA, with file javassist-3.28.0-GA.jar
+[INFO] Specializing dependency org.javassist:javassist:3.28.0-GA, removing 87/426 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\javassist-3.28.0-GA.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=javassist -Dversion=3.28.0-GA
+[INFO] Specializing dependency: org.apache.httpcomponents:httpcore:4.4.14, with file httpcore-4.4.14.jar
+[INFO] Specializing dependency org.apache.httpcomponents:httpcore:4.4.14, removing 87/253 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\httpcore-4.4.14.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=httpcore -Dversion=4.4.14
+[INFO] Specializing dependency: com.google.j2objc:j2objc-annotations:3.0.0, with file j2objc-annotations-3.0.0.jar
+[INFO] Specializing dependency com.google.j2objc:j2objc-annotations:3.0.0, removing 14/18 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\j2objc-annotations-3.0.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=j2objc-annotations -Dversion=3.0.0
+[INFO] Specializing dependency: org.opentest4j:opentest4j:1.3.0, with file opentest4j-1.3.0.jar
+[INFO] Specializing dependency org.opentest4j:opentest4j:1.3.0, removing 2/9 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\opentest4j-1.3.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=opentest4j -Dversion=1.3.0
+[INFO] Specializing dependency: org.slf4j:slf4j-api:1.7.32, with file slf4j-api-1.7.32.jar
+[INFO] Specializing dependency org.slf4j:slf4j-api:1.7.32, removing 15/34 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\slf4j-api-1.7.32.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=slf4j-api -Dversion=1.7.32
+[INFO] Specializing dependency: net.bytebuddy:byte-buddy-agent:1.14.1, with file byte-buddy-agent-1.14.1.jar
+[INFO] Specializing dependency net.bytebuddy:byte-buddy-agent:1.14.1, removing 5/70 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\byte-buddy-agent-1.14.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=byte-buddy-agent -Dversion=1.14.1
+[INFO] Specializing dependency: org.apache.ant:ant:1.10.15, with file ant-1.10.15.jar
+[INFO] Specializing dependency org.apache.ant:ant:1.10.15, removing 724/1171 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\ant-1.10.15.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=ant -Dversion=1.10.15
+[INFO] Specializing dependency: com.google.guava:guava:33.4.0-jre, with file guava-33.4.0-jre.jar
+[INFO] Specializing dependency com.google.guava:guava:33.4.0-jre, removing 840/2018 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\guava-33.4.0-jre.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=guava -Dversion=33.4.0-jre
+[INFO] Specializing dependency: org.ow2.asm:asm:9.7, with file asm-9.7.jar
+[INFO] Specializing dependency org.ow2.asm:asm:9.7, removing 3/39 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\asm-9.7.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=asm -Dversion=9.7
+[INFO] Specializing dependency: org.itsallcode:junit5-system-extensions:1.2.2, with file junit5-system-extensions-1.2.2.jar
+[INFO] Specializing dependency org.itsallcode:junit5-system-extensions:1.2.2, removing 4/11 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\junit5-system-extensions-1.2.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=junit5-system-extensions -Dversion=1.2.2
+[INFO] Specializing dependency: org.junit.jupiter:junit-jupiter-params:5.11.2, with file junit-jupiter-params-5.11.2.jar
+[INFO] Specializing dependency org.junit.jupiter:junit-jupiter-params:5.11.2, removing 309/354 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\junit-jupiter-params-5.11.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=junit-jupiter-params -Dversion=5.11.2
+[INFO] Specializing dependency: net.sf.saxon:Saxon-HE:12.5, with file Saxon-HE-12.5.jar
+[INFO] Specializing dependency net.sf.saxon:Saxon-HE:12.5, removing 119/2600 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\Saxon-HE-12.5.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=Saxon-HE -Dversion=12.5
+[INFO] Specializing dependency: commons-beanutils:commons-beanutils:1.10.0, with file commons-beanutils-1.10.0.jar
+[INFO] Specializing dependency commons-beanutils:commons-beanutils:1.10.0, removing 72/135 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\commons-beanutils-1.10.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-beanutils -Dversion=1.10.0
+[INFO] Specializing dependency: com.google.errorprone:error_prone_annotations:2.36.0, with file error_prone_annotations-2.36.0.jar
+[INFO] Specializing dependency com.google.errorprone:error_prone_annotations:2.36.0, removing 9/28 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\error_prone_annotations-2.36.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=error_prone_annotations -Dversion=2.36.0
+[INFO] Specializing dependency: com.google.truth:truth:1.4.4, with file truth-1.4.4.jar
+[INFO] Specializing dependency com.google.truth:truth:1.4.4, removing 33/164 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\truth-1.4.4.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=truth -Dversion=1.4.4
+[INFO] Specializing dependency: commons-codec:commons-codec:1.17.0, with file commons-codec-1.17.0.jar
+[INFO] Specializing dependency commons-codec:commons-codec:1.17.0, removing 96/115 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\commons-codec-1.17.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-codec -Dversion=1.17.0
+[INFO] Specializing dependency: org.apache.httpcomponents.client5:httpclient5:5.1.3, with file httpclient5-5.1.3.jar
+[INFO] Specializing dependency org.apache.httpcomponents.client5:httpclient5:5.1.3, removing 233/476 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\httpclient5-5.1.3.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=httpclient5 -Dversion=5.1.3
+[INFO] Specializing dependency: org.apache.xbean:xbean-reflect:3.7, with file xbean-reflect-3.7.jar
+[INFO] Specializing dependency org.apache.xbean:xbean-reflect:3.7, removing 21/118 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\xbean-reflect-3.7.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=xbean-reflect -Dversion=3.7
+[INFO] Specializing dependency: com.google.code.findbugs:jsr305:3.0.2, with file jsr305-3.0.2.jar
+[INFO] Specializing dependency com.google.code.findbugs:jsr305:3.0.2, removing 25/35 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\jsr305-3.0.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jsr305 -Dversion=3.0.2
+[INFO] Specializing dependency: org.hamcrest:hamcrest-core:1.3, with file hamcrest-core-1.3.jar
+[INFO] Specializing dependency org.hamcrest:hamcrest-core:1.3, removing 8/45 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\hamcrest-core-1.3.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=hamcrest-core -Dversion=1.3
+[INFO] Specializing dependency: org.apache.ant:ant-launcher:1.10.15, with file ant-launcher-1.10.15.jar
+[INFO] Skipping specializing dependency org.apache.ant:ant-launcher:1.10.15 because all its types are used.
+[INFO] Specializing dependency: org.codehaus.plexus:plexus-utils:3.3.0, with file plexus-utils-3.3.0.jar
+[INFO] Specializing dependency org.codehaus.plexus:plexus-utils:3.3.0, removing 64/105 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\plexus-utils-3.3.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=plexus-utils -Dversion=3.3.0
+[INFO] Specializing dependency: org.codehaus.plexus:plexus-container-default:2.1.0, with file plexus-container-default-2.1.0.jar
+[INFO] Specializing dependency org.codehaus.plexus:plexus-container-default:2.1.0, removing 29/187 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\plexus-container-default-2.1.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=plexus-container-default -Dversion=2.1.0
+[INFO] Specializing dependency: junit:junit:4.13.2, with file junit-4.13.2.jar
+[INFO] Specializing dependency junit:junit:4.13.2, removing 273/350 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\junit-4.13.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=junit -Dversion=4.13.2
+[INFO] Specializing dependency: com.googlecode.javaewah:JavaEWAH:1.2.3, with file JavaEWAH-1.2.3.jar
+[INFO] Specializing dependency com.googlecode.javaewah:JavaEWAH:1.2.3, removing 53/107 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\JavaEWAH-1.2.3.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=JavaEWAH -Dversion=1.2.3
+[INFO] Specializing dependency: net.bytebuddy:byte-buddy:1.17.0, with file byte-buddy-1.17.0.jar
+[INFO] Specializing dependency net.bytebuddy:byte-buddy:1.17.0, removing 3342/5910 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\byte-buddy-1.17.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=byte-buddy -Dversion=1.17.0
+[INFO] Specializing dependency: org.apiguardian:apiguardian-api:1.1.2, with file apiguardian-api-1.1.2.jar
+[INFO] Skipping specializing dependency org.apiguardian:apiguardian-api:1.1.2 because all its types are used.
+[INFO] Specializing dependency: org.objenesis:objenesis:3.4, with file objenesis-3.4.jar
+[INFO] Specializing dependency org.objenesis:objenesis:3.4, removing 21/43 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\objenesis-3.4.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=objenesis -Dversion=3.4
+[INFO] Specializing dependency: org.junit.jupiter:junit-jupiter-engine:5.11.4, with file junit-jupiter-engine-5.11.4.jar
+[INFO] Specializing dependency org.junit.jupiter:junit-jupiter-engine:5.11.4, removing 134/135 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\junit-jupiter-engine-5.11.4.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=junit-jupiter-engine -Dversion=5.11.4
+[INFO] Specializing dependency: commons-collections:commons-collections:3.2.2, with file commons-collections-3.2.2.jar
+[INFO] Specializing dependency commons-collections:commons-collections:3.2.2, removing 453/460 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\commons-collections-3.2.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-collections -Dversion=3.2.2
+[INFO] Specializing dependency: org.apache.httpcomponents.core5:httpcore5:5.1.3, with file httpcore5-5.1.3.jar
+[INFO] Specializing dependency org.apache.httpcomponents.core5:httpcore5:5.1.3, removing 385/633 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\httpcore5-5.1.3.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=httpcore5 -Dversion=5.1.3
+[INFO] Specializing dependency: org.junit.jupiter:junit-jupiter-api:5.11.4, with file junit-jupiter-api-5.11.4.jar
+[INFO] Specializing dependency org.junit.jupiter:junit-jupiter-api:5.11.4, removing 105/182 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\junit-jupiter-api-5.11.4.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=junit-jupiter-api -Dversion=5.11.4
+[INFO] Specializing dependency: org.eclipse.jgit:org.eclipse.jgit:6.10.0.202406032230-r, with file org.eclipse.jgit-6.10.0.202406032230-r.jar
+[INFO] Specializing dependency org.eclipse.jgit:org.eclipse.jgit:6.10.0.202406032230-r, removing 192/1630 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\org.eclipse.jgit-6.10.0.202406032230-r.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=org.eclipse.jgit -Dversion=6.10.0.202406032230-r
+[INFO] Specializing dependency: org.apache.maven.doxia:doxia-core:1.12.0, with file doxia-core-1.12.0.jar
+[INFO] Specializing dependency org.apache.maven.doxia:doxia-core:1.12.0, removing 44/127 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\doxia-core-1.12.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=doxia-core -Dversion=1.12.0
+[INFO] Specializing dependency: org.apache.httpcomponents:httpclient:4.5.13, with file httpclient-4.5.13.jar
+[INFO] Specializing dependency org.apache.httpcomponents:httpclient:4.5.13, removing 180/470 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\libs-specialized\httpclient-4.5.13.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=httpclient -Dversion=4.5.13
+[INFO] Number of specialized dependencies: 56
+[INFO] -------------------------------------------------------
+[INFO] DEPTRIM IS CREATING SPECIALIZED POMS
+[INFO] -------------------------------------------------------
+[INFO] Starting debloating POM file...
+[INFO] Adding 39 used transitive dependencies as direct dependencies.
+[INFO] Removing 5 unused direct dependencies.
+[INFO] Excluding 8 unused transitive dependencies one-by-one.
+[INFO] Adding org.junit.platform:junit-platform-launcher:1.11.2:test
+[INFO] Adding org.apache.maven.doxia:doxia-logging-api:1.12.0:compile
+[INFO] Adding org.codehaus.plexus:plexus-classworlds:2.6.0:compile
+[INFO] Adding org.apache.maven.doxia:doxia-sink-api:1.12.0:compile
+[INFO] Adding com.tngtech.archunit:archunit:1.3.0:test
+[INFO] Adding commons-io:commons-io:2.18.0:test
+[INFO] Adding org.junit.platform:junit-platform-engine:1.11.4:test
+[INFO] Adding org.codehaus.plexus:plexus-component-annotations:2.1.0:compile
+[INFO] Adding org.reflections:reflections:0.10.2:compile
+[INFO] Adding org.xmlresolver:xmlresolver:5.2.2:compile
+[INFO] Adding nl.jqno.equalsverifier:equalsverifier:3.19:test
+[INFO] Adding org.junit-pioneer:junit-pioneer:2.3.0:test
+[INFO] Adding de.thetaphi:forbiddenapis:3.8:test
+[INFO] Adding org.junit.platform:junit-platform-commons:1.11.4:test
+[INFO] Adding org.apache.maven.doxia:doxia-module-xdoc:1.12.0:compile
+[INFO] Adding org.mockito:mockito-core:5.2.0:test
+[INFO] Adding org.antlr:antlr4-runtime:4.13.2:compile
+[INFO] Adding org.checkerframework:checker-qual:3.48.4:compile
+[INFO] Adding org.apache.commons:commons-text:1.3:compile
+[INFO] Adding org.apache.commons:commons-lang3:3.8.1:compile
+[INFO] Adding info.picocli:picocli:4.7.6:compile
+[INFO] Adding commons-logging:commons-logging:1.2:compile
+[INFO] Adding org.jspecify:jspecify:0.3.0:test
+[INFO] Adding org.javassist:javassist:3.28.0-GA:compile
+[INFO] Adding org.apache.httpcomponents:httpcore:4.4.14:compile
+[INFO] Adding com.google.j2objc:j2objc-annotations:3.0.0:compile
+[INFO] Adding org.opentest4j:opentest4j:1.3.0:test
+[INFO] Adding org.slf4j:slf4j-api:1.7.32:compile
+[INFO] Adding net.bytebuddy:byte-buddy-agent:1.14.1:test
+[INFO] Adding org.apache.ant:ant:1.10.15:provided
+[INFO] Adding com.google.guava:guava:33.4.0-jre:compile
+[INFO] Excluding com.google.guava:failureaccess from com.google.guava:guava:33.4.0-jre
+[INFO] Excluding com.google.guava:listenablefuture from com.google.guava:guava:33.4.0-jre
+[INFO] Adding org.ow2.asm:asm:9.7:test
+[INFO] Adding org.itsallcode:junit5-system-extensions:1.2.2:test
+[INFO] Adding org.junit.jupiter:junit-jupiter-params:5.11.2:test
+[INFO] Adding net.sf.saxon:Saxon-HE:12.5:compile
+[INFO] Adding commons-beanutils:commons-beanutils:1.10.0:compile
+[INFO] Adding com.google.truth:truth:1.4.4:test
+[INFO] Excluding com.google.auto.value:auto-value-annotations from com.google.truth:truth:1.4.4
+[INFO] Adding com.google.errorprone:error_prone_annotations:2.36.0:compile
+[INFO] Adding commons-codec:commons-codec:1.17.0:runtime
+[INFO] Adding org.apache.httpcomponents.client5:httpclient5:5.1.3:runtime
+[INFO] Excluding org.apache.httpcomponents.core5:httpcore5-h2 from org.apache.httpcomponents.client5:httpclient5:5.1.3
+[INFO] Adding org.apache.xbean:xbean-reflect:3.7:compile
+[INFO] Adding org.hamcrest:hamcrest-core:1.3:test
+[INFO] Adding com.google.code.findbugs:jsr305:3.0.2:compile
+[INFO] Adding org.apache.ant:ant-launcher:1.10.15:provided
+[INFO] Adding org.codehaus.plexus:plexus-utils:3.3.0:compile
+[INFO] Adding org.codehaus.plexus:plexus-container-default:2.1.0:compile
+[INFO] Adding junit:junit:4.13.2:test
+[INFO] Adding com.googlecode.javaewah:JavaEWAH:1.2.3:test
+[INFO] Adding net.bytebuddy:byte-buddy:1.17.0:test
+[INFO] Adding org.apiguardian:apiguardian-api:1.1.2:test
+[INFO] Adding org.objenesis:objenesis:3.4:test
+[INFO] Adding org.junit.jupiter:junit-jupiter-engine:5.11.4:test
+[INFO] Adding commons-collections:commons-collections:3.2.2:compile
+[INFO] Adding org.apache.httpcomponents.core5:httpcore5:5.1.3:runtime
+[INFO] Adding org.eclipse.jgit:org.eclipse.jgit:6.10.0.202406032230-r:test
+[INFO] Adding org.junit.jupiter:junit-jupiter-api:5.11.4:test
+[INFO] Adding org.apache.maven.doxia:doxia-core:1.12.0:compile
+[INFO] Adding org.apache.httpcomponents:httpclient:4.5.13:compile
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: D:\MasterThesis\successfulRealWorldPrograms\checkstyle\checkstyle\pom-debloated.xml
+[INFO] Created pom-specialized.xml
+[INFO] DepTrim execution done in 5min 29s
+
+ProGuard:
+Ignoring unused library classes...
+  Original number of library classes:              13859
+  Final number of library classes:                 1177
+Marking classes and class members to be kept...
+Inlining subroutines...
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            10737
+  Final number of program classes:               4988
+Optimizing (pass 1/50)...
+  Number of finalized classes:                   2289
+  Number of unboxed enum classes:                17
+  Number of vertically merged classes:           20
+  Number of horizontally merged classes:         287
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           808
+  Number of privatized fields:                   2020
+  Number of generalized field accesses:          5852
+  Number of specialized field types:             564
+  Number of inlined constant fields:             369
+  Number of privatized methods:                  1746
+  Number of staticized methods:                  611
+  Number of finalized methods:                   15687
+  Number of desynchronized methods:              1
+  Number of simplified method signatures:        418
+  Number of removed method parameters:           435
+  Number of generalized method invocations:      30980
+  Number of specialized method parameter types:  793
+  Number of specialized method return types:     544
+  Number of inlined constant parameters:         554
+  Number of inlined constant return values:      120
+  Number of inlined short method calls:          4964
+  Number of inlined unique method calls:         1632
+  Number of inlined tail recursion calls:        58
+  Number of merged code blocks:                  142
+  Number of variable peephole optimizations:     21860
+  Number of arithmetic peephole optimizations:   271
+  Number of cast peephole optimizations:         4
+  Number of field peephole optimizations:        70
+  Number of branch peephole optimizations:       6453
+  Number of object peephole optimizations:       71
+  Number of string peephole optimizations:       3002
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             2227
+  Number of removed instructions:                15728
+  Number of removed local variables:             712
+  Number of removed exception blocks:            485
+  Number of optimized local variable frames:     7677
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            4988
+  Final number of program classes:               4565
+Optimizing (pass 2/50)...
+  Number of finalized classes:                   48
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           4
+  Number of horizontally merged classes:         18
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           115
+  Number of privatized fields:                   15
+  Number of generalized field accesses:          0
+  Number of specialized field types:             148
+  Number of inlined constant fields:             183
+  Number of privatized methods:                  28
+  Number of staticized methods:                  38
+  Number of finalized methods:                   196
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        352
+  Number of removed method parameters:           443
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  306
+  Number of specialized method return types:     137
+  Number of inlined constant parameters:         607
+  Number of inlined constant return values:      32
+  Number of inlined short method calls:          412
+  Number of inlined unique method calls:         96
+  Number of inlined tail recursion calls:        14
+  Number of merged code blocks:                  13
+  Number of variable peephole optimizations:     1846
+  Number of arithmetic peephole optimizations:   25
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       311
+  Number of object peephole optimizations:       20
+  Number of string peephole optimizations:       522
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             1650
+  Number of removed instructions:                19384
+  Number of removed local variables:             353
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     365
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            4565
+  Final number of program classes:               4532
+Optimizing (pass 3/50)...
+  Number of finalized classes:                   6
+  Number of unboxed enum classes:                3
+  Number of vertically merged classes:           1
+  Number of horizontally merged classes:         2
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           60
+  Number of privatized fields:                   4
+  Number of generalized field accesses:          0
+  Number of specialized field types:             76
+  Number of inlined constant fields:             158
+  Number of privatized methods:                  3
+  Number of staticized methods:                  13
+  Number of finalized methods:                   11
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        111
+  Number of removed method parameters:           179
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  89
+  Number of specialized method return types:     29
+  Number of inlined constant parameters:         352
+  Number of inlined constant return values:      27
+  Number of inlined short method calls:          179
+  Number of inlined unique method calls:         21
+  Number of inlined tail recursion calls:        2
+  Number of merged code blocks:                  4
+  Number of variable peephole optimizations:     299
+  Number of arithmetic peephole optimizations:   2
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       43
+  Number of object peephole optimizations:       2
+  Number of string peephole optimizations:       20
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             566
+  Number of removed instructions:                4495
+  Number of removed local variables:             20
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     51
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            4532
+  Final number of program classes:               4528
+Optimizing (pass 4/50)...
+  Number of finalized classes:                   1
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           49
+  Number of privatized fields:                   4
+  Number of generalized field accesses:          0
+  Number of specialized field types:             25
+  Number of inlined constant fields:             117
+  Number of privatized methods:                  0
+  Number of staticized methods:                  9
+  Number of finalized methods:                   4
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        35
+  Number of removed method parameters:           47
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  55
+  Number of specialized method return types:     14
+  Number of inlined constant parameters:         258
+  Number of inlined constant return values:      25
+  Number of inlined short method calls:          101
+  Number of inlined unique method calls:         2
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     139
+  Number of arithmetic peephole optimizations:   2
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       4
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       11
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             210
+  Number of removed instructions:                1268
+  Number of removed local variables:             15
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     14
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            4528
+  Final number of program classes:               4525
+Optimizing (pass 5/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           8
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             14
+  Number of inlined constant fields:             74
+  Number of privatized methods:                  0
+  Number of staticized methods:                  1
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        9
+  Number of removed method parameters:           13
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  31
+  Number of specialized method return types:     4
+  Number of inlined constant parameters:         234
+  Number of inlined constant return values:      25
+  Number of inlined short method calls:          2
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     10
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       4
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             134
+  Number of removed instructions:                653
+  Number of removed local variables:             2
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     4
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            4525
+  Final number of program classes:               4525
+Optimizing (pass 6/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           6
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             6
+  Number of inlined constant fields:             68
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        8
+  Number of removed method parameters:           11
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  27
+  Number of specialized method return types:     3
+  Number of inlined constant parameters:         228
+  Number of inlined constant return values:      25
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         1
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     4
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             16
+  Number of removed instructions:                127
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     1
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            4525
+  Final number of program classes:               4525
+Optimizing (pass 7/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           2
+  Number of privatized fields:                   1
+  Number of generalized field accesses:          0
+  Number of specialized field types:             3
+  Number of inlined constant fields:             63
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        4
+  Number of removed method parameters:           7
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  9
+  Number of specialized method return types:     2
+  Number of inlined constant parameters:         227
+  Number of inlined constant return values:      25
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     1
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             14
+  Number of removed instructions:                26
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     2
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            4525
+  Final number of program classes:               4525
+Optimizing (pass 8/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           1
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             2
+  Number of inlined constant fields:             63
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        8
+  Number of removed method parameters:           10
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  2
+  Number of specialized method return types:     1
+  Number of inlined constant parameters:         228
+  Number of inlined constant return values:      25
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     2
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             12
+  Number of removed instructions:                25
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     2
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            4525
+  Final number of program classes:               4524
+Optimizing (pass 9/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           1
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             1
+  Number of inlined constant fields:             64
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        7
+  Number of removed method parameters:           8
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  5
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         222
+  Number of inlined constant return values:      25
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             12
+  Number of removed instructions:                121
+  Number of removed local variables:             1
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            4524
+  Final number of program classes:               4524
+Optimizing (pass 10/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           2
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             65
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        4
+  Number of removed method parameters:           4
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         214
+  Number of inlined constant return values:      25
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             10
+  Number of removed instructions:                82
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            4524
+  Final number of program classes:               4524
+Optimizing (pass 11/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           2
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                7
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            4524
+  Final number of program classes:               4524
+Optimizing (pass 12/50)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           0
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                0
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...

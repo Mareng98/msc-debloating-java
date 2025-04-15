@@ -1,0 +1,476 @@
+JLink:
+identified modules: jdk.javadoc,jdk.zipfs,java.logging,java.net.http
+
+Depclean:
+-------------------------------------------------------
+ D E P C L E A N   A N A L Y S I S   R E S U L T S
+-------------------------------------------------------
+USED DIRECT DEPENDENCIES [43]:
+        org.gwtproject:gwt-user:2.10.0:test (16 MB)
+        com.ibm.icu:icu4j:74.2:test (13 MB)
+        io.github.eisop:dataflow-errorprone:3.41.0-eisop1:compile (5 MB)
+        org.easymock:easymock:5.2.0:test (4 MB)
+        com.google.guava:guava:32.1.1-jre:compile (2 MB)
+        io.netty:netty-all:5.0.0.Alpha2:test (2 MB)
+        com.google.auto.value:auto-value:1.9:test (1 MB)
+        com.google.protobuf:protobuf-java:3.25.5:compile (1 MB)
+        org.assertj:assertj-core:3.25.1:test (1 MB)
+        com.google.guava:guava-testlib:32.1.1-jre:test (846 KB)
+        com.google.inject:guice:5.1.0:test (759 KB)
+        com.google.errorprone:error_prone_check_api:2.36.0:compile (696 KB)
+        org.mockito:mockito-core:4.9.0:test (668 KB)
+        joda-time:joda-time:2.12.5:test (623 KB)
+        junit:junit:4.13.2:test (375 KB)
+        com.google.gwt.inject:gin:2.1.2:test (310 KB)
+        com.google.googlejavaformat:google-java-format:1.19.1:compile (270 KB)
+        com.google.truth:truth:1.4.0:test (269 KB)
+        org.threeten:threeten-extra:1.7.2:test (250 KB)
+        com.google.truth.extensions:truth-proto-extension:1.4.0:test (185 KB)
+        com.google.flogger:flogger:0.7.4:test (174 KB)
+        com.google.testing.compile:compile-testing:0.21.0:test (130 KB)
+        com.google.testparameterinjector:test-parameter-injector:1.16:test (119 KB)
+        com.google.auto:auto-common:1.2.2:compile (109 KB)
+        com.google.common.html.types:types:1.0.8:test (104 KB)
+        org.jmock:jmock:2.12.0:test (98 KB)
+        com.google.dagger:dagger-producers:2.50:test (95 KB)
+        com.google.auto.factory:auto-factory:1.1.0:test (89 KB)
+        org.pcollections:pcollections:4.0.1:compile (71 KB)
+        com.google.protobuf:protobuf-java-util:3.25.5:test (71 KB)
+        pl.pragmatists:JUnitParams:1.1.1:test (66 KB)
+        com.google.inject.extensions:guice-assistedinject:5.1.0:test (49 KB)
+        com.google.errorprone:error_prone_test_helpers:2.36.0:test (43 KB)
+        com.google.dagger:dagger:2.50:test (40 KB)
+        com.google.inject.extensions:guice-testlib:5.1.0:test (23 KB)
+        com.google.code.findbugs:jsr305:3.0.2:test (19 KB)
+        com.google.errorprone:error_prone_annotations:2.36.0:compile (18 KB)
+        com.google.errorprone:error_prone_annotation:2.36.0:compile (8 KB)
+        com.google.auto.value:auto-value-annotations:1.9:compile (7 KB)
+        com.google.errorprone:error_prone_type_annotations:2.36.0:compile (3 KB)
+        org.jspecify:jspecify:1.0.0:compile (3 KB)
+        com.google.auto.service:auto-service-annotations:1.0.1:compile (3 KB)
+        javax.inject:javax.inject:1:compile (2 KB)
+USED TRANSITIVE DEPENDENCIES [23]:
+        net.bytebuddy:byte-buddy:1.12.16:test (3 MB)
+        com.github.ben-manes.caffeine:caffeine:3.0.5:compile (697 KB)
+        org.yaml:snakeyaml:2.0:test (326 KB)
+        cglib:cglib:3.2.8:test (300 KB)
+        com.google.code.gson:gson:2.8.9:test (252 KB)
+        net.bytebuddy:byte-buddy-agent:1.12.16:test (250 KB)
+        org.checkerframework:checker-qual:3.33.0:compile (218 KB)
+        com.google.jimfs:jimfs:1.3.0:test (206 KB)
+        org.ow2.asm:asm:9.6:test (120 KB)
+        org.hamcrest:hamcrest:2.2:test (120 KB)
+        io.github.java-diff-utils:java-diff-utils:4.12:compile (70 KB)
+        com.github.kevinstern:software-and-algorithms:1.0:compile (62 KB)
+        org.objenesis:objenesis:3.3:test (48 KB)
+        javax.validation:validation-api:1.0.0.GA:test (46 KB)
+        com.google.inject.extensions:guice-throwingproviders:5.1.0:test (40 KB)
+        com.google.code.findbugs:annotations:3.0.1:test (37 KB)
+        com.google.truth.extensions:truth-liteproto-extension:1.4.0:test (12 KB)
+        com.google.j2objc:j2objc-annotations:2.8:compile (9 KB)
+        com.google.jsinterop:jsinterop-annotations:2.0.0:test (6 KB)
+        org.checkerframework:checker-compat-qual:2.5.5:test (5 KB)
+        javax.annotation:jsr250-api:1.0:test (5 KB)
+        com.google.guava:failureaccess:1.0.1:compile (4 KB)
+        aopalliance:aopalliance:1.0:test (4 KB)
+USED INHERITED DIRECT DEPENDENCIES [0]:
+USED INHERITED TRANSITIVE DEPENDENCIES [0]:
+POTENTIALLY UNUSED DIRECT DEPENDENCIES [6]:
+        com.google.inject.extensions:guice-servlet:5.1.0:test (79 KB)
+        org.jmock:jmock-junit4:2.12.0:test (7 KB)
+        com.google.truth.extensions:truth-java8-extension:1.4.0:test (5 KB)
+        com.google.common.html.types:proto:1.0.8:test (4 KB)
+        org.hamcrest:hamcrest-library:2.2:test (1 KB)
+        org.hamcrest:hamcrest-core:2.2:test (1 KB)
+POTENTIALLY UNUSED TRANSITIVE DEPENDENCIES [9]:
+        org.apache-extras.beanshell:bsh:2.0b6:test (379 KB)
+        com.squareup:javapoet:1.13.0:test (103 KB)
+        javax.servlet:javax.servlet-api:3.1.0:test (93 KB)
+        org.w3c.css:sac:1.3:test (15 KB)
+        org.jmock:jmock-imposters:2.12.0:test (8 KB)
+        org.jmock:jmock-legacy:2.12.0:test (8 KB)
+        org.jmock:jmock-testjar:2.12.0:test (3 KB)
+        net.jcip:jcip-annotations:1.0:test (2 KB)
+        com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava:compile (2 KB)
+POTENTIALLY UNUSED INHERITED DIRECT DEPENDENCIES [0]:
+POTENTIALLY UNUSED INHERITED TRANSITIVE DEPENDENCIES [0]:
+[INFO] Starting debloating POM file...
+[INFO] Adding 23 used transitive dependencies as direct dependencies.
+[INFO] Removing 6 unused direct dependencies.
+[INFO] Excluding 9 unused transitive dependencies one-by-one.
+[INFO] Adding com.google.errorprone:error_prone_check_api:2.36.0:compile
+[INFO] Adding org.jspecify:jspecify:1.0.0:compile
+[INFO] Adding org.yaml:snakeyaml:2.0:test
+[INFO] Adding aopalliance:aopalliance:1.0:test
+[INFO] Adding com.google.guava:failureaccess:1.0.1:compile
+[INFO] Adding com.google.inject.extensions:guice-testlib:5.1.0:test
+[INFO] Adding com.google.protobuf:protobuf-java:3.25.5:compile
+[INFO] Adding org.checkerframework:checker-qual:3.33.0:compile
+[INFO] Adding com.google.errorprone:error_prone_test_helpers:2.36.0:test
+[INFO] Adding com.google.j2objc:j2objc-annotations:2.8:compile
+[INFO] Adding io.github.java-diff-utils:java-diff-utils:4.12:compile
+[INFO] Adding org.pcollections:pcollections:4.0.1:compile
+[INFO] Adding cglib:cglib:3.2.8:test
+[INFO] Adding org.hamcrest:hamcrest:2.2:test
+[INFO] Adding net.bytebuddy:byte-buddy-agent:1.12.16:test
+[INFO] Adding com.github.ben-manes.caffeine:caffeine:3.0.5:compile
+[INFO] Adding com.google.dagger:dagger-producers:2.50:test
+[INFO] Adding com.google.auto.value:auto-value:1.9:test
+[INFO] Adding com.google.auto.service:auto-service-annotations:1.0.1:compile
+[INFO] Adding com.github.kevinstern:software-and-algorithms:1.0:compile
+[INFO] Adding com.google.auto.factory:auto-factory:1.1.0:test
+[INFO] Excluding com.squareup:javapoet from com.google.auto.factory:auto-factory:1.1.0
+[INFO] Adding org.threeten:threeten-extra:1.7.2:test
+[INFO] Adding io.github.eisop:dataflow-errorprone:3.41.0-eisop1:compile
+[INFO] Adding com.google.errorprone:error_prone_type_annotations:2.36.0:compile
+[INFO] Adding net.bytebuddy:byte-buddy:1.12.16:test
+[INFO] Adding com.google.auto.value:auto-value-annotations:1.9:compile
+[INFO] Adding org.jmock:jmock:2.12.0:test
+[INFO] Excluding org.jmock:jmock-testjar from org.jmock:jmock:2.12.0
+[INFO] Excluding org.apache-extras.beanshell:bsh from org.jmock:jmock:2.12.0
+[INFO] Adding com.google.jimfs:jimfs:1.3.0:test
+[INFO] Adding org.gwtproject:gwt-user:2.10.0:test
+[INFO] Excluding org.w3c.css:sac from org.gwtproject:gwt-user:2.10.0
+[INFO] Excluding javax.servlet:javax.servlet-api from org.gwtproject:gwt-user:2.10.0
+[INFO] Adding com.google.auto:auto-common:1.2.2:compile
+[INFO] Adding org.ow2.asm:asm:9.6:test
+[INFO] Adding com.google.common.html.types:types:1.0.8:test
+[INFO] Adding com.google.gwt.inject:gin:2.1.2:test
+[INFO] Adding com.google.guava:guava:32.1.1-jre:compile
+[INFO] Excluding com.google.guava:listenablefuture from com.google.guava:guava:32.1.1-jre
+[INFO] Adding com.google.errorprone:error_prone_annotation:2.36.0:compile
+[INFO] Adding com.google.errorprone:error_prone_annotations:2.36.0:compile
+[INFO] Adding org.easymock:easymock:5.2.0:test
+[INFO] Adding io.netty:netty-all:5.0.0.Alpha2:test
+[INFO] Adding com.google.truth.extensions:truth-proto-extension:1.4.0:test
+[INFO] Adding com.google.truth:truth:1.4.0:test
+[INFO] Adding com.google.flogger:flogger:0.7.4:test
+[INFO] Adding javax.annotation:jsr250-api:1.0:test
+[INFO] Adding joda-time:joda-time:2.12.5:test
+[INFO] Adding com.google.testing.compile:compile-testing:0.21.0:test
+[INFO] Adding javax.inject:javax.inject:1:compile
+[INFO] Adding org.checkerframework:checker-compat-qual:2.5.5:test
+[INFO] Adding com.google.testparameterinjector:test-parameter-injector:1.16:test
+[INFO] Adding com.google.inject.extensions:guice-assistedinject:5.1.0:test
+[INFO] Adding com.google.code.findbugs:jsr305:3.0.2:test
+[INFO] Adding junit:junit:4.13.2:test
+[INFO] Adding org.assertj:assertj-core:3.25.1:test
+[INFO] Adding com.google.code.gson:gson:2.8.9:test
+[INFO] Adding com.google.jsinterop:jsinterop-annotations:2.0.0:test
+[INFO] Adding com.google.googlejavaformat:google-java-format:1.19.1:compile
+[INFO] Adding com.google.inject:guice:5.1.0:test
+[INFO] Adding com.google.guava:guava-testlib:32.1.1-jre:test
+[INFO] Adding org.objenesis:objenesis:3.3:test
+[INFO] Adding com.google.inject.extensions:guice-throwingproviders:5.1.0:test
+[INFO] Adding com.google.truth.extensions:truth-liteproto-extension:1.4.0:test
+[INFO] Adding org.mockito:mockito-core:4.9.0:test
+[INFO] Adding pl.pragmatists:JUnitParams:1.1.1:test
+[INFO] Adding com.ibm.icu:icu4j:74.2:test
+[INFO] Adding javax.validation:validation-api:1.0.0.GA:test
+[INFO] Adding com.google.protobuf:protobuf-java-util:3.25.5:test
+[INFO] Adding com.google.code.findbugs:annotations:3.0.1:test
+[INFO] Excluding net.jcip:jcip-annotations from com.google.code.findbugs:annotations:3.0.1
+[INFO] Adding com.google.dagger:dagger:2.50:test
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\pom-debloated.xml
+[INFO] Analysis done in 2min 15s
+
+DepTrim:
+-------------------------------------------------------
+[INFO] DEPTRIM IS ANALYZING DEPENDENCIES
+[INFO] -------------------------------------------------------
+[INFO] Cannot analyze imports in file: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\src\main\java\com\google\errorprone\bugpatterns\flogger\FloggerArgumentToString.java
+[INFO] Cannot analyze imports in file: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\src\test\java\com\google\errorprone\bugpatterns\BanClassLoaderTest.java
+[INFO] Cannot analyze imports in file: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\src\test\java\com\google\errorprone\bugpatterns\BanJNDITest.java
+[INFO] Cannot analyze imports in file: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\src\test\java\com\google\errorprone\bugpatterns\InvalidPatternSyntaxTest.java
+[INFO] Cannot analyze imports in file: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\src\test\java\com\google\errorprone\bugpatterns\JUnitParameterMethodNotFoundTest.java
+[INFO] Cannot analyze imports in file: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\src\test\java\com\google\errorprone\bugpatterns\OutlineNoneTest.java
+[INFO] Cannot analyze imports in file: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\src\test\java\com\google\errorprone\bugpatterns\StringBuilderInitWithCharTest.java
+[INFO] Cannot analyze imports in file: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\src\test\java\com\google\errorprone\bugpatterns\android\HardCodedSdCardPathTest.java
+[INFO] Cannot analyze imports in file: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\src\test\java\com\google\errorprone\bugpatterns\inlineme\InlinerTest.java
+[INFO] Cannot analyze imports in file: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\src\test\java\com\google\errorprone\bugpatterns\javadoc\InvalidLinkTest.java
+[INFO] Cannot analyze imports in file: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\src\test\java\com\google\errorprone\bugpatterns\javadoc\UnescapedEntityTest.java
+[INFO] Cannot analyze imports in file: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\src\test\java\com\google\errorprone\bugpatterns\nullness\UnnecessaryCheckNotNullTest.java
+[INFO] -------------------------------------------------------
+[INFO] DEPTRIM IS SPECIALIZING DEPENDENCIES
+[INFO] -------------------------------------------------------
+[INFO] No dependencies specified, specializing all dependencies except the ignored dependencies.
+[INFO] Specializing dependency: com.google.errorprone:error_prone_check_api:2.36.0, with file error_prone_check_api-2.36.0.jar
+[INFO] Specializing dependency com.google.errorprone:error_prone_check_api:2.36.0, removing 47/468 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\error_prone_check_api-2.36.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=error_prone_check_api -Dversion=2.36.0
+[INFO] Specializing dependency: org.jspecify:jspecify:1.0.0, with file jspecify-1.0.0.jar
+[INFO] Specializing dependency org.jspecify:jspecify:1.0.0, removing 2/5 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\jspecify-1.0.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jspecify -Dversion=1.0.0
+[INFO] Specializing dependency: org.yaml:snakeyaml:2.0, with file snakeyaml-2.0.jar
+[INFO] Specializing dependency org.yaml:snakeyaml:2.0, removing 14/234 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\snakeyaml-2.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=snakeyaml -Dversion=2.0
+[INFO] Specializing dependency: aopalliance:aopalliance:1.0, with file aopalliance-1.0.jar
+[INFO] Specializing dependency aopalliance:aopalliance:1.0, removing 3/9 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\aopalliance-1.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=aopalliance -Dversion=1.0
+[INFO] Specializing dependency: com.google.guava:failureaccess:1.0.1, with file failureaccess-1.0.1.jar
+[INFO] Skipping specializing dependency com.google.guava:failureaccess:1.0.1 because all its types are used.
+[INFO] Specializing dependency: com.google.inject.extensions:guice-testlib:5.1.0, with file guice-testlib-5.1.0.jar
+[INFO] Specializing dependency com.google.inject.extensions:guice-testlib:5.1.0, removing 11/12 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\guice-testlib-5.1.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=guice-testlib -Dversion=5.1.0
+[INFO] Specializing dependency: com.google.protobuf:protobuf-java:3.25.5, with file protobuf-java-3.25.5.jar
+[INFO] Specializing dependency com.google.protobuf:protobuf-java:3.25.5, removing 170/735 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\protobuf-java-3.25.5.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=protobuf-java -Dversion=3.25.5
+[INFO] Specializing dependency: org.checkerframework:checker-qual:3.33.0, with file checker-qual-3.33.0.jar
+[INFO] Specializing dependency org.checkerframework:checker-qual:3.33.0, removing 335/358 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\checker-qual-3.33.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=checker-qual -Dversion=3.33.0
+[INFO] Specializing dependency: com.google.errorprone:error_prone_test_helpers:2.36.0, with file error_prone_test_helpers-2.36.0.jar
+[INFO] Skipping specializing dependency com.google.errorprone:error_prone_test_helpers:2.36.0 because all its types are used.
+[INFO] Specializing dependency: com.google.j2objc:j2objc-annotations:2.8, with file j2objc-annotations-2.8.jar
+[INFO] Specializing dependency com.google.j2objc:j2objc-annotations:2.8, removing 9/13 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\j2objc-annotations-2.8.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=j2objc-annotations -Dversion=2.8
+[INFO] Specializing dependency: io.github.java-diff-utils:java-diff-utils:4.12, with file java-diff-utils-4.12.jar
+[INFO] Specializing dependency io.github.java-diff-utils:java-diff-utils:4.12, removing 17/40 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\java-diff-utils-4.12.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=java-diff-utils -Dversion=4.12
+[INFO] Specializing dependency: org.pcollections:pcollections:4.0.1, with file pcollections-4.0.1.jar
+[INFO] Skipping specializing dependency org.pcollections:pcollections:4.0.1 because all its types are used.
+[INFO] Specializing dependency: cglib:cglib:3.2.8, with file cglib-3.2.8.jar
+[INFO] Specializing dependency cglib:cglib:3.2.8, removing 137/250 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\cglib-3.2.8.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=cglib -Dversion=3.2.8
+[INFO] Specializing dependency: org.hamcrest:hamcrest:2.2, with file hamcrest-2.2.jar
+[INFO] Specializing dependency org.hamcrest:hamcrest:2.2, removing 19/108 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\hamcrest-2.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=hamcrest -Dversion=2.2
+[INFO] Specializing dependency: net.bytebuddy:byte-buddy-agent:1.12.16, with file byte-buddy-agent-1.12.16.jar
+[INFO] Specializing dependency net.bytebuddy:byte-buddy-agent:1.12.16, removing 5/70 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\byte-buddy-agent-1.12.16.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=byte-buddy-agent -Dversion=1.12.16
+[INFO] Specializing dependency: com.github.ben-manes.caffeine:caffeine:3.0.5, with file caffeine-3.0.5.jar
+[INFO] Specializing dependency com.github.ben-manes.caffeine:caffeine:3.0.5, removing 530/682 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\caffeine-3.0.5.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=caffeine -Dversion=3.0.5
+[INFO] Specializing dependency: com.google.dagger:dagger-producers:2.50, with file dagger-producers-2.50.jar
+[INFO] Specializing dependency com.google.dagger:dagger-producers:2.50, removing 86/103 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\dagger-producers-2.50.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=dagger-producers -Dversion=2.50
+[INFO] Specializing dependency: com.google.auto.value:auto-value:1.9, with file auto-value-1.9.jar
+[INFO] Specializing dependency com.google.auto.value:auto-value:1.9, removing 94/1245 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\auto-value-1.9.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=auto-value -Dversion=1.9
+[INFO] Specializing dependency: com.github.kevinstern:software-and-algorithms:1.0, with file software-and-algorithms-1.0.jar
+[INFO] Specializing dependency com.github.kevinstern:software-and-algorithms:1.0, removing 29/30 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\software-and-algorithms-1.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=software-and-algorithms -Dversion=1.0
+[INFO] Specializing dependency: com.google.auto.service:auto-service-annotations:1.0.1, with file auto-service-annotations-1.0.1.jar
+[INFO] Skipping specializing dependency com.google.auto.service:auto-service-annotations:1.0.1 because all its types are used.
+[INFO] Specializing dependency: com.google.auto.factory:auto-factory:1.1.0, with file auto-factory-1.1.0.jar
+[INFO] Specializing dependency com.google.auto.factory:auto-factory:1.1.0, removing 49/51 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\auto-factory-1.1.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=auto-factory -Dversion=1.1.0
+[INFO] Specializing dependency: com.google.errorprone:error_prone_type_annotations:2.36.0, with file error_prone_type_annotations-2.36.0.jar
+[INFO] Skipping specializing dependency com.google.errorprone:error_prone_type_annotations:2.36.0 because all its types are used.
+[INFO] Specializing dependency: io.github.eisop:dataflow-errorprone:3.41.0-eisop1, with file dataflow-errorprone-3.41.0-eisop1.jar
+[INFO] Specializing dependency io.github.eisop:dataflow-errorprone:3.41.0-eisop1, removing 2303/2827 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\dataflow-errorprone-3.41.0-eisop1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=dataflow-errorprone -Dversion=3.41.0-eisop1
+[INFO] Specializing dependency: org.threeten:threeten-extra:1.7.2, with file threeten-extra-1.7.2.jar
+[INFO] Specializing dependency org.threeten:threeten-extra:1.7.2, removing 35/106 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\threeten-extra-1.7.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=threeten-extra -Dversion=1.7.2
+[INFO] Specializing dependency: net.bytebuddy:byte-buddy:1.12.16, with file byte-buddy-1.12.16.jar
+[INFO] Specializing dependency net.bytebuddy:byte-buddy:1.12.16, removing 249/2672 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\byte-buddy-1.12.16.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=byte-buddy -Dversion=1.12.16
+[INFO] Specializing dependency: com.google.auto.value:auto-value-annotations:1.9, with file auto-value-annotations-1.9.jar
+[INFO] Specializing dependency com.google.auto.value:auto-value-annotations:1.9, removing 2/9 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\auto-value-annotations-1.9.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=auto-value-annotations -Dversion=1.9
+[INFO] Specializing dependency: com.google.jimfs:jimfs:1.3.0, with file jimfs-1.3.0.jar
+[INFO] Specializing dependency com.google.jimfs:jimfs:1.3.0, removing 1/127 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\jimfs-1.3.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jimfs -Dversion=1.3.0
+[INFO] Specializing dependency: org.jmock:jmock:2.12.0, with file jmock-2.12.0.jar
+[INFO] Specializing dependency org.jmock:jmock:2.12.0, removing 98/104 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\jmock-2.12.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jmock -Dversion=2.12.0
+[INFO] Specializing dependency: org.gwtproject:gwt-user:2.10.0, with file gwt-user-2.10.0.jar
+[INFO] Specializing dependency org.gwtproject:gwt-user:2.10.0, removing 5417/5705 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\gwt-user-2.10.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=gwt-user -Dversion=2.10.0
+[INFO] Specializing dependency: com.google.auto:auto-common:1.2.2, with file auto-common-1.2.2.jar
+[INFO] Specializing dependency com.google.auto:auto-common:1.2.2, removing 17/74 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\auto-common-1.2.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=auto-common -Dversion=1.2.2
+[INFO] Specializing dependency: org.ow2.asm:asm:9.6, with file asm-9.6.jar
+[INFO] Specializing dependency org.ow2.asm:asm:9.6, removing 3/39 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\asm-9.6.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=asm -Dversion=9.6
+[INFO] Specializing dependency: com.google.common.html.types:types:1.0.8, with file types-1.0.8.jar
+[INFO] Specializing dependency com.google.common.html.types:types:1.0.8, removing 27/53 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\types-1.0.8.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=types -Dversion=1.0.8
+[INFO] Specializing dependency: com.google.gwt.inject:gin:2.1.2, with file gin-2.1.2.jar
+[INFO] Specializing dependency com.google.gwt.inject:gin:2.1.2, removing 174/181 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\gin-2.1.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=gin -Dversion=2.1.2
+[INFO] Specializing dependency: com.google.errorprone:error_prone_annotation:2.36.0, with file error_prone_annotation-2.36.0.jar
+[INFO] Skipping specializing dependency com.google.errorprone:error_prone_annotation:2.36.0 because all its types are used.
+[INFO] Specializing dependency: com.google.guava:guava:32.1.1-jre, with file guava-32.1.1-jre.jar
+[INFO] Specializing dependency com.google.guava:guava:32.1.1-jre, removing 376/2020 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\guava-32.1.1-jre.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=guava -Dversion=32.1.1-jre
+[INFO] Specializing dependency: com.google.errorprone:error_prone_annotations:2.36.0, with file error_prone_annotations-2.36.0.jar
+[INFO] Specializing dependency com.google.errorprone:error_prone_annotations:2.36.0, removing 3/28 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\error_prone_annotations-2.36.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=error_prone_annotations -Dversion=2.36.0
+[INFO] Specializing dependency: io.netty:netty-all:5.0.0.Alpha2, with file netty-all-5.0.0.Alpha2.jar
+[INFO] Specializing dependency io.netty:netty-all:5.0.0.Alpha2, removing 1714/1717 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\netty-all-5.0.0.Alpha2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=netty-all -Dversion=5.0.0.Alpha2
+[INFO] Specializing dependency: org.easymock:easymock:5.2.0, with file easymock-5.2.0.jar
+[INFO] Specializing dependency org.easymock:easymock:5.2.0, removing 416/3018 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\easymock-5.2.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=easymock -Dversion=5.2.0
+[INFO] Specializing dependency: com.google.truth:truth:1.4.0, with file truth-1.4.0.jar
+[INFO] Specializing dependency com.google.truth:truth:1.4.0, removing 32/164 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\truth-1.4.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=truth -Dversion=1.4.0
+[INFO] Specializing dependency: com.google.truth.extensions:truth-proto-extension:1.4.0, with file truth-proto-extension-1.4.0.jar
+[INFO] Specializing dependency com.google.truth.extensions:truth-proto-extension:1.4.0, removing 2/112 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\truth-proto-extension-1.4.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=truth-proto-extension -Dversion=1.4.0
+[INFO] Specializing dependency: com.google.flogger:flogger:0.7.4, with file flogger-0.7.4.jar
+[INFO] Specializing dependency com.google.flogger:flogger:0.7.4, removing 36/148 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\flogger-0.7.4.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=flogger -Dversion=0.7.4
+[INFO] Specializing dependency: javax.annotation:jsr250-api:1.0, with file jsr250-api-1.0.jar
+[INFO] Specializing dependency javax.annotation:jsr250-api:1.0, removing 8/11 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\jsr250-api-1.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jsr250-api -Dversion=1.0
+[INFO] Specializing dependency: joda-time:joda-time:2.12.5, with file joda-time-2.12.5.jar
+[INFO] Specializing dependency joda-time:joda-time:2.12.5, removing 26/247 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\joda-time-2.12.5.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=joda-time -Dversion=2.12.5
+[INFO] Specializing dependency: com.google.testing.compile:compile-testing:0.21.0, with file compile-testing-0.21.0.jar
+[INFO] Specializing dependency com.google.testing.compile:compile-testing:0.21.0, removing 6/89 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\compile-testing-0.21.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=compile-testing -Dversion=0.21.0
+[INFO] Specializing dependency: javax.inject:javax.inject:1, with file javax.inject-1.jar
+[INFO] Skipping specializing dependency javax.inject:javax.inject:1 because all its types are used.
+[INFO] Specializing dependency: org.checkerframework:checker-compat-qual:2.5.5, with file checker-compat-qual-2.5.5.jar
+[INFO] Specializing dependency org.checkerframework:checker-compat-qual:2.5.5, removing 8/10 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\checker-compat-qual-2.5.5.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=checker-compat-qual -Dversion=2.5.5
+[INFO] Specializing dependency: com.google.testparameterinjector:test-parameter-injector:1.16, with file test-parameter-injector-1.16.jar
+[INFO] Specializing dependency com.google.testparameterinjector:test-parameter-injector:1.16, removing 1/64 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\test-parameter-injector-1.16.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=test-parameter-injector -Dversion=1.16
+[INFO] Specializing dependency: com.google.inject.extensions:guice-assistedinject:5.1.0, with file guice-assistedinject-5.1.0.jar
+[INFO] Specializing dependency com.google.inject.extensions:guice-assistedinject:5.1.0, removing 24/26 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\guice-assistedinject-5.1.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=guice-assistedinject -Dversion=5.1.0
+[INFO] Specializing dependency: com.google.code.findbugs:jsr305:3.0.2, with file jsr305-3.0.2.jar
+[INFO] Specializing dependency com.google.code.findbugs:jsr305:3.0.2, removing 22/35 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\jsr305-3.0.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jsr305 -Dversion=3.0.2
+[INFO] Specializing dependency: junit:junit:4.13.2, with file junit-4.13.2.jar
+[INFO] Specializing dependency junit:junit:4.13.2, removing 104/350 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\junit-4.13.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=junit -Dversion=4.13.2
+[INFO] Specializing dependency: org.assertj:assertj-core:3.25.1, with file assertj-core-3.25.1.jar
+[INFO] Specializing dependency org.assertj:assertj-core:3.25.1, removing 58/830 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\assertj-core-3.25.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=assertj-core -Dversion=3.25.1
+[INFO] Specializing dependency: com.google.code.gson:gson:2.8.9, with file gson-2.8.9.jar
+[INFO] Specializing dependency com.google.code.gson:gson:2.8.9, removing 195/196 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\gson-2.8.9.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=gson -Dversion=2.8.9
+[INFO] Specializing dependency: com.google.jsinterop:jsinterop-annotations:2.0.0, with file jsinterop-annotations-2.0.0.jar
+[INFO] Specializing dependency com.google.jsinterop:jsinterop-annotations:2.0.0, removing 9/13 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\jsinterop-annotations-2.0.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jsinterop-annotations -Dversion=2.0.0
+[INFO] Specializing dependency: com.google.googlejavaformat:google-java-format:1.19.1, with file google-java-format-1.19.1.jar
+[INFO] Specializing dependency com.google.googlejavaformat:google-java-format:1.19.1, removing 18/136 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\google-java-format-1.19.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=google-java-format -Dversion=1.19.1
+[INFO] Specializing dependency: com.google.inject:guice:5.1.0, with file guice-5.1.0.jar
+[INFO] Specializing dependency com.google.inject:guice:5.1.0, removing 12/494 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\guice-5.1.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=guice -Dversion=5.1.0
+[INFO] Specializing dependency: com.google.guava:guava-testlib:32.1.1-jre, with file guava-testlib-32.1.1-jre.jar
+[INFO] Specializing dependency com.google.guava:guava-testlib:32.1.1-jre, removing 591/630 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\guava-testlib-32.1.1-jre.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=guava-testlib -Dversion=32.1.1-jre
+[INFO] Specializing dependency: com.google.inject.extensions:guice-throwingproviders:5.1.0, with file guice-throwingproviders-5.1.0.jar
+[INFO] Specializing dependency com.google.inject.extensions:guice-throwingproviders:5.1.0, removing 24/26 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\guice-throwingproviders-5.1.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=guice-throwingproviders -Dversion=5.1.0
+[INFO] Specializing dependency: org.objenesis:objenesis:3.3, with file objenesis-3.3.jar
+[INFO] Specializing dependency org.objenesis:objenesis:3.3, removing 8/43 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\objenesis-3.3.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=objenesis -Dversion=3.3
+[INFO] Specializing dependency: com.google.truth.extensions:truth-liteproto-extension:1.4.0, with file truth-liteproto-extension-1.4.0.jar
+[INFO] Specializing dependency com.google.truth.extensions:truth-liteproto-extension:1.4.0, removing 1/4 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\truth-liteproto-extension-1.4.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=truth-liteproto-extension -Dversion=1.4.0
+[INFO] Specializing dependency: org.mockito:mockito-core:4.9.0, with file mockito-core-4.9.0.jar
+[INFO] Specializing dependency org.mockito:mockito-core:4.9.0, removing 50/580 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\mockito-core-4.9.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=mockito-core -Dversion=4.9.0
+[INFO] Specializing dependency: pl.pragmatists:JUnitParams:1.1.1, with file JUnitParams-1.1.1.jar
+[INFO] Specializing dependency pl.pragmatists:JUnitParams:1.1.1, removing 8/55 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\JUnitParams-1.1.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=JUnitParams -Dversion=1.1.1
+[INFO] Specializing dependency: com.ibm.icu:icu4j:74.2, with file icu4j-74.2.jar
+[INFO] Specializing dependency com.ibm.icu:icu4j:74.2, removing 530/1662 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\icu4j-74.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=icu4j -Dversion=74.2
+[INFO] Specializing dependency: javax.validation:validation-api:1.0.0.GA, with file validation-api-1.0.0.GA.jar
+[INFO] Specializing dependency javax.validation:validation-api:1.0.0.GA, removing 64/76 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\validation-api-1.0.0.GA.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=validation-api -Dversion=1.0.0.GA
+[INFO] Specializing dependency: com.google.protobuf:protobuf-java-util:3.25.5, with file protobuf-java-util-3.25.5.jar
+[INFO] Specializing dependency com.google.protobuf:protobuf-java-util:3.25.5, removing 39/44 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\protobuf-java-util-3.25.5.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=protobuf-java-util -Dversion=3.25.5
+[INFO] Specializing dependency: com.google.code.findbugs:annotations:3.0.1, with file annotations-3.0.1.jar
+[INFO] Specializing dependency com.google.code.findbugs:annotations:3.0.1, removing 44/60 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\annotations-3.0.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=annotations -Dversion=3.0.1
+[INFO] Specializing dependency: com.google.dagger:dagger:2.50, with file dagger-2.50.jar
+[INFO] Specializing dependency com.google.dagger:dagger:2.50, removing 42/60 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\libs-specialized\dagger-2.50.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=dagger -Dversion=2.50
+[INFO] Number of specialized dependencies: 59
+[INFO] -------------------------------------------------------
+[INFO] DEPTRIM IS CREATING SPECIALIZED POMS
+[INFO] -------------------------------------------------------
+[INFO] Starting debloating POM file...
+[INFO] Adding 23 used transitive dependencies as direct dependencies.
+[INFO] Removing 6 unused direct dependencies.
+[INFO] Excluding 9 unused transitive dependencies one-by-one.
+[INFO] Adding com.google.errorprone:error_prone_check_api:2.36.0:compile
+[INFO] Adding org.jspecify:jspecify:1.0.0:compile
+[INFO] Adding org.yaml:snakeyaml:2.0:test
+[INFO] Adding aopalliance:aopalliance:1.0:test
+[INFO] Adding com.google.guava:failureaccess:1.0.1:compile
+[INFO] Adding com.google.inject.extensions:guice-testlib:5.1.0:test
+[INFO] Adding com.google.protobuf:protobuf-java:3.25.5:compile
+[INFO] Adding org.checkerframework:checker-qual:3.33.0:compile
+[INFO] Adding com.google.errorprone:error_prone_test_helpers:2.36.0:test
+[INFO] Adding com.google.j2objc:j2objc-annotations:2.8:compile
+[INFO] Adding io.github.java-diff-utils:java-diff-utils:4.12:compile
+[INFO] Adding org.pcollections:pcollections:4.0.1:compile
+[INFO] Adding cglib:cglib:3.2.8:test
+[INFO] Adding org.hamcrest:hamcrest:2.2:test
+[INFO] Adding net.bytebuddy:byte-buddy-agent:1.12.16:test
+[INFO] Adding com.github.ben-manes.caffeine:caffeine:3.0.5:compile
+[INFO] Adding com.google.dagger:dagger-producers:2.50:test
+[INFO] Adding com.google.auto.value:auto-value:1.9:test
+[INFO] Adding com.google.auto.service:auto-service-annotations:1.0.1:compile
+[INFO] Adding com.github.kevinstern:software-and-algorithms:1.0:compile
+[INFO] Adding com.google.auto.factory:auto-factory:1.1.0:test
+[INFO] Excluding com.squareup:javapoet from com.google.auto.factory:auto-factory:1.1.0
+[INFO] Adding org.threeten:threeten-extra:1.7.2:test
+[INFO] Adding io.github.eisop:dataflow-errorprone:3.41.0-eisop1:compile
+[INFO] Adding com.google.errorprone:error_prone_type_annotations:2.36.0:compile
+[INFO] Adding net.bytebuddy:byte-buddy:1.12.16:test
+[INFO] Adding com.google.auto.value:auto-value-annotations:1.9:compile
+[INFO] Adding org.jmock:jmock:2.12.0:test
+[INFO] Excluding org.jmock:jmock-testjar from org.jmock:jmock:2.12.0
+[INFO] Excluding org.apache-extras.beanshell:bsh from org.jmock:jmock:2.12.0
+[INFO] Adding com.google.jimfs:jimfs:1.3.0:test
+[INFO] Adding org.gwtproject:gwt-user:2.10.0:test
+[INFO] Excluding org.w3c.css:sac from org.gwtproject:gwt-user:2.10.0
+[INFO] Excluding javax.servlet:javax.servlet-api from org.gwtproject:gwt-user:2.10.0
+[INFO] Adding com.google.auto:auto-common:1.2.2:compile
+[INFO] Adding org.ow2.asm:asm:9.6:test
+[INFO] Adding com.google.common.html.types:types:1.0.8:test
+[INFO] Adding com.google.gwt.inject:gin:2.1.2:test
+[INFO] Adding com.google.guava:guava:32.1.1-jre:compile
+[INFO] Excluding com.google.guava:listenablefuture from com.google.guava:guava:32.1.1-jre
+[INFO] Adding com.google.errorprone:error_prone_annotation:2.36.0:compile
+[INFO] Adding com.google.errorprone:error_prone_annotations:2.36.0:compile
+[INFO] Adding org.easymock:easymock:5.2.0:test
+[INFO] Adding io.netty:netty-all:5.0.0.Alpha2:test
+[INFO] Adding com.google.truth.extensions:truth-proto-extension:1.4.0:test
+[INFO] Adding com.google.truth:truth:1.4.0:test
+[INFO] Adding com.google.flogger:flogger:0.7.4:test
+[INFO] Adding javax.annotation:jsr250-api:1.0:test
+[INFO] Adding joda-time:joda-time:2.12.5:test
+[INFO] Adding com.google.testing.compile:compile-testing:0.21.0:test
+[INFO] Adding javax.inject:javax.inject:1:compile
+[INFO] Adding org.checkerframework:checker-compat-qual:2.5.5:test
+[INFO] Adding com.google.testparameterinjector:test-parameter-injector:1.16:test
+[INFO] Adding com.google.inject.extensions:guice-assistedinject:5.1.0:test
+[INFO] Adding com.google.code.findbugs:jsr305:3.0.2:test
+[INFO] Adding junit:junit:4.13.2:test
+[INFO] Adding org.assertj:assertj-core:3.25.1:test
+[INFO] Adding com.google.code.gson:gson:2.8.9:test
+[INFO] Adding com.google.jsinterop:jsinterop-annotations:2.0.0:test
+[INFO] Adding com.google.googlejavaformat:google-java-format:1.19.1:compile
+[INFO] Adding com.google.inject:guice:5.1.0:test
+[INFO] Adding com.google.guava:guava-testlib:32.1.1-jre:test
+[INFO] Adding org.objenesis:objenesis:3.3:test
+[INFO] Adding com.google.inject.extensions:guice-throwingproviders:5.1.0:test
+[INFO] Adding com.google.truth.extensions:truth-liteproto-extension:1.4.0:test
+[INFO] Adding org.mockito:mockito-core:4.9.0:test
+[INFO] Adding pl.pragmatists:JUnitParams:1.1.1:test
+[INFO] Adding com.ibm.icu:icu4j:74.2:test
+[INFO] Adding javax.validation:validation-api:1.0.0.GA:test
+[INFO] Adding com.google.protobuf:protobuf-java-util:3.25.5:test
+[INFO] Adding com.google.code.findbugs:annotations:3.0.1:test
+[INFO] Excluding net.jcip:jcip-annotations from com.google.code.findbugs:annotations:3.0.1
+[INFO] Adding com.google.dagger:dagger:2.50:test
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: D:\MasterThesis\successfulRealWorldPrograms\error-prone\error-prone-master\core\pom-debloated.xml
+[INFO] Created pom-specialized.xml
+[INFO] DepTrim execution done in 6min 36s
+
+ProGuard:
+No output

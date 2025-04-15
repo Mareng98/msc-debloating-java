@@ -1,0 +1,1806 @@
+Jlink:
+identified modules: java.base,java.desktop,java.xml,java.logging,java.sql,jdk.management
+
+DepClean:
+-------------------------------------------------------
+ D E P C L E A N   A N A L Y S I S   R E S U L T S
+-------------------------------------------------------
+USED DIRECT DEPENDENCIES [15]:
+        org.apache.solr:solr-core:8.8.2:test (6 MB)
+        org.apache.solr:solr-solrj:8.8.2:compile (2 MB)
+        mysql:mysql-connector-java:8.0.16:compile (2 MB)
+        com.fasterxml.jackson.core:jackson-databind:2.10.0.pr1:compile (1 MB)
+        org.apache.httpcomponents:httpclient:4.5.13:compile (762 KB)
+        org.icij.extract:extract-lib:7.4.0:compile (425 KB)
+        junit:junit:4.13.1:test (373 KB)
+        com.fasterxml.jackson.core:jackson-core:2.10.0.pr1:compile (336 KB)
+        org.apache.httpcomponents:httpcore:4.4.6:compile (316 KB)
+        ch.qos.logback:logback-classic:1.2.0:test (303 KB)
+        com.zaxxer:HikariCP:2.6.3:compile (131 KB)
+        com.fasterxml.jackson.core:jackson-annotations:2.10.0.pr1:compile (66 KB)
+        commons-cli:commons-cli:1.3.1:compile (51 KB)
+        org.slf4j:slf4j-api:1.7.27:compile (40 KB)
+        org.slf4j:slf4j-simple:1.7.27:compile (14 KB)
+USED TRANSITIVE DEPENDENCIES [141]:
+        org.bouncycastle:bcprov-jdk15on:1.70:compile (5 MB)
+        org.apache.hadoop:hadoop-hdfs-client:3.2.0:test (4 MB)
+        org.apache.calcite:calcite-core:1.18.0:test (4 MB)
+        net.bytebuddy:byte-buddy:1.14.0:compile (3 MB)
+        org.apache.hadoop:hadoop-common:3.2.0:test (3 MB)
+        org.apache.lucene:lucene-core:8.8.2:test (3 MB)
+        org.apache.poi:poi:5.2.2:compile (2 MB)
+        org.apache.pdfbox:pdfbox:2.0.26:compile (2 MB)
+        com.google.guava:guava:25.1-jre:test (2 MB)
+        io.reactivex.rxjava3:rxjava:3.1.6:compile (2 MB)
+        org.apache.curator:curator-client:2.13.0:test (2 MB)
+        org.redisson:redisson:3.20.1:compile (2 MB)
+        org.apache.commons:commons-math3:3.6.1:compile (2 MB)
+        org.xerial.snappy:snappy-java:1.1.7.6:compile (1 MB)
+        io.projectreactor:reactor-core:3.5.3:compile (1 MB)
+        org.apache.logging.log4j:log4j-core:2.13.2:test (1 MB)
+        org.apache.lucene:lucene-analyzers-common:8.8.2:test (1 MB)
+        org.apache.pdfbox:fontbox:2.0.26:compile (1 MB)
+        org.apache.htrace:htrace-core4:4.1.0-incubating:test (1 MB)
+        org.apache.tika:tika-parsers-standard-package:2.4.1:compile (1 MB)
+        xerces:xercesImpl:2.12.2:compile (1 MB)
+        com.google.protobuf:protobuf-java:3.6.1:compile (1 MB)
+        org.apache.calcite.avatica:avatica-core:1.13.0:test (1 MB)
+        org.apache.zookeeper:zookeeper:3.6.2:compile (1 MB)
+        com.carrotsearch:hppc:0.8.1:test (1 MB)
+        org.glassfish.jaxb:jaxb-runtime:2.3.6:compile (995 KB)
+        org.apache.commons:commons-compress:1.21:compile (994 KB)
+        org.bouncycastle:bcpkix-jdk15on:1.70:compile (941 KB)
+        com.github.ben-manes.caffeine:caffeine:2.8.4:test (860 KB)
+        org.codehaus.janino:janino:3.0.9:test (782 KB)
+        org.rrd4j:rrd4j:3.5:test (751 KB)
+        org.apache.commons:commons-collections4:4.4:compile (734 KB)
+        org.eclipse.jetty:jetty-server:9.4.34.v20201102:test (690 KB)
+        org.apache.tika:tika-core:2.4.1:compile (680 KB)
+        io.netty:netty-common:4.1.50.Final:compile (611 KB)
+        org.apache.commons:commons-configuration2:2.1.1:test (602 KB)
+        com.github.jai-imageio:jai-imageio-core:1.3.1:compile (587 KB)
+        commons-collections:commons-collections:3.2.2:test (574 KB)
+        org.eclipse.jetty:jetty-util:9.4.34.v20201102:compile (551 KB)
+        org.apache.commons:commons-lang3:3.10:compile (511 KB)
+        org.codehaus.woodstox:woodstox-core-asl:4.4.1:compile (474 KB)
+        org.bouncycastle:bcutil-jdk15on:1.70:compile (471 KB)
+        io.netty:netty-transport:4.1.50.Final:compile (462 KB)
+        ch.qos.logback:logback-core:1.2.0:test (461 KB)
+        com.github.jai-imageio:jai-imageio-jpeg2000:1.3.0:compile (449 KB)
+        org.apache.calcite:calcite-linq4j:1.18.0:test (447 KB)
+        io.netty:netty-handler:4.1.50.Final:compile (444 KB)
+        org.apache.lucene:lucene-queryparser:8.8.2:test (373 KB)
+        org.apache.lucene:lucene-queries:8.8.2:test (372 KB)
+        com.esotericsoftware:kryo:5.4.0:compile (362 KB)
+        org.jodd:jodd-core:5.1.6:compile (339 KB)
+        commons-codec:commons-codec:1.13:compile (336 KB)
+        org.yaml:snakeyaml:2.0:compile (326 KB)
+        org.jdom:jdom2:2.0.6.1:compile (320 KB)
+        org.eclipse.jetty:jetty-client:9.4.34.v20201102:compile (313 KB)
+        io.netty:netty-codec:4.1.50.Final:compile (312 KB)
+        org.apache.lucene:lucene-spatial3d:8.8.2:test (302 KB)
+        org.apache.logging.log4j:log4j-api:2.13.2:compile (285 KB)
+        io.netty:netty-buffer:4.1.50.Final:compile (283 KB)
+        commons-io:commons-io:2.8.0:compile (278 KB)
+        commons-lang:commons-lang:2.6:compile (277 KB)
+        org.apache.zookeeper:zookeeper-jute:3.6.2:compile (244 KB)
+        org.apache.lucene:lucene-suggest:8.8.2:test (244 KB)
+        org.apache.lucene:lucene-spatial-extras:8.8.2:test (235 KB)
+        org.apache.kerby:kerb-core:1.0.1:test (221 KB)
+        org.apache.lucene:lucene-sandbox:8.8.2:test (218 KB)
+        com.jayway.jsonpath:json-path:2.4.0:test (217 KB)
+        xml-apis:xml-apis:1.4.01:compile (215 KB)
+        org.eclipse.jetty:jetty-http:9.4.34.v20201102:compile (209 KB)
+        jline:jline:2.12:compile (208 KB)
+        org.apache.lucene:lucene-highlighter:8.8.2:test (204 KB)
+        org.locationtech.spatial4j:spatial4j:0.7:test (200 KB)
+        org.eclipse.jetty.http2:http2-common:9.4.34.v20201102:compile (197 KB)
+        org.apache.logging.log4j:log4j-1.2-api:2.13.2:test (196 KB)
+        io.netty:netty-resolver-dns:4.1.90.Final:compile (161 KB)
+        org.eclipse.jetty:jetty-io:9.4.34.v20201102:compile (160 KB)
+        org.codehaus.woodstox:stax2-api:3.1.4:compile (158 KB)
+        org.apache.lucene:lucene-join:8.8.2:test (148 KB)
+        org.apache.hadoop:hadoop-auth:3.2.0:test (135 KB)
+        org.eclipse.jetty:jetty-servlet:9.4.34.v20201102:test (134 KB)
+        com.google.re2j:re2j:1.2:test (123 KB)
+        javax.xml.bind:jaxb-api:2.3.0:compile (122 KB)
+        org.jodd:jodd-bean:5.1.6:compile (122 KB)
+        io.netty:netty-transport-native-epoll:4.1.50.Final:compile (121 KB)
+        org.ow2.asm:asm:8.0.1:compile (118 KB)
+        org.apache.tika:tika-parser-pdf-module:2.4.1:compile (118 KB)
+        io.sgr:s2-geometry-library-java:1.0.0:test (118 KB)
+        org.eclipse.jetty:jetty-security:9.4.34.v20201102:test (115 KB)
+        jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:compile (112 KB)
+        io.dropwizard.metrics:metrics-core:4.1.5:test (103 KB)
+        org.apache.kerby:kerby-asn1:1.0.1:test (99 KB)
+        org.apache.lucene:lucene-misc:8.8.2:test (97 KB)
+        org.apache.lucene:lucene-grouping:8.8.2:test (96 KB)
+        javax.servlet:javax.servlet-api:3.1.0:test (93 KB)
+        com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.11.2:test (88 KB)
+        com.lmax:disruptor:3.4.2:test (81 KB)
+        org.apache.pdfbox:pdfbox-tools:2.0.26:compile (80 KB)
+        com.esotericsoftware:reflectasm:1.11.9:compile (70 KB)
+        org.glassfish.jaxb:txw2:2.3.6:compile (70 KB)
+        org.ow2.asm:asm-commons:8.0.1:test (69 KB)
+        com.sun.activation:jakarta.activation:1.2.2:runtime (66 KB)
+        io.netty:netty-codec-dns:4.1.90.Final:compile (65 KB)
+        commons-logging:commons-logging:1.2:compile (60 KB)
+        com.tdunning:t-digest:3.1:test (59 KB)
+        org.eclipse.jetty.http2:http2-server:9.4.34.v20201102:test (58 KB)
+        org.apache.hadoop:hadoop-annotations:3.2.0:test (58 KB)
+        org.apache.commons:commons-exec:1.3:compile (53 KB)
+        com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.2:compile (53 KB)
+        org.apache.tika:tika-parser-html-module:2.4.1:compile (51 KB)
+        org.eclipse.jetty.http2:http2-hpack:9.4.34.v20201102:compile (50 KB)
+        org.apache.lucene:lucene-memory:8.8.2:test (50 KB)
+        org.apache.pdfbox:jempbox:1.8.16:compile (50 KB)
+        org.objenesis:objenesis:3.3:compile (48 KB)
+        org.hamcrest:hamcrest-core:1.3:test (43 KB)
+        org.eclipse.jetty:jetty-rewrite:9.4.34.v20201102:test (42 KB)
+        org.eclipse.jetty.http2:http2-http-client-transport:9.4.34.v20201102:compile (41 KB)
+        org.apache.httpcomponents:httpmime:4.5.12:compile (40 KB)
+        org.apache.commons:commons-csv:1.4:compile (39 KB)
+        org.apache.tika:tika-parser-ocr-module:2.4.1:compile (38 KB)
+        org.codehaus.janino:commons-compiler:3.0.9:test (36 KB)
+        org.apache.kerby:kerb-util:1.0.1:test (35 KB)
+        io.netty:netty-resolver:4.1.50.Final:compile (32 KB)
+        io.netty:netty-transport-native-unix-common:4.1.50.Final:compile (32 KB)
+        org.apache.logging.log4j:log4j-web:2.13.2:test (31 KB)
+        com.sun.istack:istack-commons-runtime:3.0.12:compile (29 KB)
+        org.eclipse.jetty.http2:http2-client:9.4.34.v20201102:compile (28 KB)
+        org.eclipse.jetty:jetty-continuation:9.4.34.v20201102:test (24 KB)
+        io.dropwizard.metrics:metrics-jvm:4.1.5:test (23 KB)
+        org.apache.logging.log4j:log4j-slf4j-impl:2.13.2:test (23 KB)
+        io.dropwizard.metrics:metrics-jmx:4.1.5:test (20 KB)
+        io.opentracing:opentracing-api:0.33.0:test (17 KB)
+        org.eclipse.jetty:jetty-alpn-server:9.4.34.v20201102:test (17 KB)
+        org.apache.tika:tika-parser-digest-commons:2.4.1:compile (16 KB)
+        org.eclipse.jetty:jetty-alpn-client:9.4.34.v20201102:compile (16 KB)
+        org.slf4j:jcl-over-slf4j:1.7.24:compile (16 KB)
+        org.apache.tika:tika-parser-xmp-commons:2.4.1:compile (15 KB)
+        org.reactivestreams:reactive-streams:1.0.4:compile (11 KB)
+        io.opentracing:opentracing-noop:0.33.0:test (10 KB)
+        me.tongfei:progressbar:0.5.5:compile (8 KB)
+        io.opentracing:opentracing-util:0.33.0:test (7 KB)
+        com.esotericsoftware:minlog:1.3.1:compile (5 KB)
+USED INHERITED DIRECT DEPENDENCIES [0]:
+USED INHERITED TRANSITIVE DEPENDENCIES [0]:
+POTENTIALLY UNUSED DIRECT DEPENDENCIES [1]:
+        com.github.rjohnsondev:java-libpst:5fd2c75:compile (106 KB)
+POTENTIALLY UNUSED TRANSITIVE DEPENDENCIES [79]:
+        org.apache.lucene:lucene-analyzers-nori:8.8.2:test (7 MB)
+        org.xerial:sqlite-jdbc:3.19.3:compile (5 MB)
+        org.apache.poi:poi-ooxml-lite:5.2.2:compile (5 MB)
+        org.apache.lucene:lucene-analyzers-kuromoji:8.8.2:test (4 MB)
+        org.apache.xmlbeans:xmlbeans:5.0.3:compile (2 MB)
+        org.apache.poi:poi-ooxml:5.2.2:compile (1 MB)
+        org.apache.poi:poi-scratchpad:5.2.2:compile (1 MB)
+        com.healthmarketscience.jackcess:jackcess:4.0.1:compile (1 MB)
+        com.drewnoakes:metadata-extractor:2.18.0:compile (715 KB)
+        org.apache.tika:tika-parser-microsoft-module:2.4.1:compile (651 KB)
+        org.apache.lucene:lucene-codecs:8.8.2:test (508 KB)
+        org.apache.james:apache-mime4j-dom:0.8.4:compile (335 KB)
+        org.antlr:antlr4-runtime:4.5.1-1:test (294 KB)
+        org.apache.curator:curator-recipes:2.13.0:test (277 KB)
+        org.apache.pdfbox:pdfbox-debugger:2.0.26:compile (260 KB)
+        org.bitbucket.b_c:jose4j:0.6.5:test (254 KB)
+        com.rometools:rome:1.18.0:compile (249 KB)
+        org.codelibs:jhighlight:1.1.0:compile (232 KB)
+        org.jboss.marshalling:jboss-marshalling:2.0.11.Final:compile (218 KB)
+        com.googlecode.juniversalchardet:juniversalchardet:1.0.3:compile (215 KB)
+        org.netpreserve:jwarc:0.18.1:compile (207 KB)
+        org.apache.kerby:kerby-pkix:1.0.1:test (199 KB)
+        org.apache.curator:curator-framework:2.13.0:test (197 KB)
+        org.apache.commons:commons-text:1.6:test (192 KB)
+        com.github.junrar:junrar:7.5.2:compile (156 KB)
+        org.apache.lucene:lucene-backward-codecs:8.8.2:test (154 KB)
+        org.apache.tika:tika-parser-miscoffice-module:2.4.1:compile (145 KB)
+        org.apache.pdfbox:jbig2-imageio:3.0.4:compile (140 KB)
+        com.adobe.xmp:xmpcore:6.1.11:compile (139 KB)
+        org.eclipse.jetty:jetty-webapp:9.4.34.v20201102:test (137 KB)
+        com.levigo.jbig2:levigo-jbig2-imageio:2.0:compile (136 KB)
+        com.epam:parso:2.0.14:compile (135 KB)
+        org.apache.pdfbox:xmpbox:2.0.26:compile (129 KB)
+        org.apache.tika:tika-parser-text-module:2.4.1:compile (119 KB)
+        org.gagravarr:vorbis-java-core:0.8:compile (118 KB)
+        org.tukaani:xz:1.9:compile (113 KB)
+        org.bouncycastle:bcmail-jdk15on:1.70:compile (110 KB)
+        com.github.virtuald:curvesapi:1.07:compile (109 KB)
+        org.apache.james:apache-mime4j-core:0.8.4:compile (105 KB)
+        org.eclipse.jetty:jetty-servlets:9.4.34.v20201102:test (104 KB)
+        org.brotli:dec:0.1.2:compile (95 KB)
+        de.l3s.boilerpipe:boilerpipe:1.1.0:compile (89 KB)
+        org.ccil.cowan.tagsoup:tagsoup:1.2.1:compile (88 KB)
+        org.jboss.marshalling:jboss-marshalling-river:2.0.11.Final:compile (86 KB)
+        com.pff:java-libpst:0.8.1:compile (83 KB)
+        com.healthmarketscience.jackcess:jackcess-encrypt:4.0.1:compile (81 KB)
+        org.apache.lucene:lucene-expressions:8.8.2:test (75 KB)
+        com.googlecode.plist:dd-plist:1.23:compile (74 KB)
+        org.tallison:jmatio:1.5:compile (73 KB)
+        org.apache.lucene:lucene-classification:8.8.2:test (66 KB)
+        org.eclipse.jetty:jetty-xml:9.4.34.v20201102:test (66 KB)
+        org.apache.tika:tika-parser-audiovideo-module:2.4.1:compile (65 KB)
+        org.eclipse.jetty:jetty-deploy:9.4.34.v20201102:test (61 KB)
+        org.apache.tika:tika-parser-apple-module:2.4.1:compile (58 KB)
+        org.apache.tika:tika-parser-image-module:2.4.1:compile (51 KB)
+        javax.cache:cache-api:1.1.1:compile (50 KB)
+        com.github.zafarkhaja:java-semver:0.9.0:test (45 KB)
+        org.apache.tika:tika-parser-zip-commons:2.4.1:compile (43 KB)
+        org.eclipse.jetty:jetty-jmx:9.4.34.v20201102:test (41 KB)
+        org.apache.tika:tika-parser-xml-module:2.4.1:compile (35 KB)
+        io.dropwizard.metrics:metrics-jetty9:4.1.5:test (29 KB)
+        org.apache.tika:tika-parser-code-module:2.4.1:compile (28 KB)
+        org.apache.tika:tika-parser-mail-module:2.4.1:compile (27 KB)
+        org.apache.lucene:lucene-analyzers-phonetic:8.8.2:test (25 KB)
+        org.apache.tika:tika-parser-pkg-module:2.4.1:compile (25 KB)
+        org.gagravarr:vorbis-java-tika:0.8:compile (24 KB)
+        com.zaxxer:SparseBitSet:1.2:compile (23 KB)
+        io.dropwizard.metrics:metrics-graphite:4.1.5:test (21 KB)
+        org.apache.tika:tika-parser-cad-module:2.4.1:compile (20 KB)
+        org.apache.tika:tika-parser-news-module:2.4.1:compile (19 KB)
+        org.apache.tika:tika-parser-crypto-module:2.4.1:compile (19 KB)
+        org.apache.tika:tika-parser-webarchive-module:2.4.1:compile (18 KB)
+        net.hydromatic:eigenbase-properties:1.1.5:test (18 KB)
+        org.eclipse.jetty:jetty-alpn-java-server:9.4.34.v20201102:test (16 KB)
+        org.eclipse.jetty:jetty-alpn-java-client:9.4.34.v20201102:compile (16 KB)
+        org.apache.tika:tika-parser-html-commons:2.4.1:compile (14 KB)
+        org.apache.tika:tika-parser-font-module:2.4.1:compile (13 KB)
+        org.apache.tika:tika-parser-mail-commons:2.4.1:compile (9 KB)
+        com.rometools:rome-utils:1.18.0:compile (7 KB)
+POTENTIALLY UNUSED INHERITED DIRECT DEPENDENCIES [0]:
+POTENTIALLY UNUSED INHERITED TRANSITIVE DEPENDENCIES [0]:
+[INFO] Starting debloating POM file...
+[INFO] Adding 141 used transitive dependencies as direct dependencies.
+[INFO] Removing 1 unused direct dependency.
+[INFO] Excluding 79 unused transitive dependencies one-by-one.
+[INFO] Adding ch.qos.logback:logback-classic:1.2.0:test
+[INFO] Adding io.netty:netty-common:4.1.50.Final:compile
+[INFO] Adding org.eclipse.jetty:jetty-servlet:9.4.34.v20201102:test
+[INFO] Adding org.apache.solr:solr-solrj:8.8.2:compile
+[INFO] Excluding org.eclipse.jetty:jetty-alpn-java-client from org.apache.solr:solr-solrj:8.8.2
+[INFO] Adding xerces:xercesImpl:2.12.2:compile
+[INFO] Adding org.apache.logging.log4j:log4j-api:2.13.2:compile
+[INFO] Adding org.apache.lucene:lucene-suggest:8.8.2:test
+[INFO] Adding org.apache.logging.log4j:log4j-web:2.13.2:test
+[INFO] Adding org.apache.logging.log4j:log4j-1.2-api:2.13.2:test
+[INFO] Adding org.glassfish.jaxb:txw2:2.3.6:compile
+[INFO] Adding org.apache.lucene:lucene-queries:8.8.2:test
+[INFO] Adding commons-lang:commons-lang:2.6:compile
+[INFO] Adding org.eclipse.jetty:jetty-alpn-client:9.4.34.v20201102:compile
+[INFO] Adding org.apache.lucene:lucene-analyzers-common:8.8.2:test
+[INFO] Adding org.apache.lucene:lucene-memory:8.8.2:test
+[INFO] Adding io.netty:netty-resolver:4.1.50.Final:compile
+[INFO] Adding org.apache.hadoop:hadoop-common:3.2.0:test
+[INFO] Adding org.apache.hadoop:hadoop-hdfs-client:3.2.0:test
+[INFO] Adding com.esotericsoftware:reflectasm:1.11.9:compile
+[INFO] Adding org.xerial.snappy:snappy-java:1.1.7.6:compile
+[INFO] Adding org.apache.zookeeper:zookeeper-jute:3.6.2:compile
+[INFO] Adding com.fasterxml.jackson.core:jackson-annotations:2.10.0.pr1:compile
+[INFO] Adding commons-logging:commons-logging:1.2:compile
+[INFO] Adding org.slf4j:slf4j-api:1.7.27:compile
+[INFO] Adding io.netty:netty-handler:4.1.50.Final:compile
+[INFO] Adding org.eclipse.jetty:jetty-continuation:9.4.34.v20201102:test
+[INFO] Adding me.tongfei:progressbar:0.5.5:compile
+[INFO] Adding org.eclipse.jetty:jetty-server:9.4.34.v20201102:test
+[INFO] Adding io.dropwizard.metrics:metrics-core:4.1.5:test
+[INFO] Adding org.glassfish.jaxb:jaxb-runtime:2.3.6:compile
+[INFO] Adding org.apache.solr:solr-core:8.8.2:test
+[INFO] Excluding org.apache.lucene:lucene-codecs from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.lucene:lucene-expressions from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding io.dropwizard.metrics:metrics-graphite from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.curator:curator-framework from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.lucene:lucene-analyzers-phonetic from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.eclipse.jetty:jetty-servlets from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.eclipse.jetty:jetty-jmx from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.antlr:antlr4-runtime from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.lucene:lucene-analyzers-kuromoji from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.eclipse.jetty:jetty-webapp from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.commons:commons-text from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.lucene:lucene-classification from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.bitbucket.b_c:jose4j from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.eclipse.jetty:jetty-deploy from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding net.hydromatic:eigenbase-properties from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.kerby:kerby-pkix from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.eclipse.jetty:jetty-alpn-java-server from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding com.github.zafarkhaja:java-semver from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding io.dropwizard.metrics:metrics-jetty9 from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.eclipse.jetty:jetty-xml from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.lucene:lucene-analyzers-nori from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.lucene:lucene-backward-codecs from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.curator:curator-recipes from org.apache.solr:solr-core:8.8.2
+[INFO] Adding com.zaxxer:HikariCP:2.6.3:compile
+[INFO] Adding org.bouncycastle:bcprov-jdk15on:1.70:compile
+[INFO] Adding com.google.re2j:re2j:1.2:test
+[INFO] Adding org.eclipse.jetty.http2:http2-server:9.4.34.v20201102:test
+[INFO] Adding com.esotericsoftware:minlog:1.3.1:compile
+[INFO] Adding io.netty:netty-resolver-dns:4.1.90.Final:compile
+[INFO] Adding org.apache.tika:tika-parser-xmp-commons:2.4.1:compile
+[INFO] Excluding org.apache.pdfbox:xmpbox from org.apache.tika:tika-parser-xmp-commons:2.4.1
+[INFO] Adding org.apache.zookeeper:zookeeper:3.6.2:compile
+[INFO] Adding org.apache.logging.log4j:log4j-core:2.13.2:test
+[INFO] Adding io.netty:netty-transport-native-unix-common:4.1.50.Final:compile
+[INFO] Adding org.apache.poi:poi:5.2.2:compile
+[INFO] Excluding com.zaxxer:SparseBitSet from org.apache.poi:poi:5.2.2
+[INFO] Adding org.slf4j:jcl-over-slf4j:1.7.24:compile
+[INFO] Adding ch.qos.logback:logback-core:1.2.0:test
+[INFO] Adding org.apache.pdfbox:fontbox:2.0.26:compile
+[INFO] Adding org.apache.commons:commons-math3:3.6.1:compile
+[INFO] Adding org.apache.hadoop:hadoop-auth:3.2.0:test
+[INFO] Adding org.apache.tika:tika-parser-html-module:2.4.1:compile
+[INFO] Excluding org.apache.tika:tika-parser-html-commons from org.apache.tika:tika-parser-html-module:2.4.1
+[INFO] Adding com.google.guava:guava:25.1-jre:test
+[INFO] Adding org.codehaus.janino:commons-compiler:3.0.9:test
+[INFO] Adding jline:jline:2.12:compile
+[INFO] Adding com.carrotsearch:hppc:0.8.1:test
+[INFO] Adding org.apache.htrace:htrace-core4:4.1.0-incubating:test
+[INFO] Adding org.jdom:jdom2:2.0.6.1:compile
+[INFO] Adding org.ow2.asm:asm-commons:8.0.1:test
+[INFO] Adding io.reactivex.rxjava3:rxjava:3.1.6:compile
+[INFO] Adding org.eclipse.jetty:jetty-security:9.4.34.v20201102:test
+[INFO] Adding commons-codec:commons-codec:1.13:compile
+[INFO] Adding com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.11.2:test
+[INFO] Adding org.eclipse.jetty:jetty-util:9.4.34.v20201102:compile
+[INFO] Adding javax.servlet:javax.servlet-api:3.1.0:test
+[INFO] Adding org.apache.lucene:lucene-highlighter:8.8.2:test
+[INFO] Adding org.hamcrest:hamcrest-core:1.3:test
+[INFO] Adding io.projectreactor:reactor-core:3.5.3:compile
+[INFO] Adding org.apache.commons:commons-compress:1.21:compile
+[INFO] Adding junit:junit:4.13.1:test
+[INFO] Adding org.apache.httpcomponents:httpcore:4.4.6:compile
+[INFO] Adding jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:compile
+[INFO] Adding org.apache.calcite:calcite-linq4j:1.18.0:test
+[INFO] Adding org.icij.extract:extract-lib:7.4.0:compile
+[INFO] Excluding org.xerial:sqlite-jdbc from org.icij.extract:extract-lib:7.4.0
+[INFO] Excluding com.levigo.jbig2:levigo-jbig2-imageio from org.icij.extract:extract-lib:7.4.0
+[INFO] Excluding com.pff:java-libpst from org.icij.extract:extract-lib:7.4.0
+[INFO] Adding org.eclipse.jetty:jetty-io:9.4.34.v20201102:compile
+[INFO] Adding io.dropwizard.metrics:metrics-jvm:4.1.5:test
+[INFO] Adding com.sun.istack:istack-commons-runtime:3.0.12:compile
+[INFO] Adding org.eclipse.jetty:jetty-alpn-server:9.4.34.v20201102:test
+[INFO] Adding io.opentracing:opentracing-noop:0.33.0:test
+[INFO] Adding xml-apis:xml-apis:1.4.01:compile
+[INFO] Adding org.jodd:jodd-core:5.1.6:compile
+[INFO] Adding org.apache.tika:tika-parser-pdf-module:2.4.1:compile
+[INFO] Adding org.apache.tika:tika-parser-digest-commons:2.4.1:compile
+[INFO] Adding org.apache.calcite.avatica:avatica-core:1.13.0:test
+[INFO] Adding org.yaml:snakeyaml:2.0:compile
+[INFO] Adding org.slf4j:slf4j-simple:1.7.27:compile
+[INFO] Adding org.apache.pdfbox:pdfbox-tools:2.0.26:compile
+[INFO] Excluding org.apache.pdfbox:pdfbox-debugger from org.apache.pdfbox:pdfbox-tools:2.0.26
+[INFO] Adding com.sun.activation:jakarta.activation:1.2.2:runtime
+[INFO] Adding org.codehaus.woodstox:woodstox-core-asl:4.4.1:compile
+[INFO] Adding org.apache.httpcomponents:httpmime:4.5.12:compile
+[INFO] Adding org.apache.commons:commons-exec:1.3:compile
+[INFO] Adding org.apache.lucene:lucene-misc:8.8.2:test
+[INFO] Adding org.apache.pdfbox:pdfbox:2.0.26:compile
+[INFO] Adding org.apache.lucene:lucene-core:8.8.2:test
+[INFO] Adding org.apache.kerby:kerb-util:1.0.1:test
+[INFO] Adding org.eclipse.jetty:jetty-client:9.4.34.v20201102:compile
+[INFO] Adding org.apache.kerby:kerb-core:1.0.1:test
+[INFO] Adding com.esotericsoftware:kryo:5.4.0:compile
+[INFO] Adding org.apache.commons:commons-csv:1.4:compile
+[INFO] Adding io.netty:netty-codec-dns:4.1.90.Final:compile
+[INFO] Adding org.apache.lucene:lucene-sandbox:8.8.2:test
+[INFO] Adding com.github.jai-imageio:jai-imageio-core:1.3.1:compile
+[INFO] Adding org.bouncycastle:bcpkix-jdk15on:1.70:compile
+[INFO] Adding org.apache.tika:tika-parsers-standard-package:2.4.1:compile
+[INFO] Excluding org.apache.tika:tika-parser-cad-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-image-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.gagravarr:vorbis-java-tika from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-pkg-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-microsoft-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.gagravarr:vorbis-java-core from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-miscoffice-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-mail-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-news-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-audiovideo-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-text-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-webarchive-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-apple-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-code-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-xml-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-crypto-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-font-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Adding io.netty:netty-codec:4.1.50.Final:compile
+[INFO] Adding org.apache.tika:tika-parser-ocr-module:2.4.1:compile
+[INFO] Adding org.redisson:redisson:3.20.1:compile
+[INFO] Excluding javax.cache:cache-api from org.redisson:redisson:3.20.1
+[INFO] Excluding org.jboss.marshalling:jboss-marshalling from org.redisson:redisson:3.20.1
+[INFO] Excluding org.jboss.marshalling:jboss-marshalling-river from org.redisson:redisson:3.20.1
+[INFO] Adding net.bytebuddy:byte-buddy:1.14.0:compile
+[INFO] Adding io.opentracing:opentracing-util:0.33.0:test
+[INFO] Adding org.eclipse.jetty.http2:http2-client:9.4.34.v20201102:compile
+[INFO] Adding org.jodd:jodd-bean:5.1.6:compile
+[INFO] Adding io.sgr:s2-geometry-library-java:1.0.0:test
+[INFO] Adding io.dropwizard.metrics:metrics-jmx:4.1.5:test
+[INFO] Adding org.apache.lucene:lucene-spatial3d:8.8.2:test
+[INFO] Adding org.rrd4j:rrd4j:3.5:test
+[INFO] Adding org.apache.lucene:lucene-spatial-extras:8.8.2:test
+[INFO] Adding javax.xml.bind:jaxb-api:2.3.0:compile
+[INFO] Adding org.codehaus.janino:janino:3.0.9:test
+[INFO] Adding com.lmax:disruptor:3.4.2:test
+[INFO] Adding com.github.ben-manes.caffeine:caffeine:2.8.4:test
+[INFO] Adding com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.2:compile
+[INFO] Adding com.jayway.jsonpath:json-path:2.4.0:test
+[INFO] Adding org.apache.commons:commons-collections4:4.4:compile
+[INFO] Adding mysql:mysql-connector-java:8.0.16:compile
+[INFO] Adding org.eclipse.jetty:jetty-http:9.4.34.v20201102:compile
+[INFO] Adding org.ow2.asm:asm:8.0.1:compile
+[INFO] Adding org.apache.kerby:kerby-asn1:1.0.1:test
+[INFO] Adding com.github.jai-imageio:jai-imageio-jpeg2000:1.3.0:compile
+[INFO] Adding commons-cli:commons-cli:1.3.1:compile
+[INFO] Adding org.apache.lucene:lucene-grouping:8.8.2:test
+[INFO] Adding org.apache.logging.log4j:log4j-slf4j-impl:2.13.2:test
+[INFO] Adding org.eclipse.jetty:jetty-rewrite:9.4.34.v20201102:test
+[INFO] Adding org.apache.commons:commons-lang3:3.10:compile
+[INFO] Adding org.apache.curator:curator-client:2.13.0:test
+[INFO] Adding com.fasterxml.jackson.core:jackson-core:2.10.0.pr1:compile
+[INFO] Adding org.apache.hadoop:hadoop-annotations:3.2.0:test
+[INFO] Adding org.bouncycastle:bcutil-jdk15on:1.70:compile
+[INFO] Adding org.apache.pdfbox:jempbox:1.8.16:compile
+[INFO] Adding io.netty:netty-buffer:4.1.50.Final:compile
+[INFO] Adding io.netty:netty-transport-native-epoll:4.1.50.Final:compile
+[INFO] Adding org.eclipse.jetty.http2:http2-http-client-transport:9.4.34.v20201102:compile
+[INFO] Adding org.locationtech.spatial4j:spatial4j:0.7:test
+[INFO] Adding com.fasterxml.jackson.core:jackson-databind:2.10.0.pr1:compile
+[INFO] Adding org.apache.tika:tika-core:2.4.1:compile
+[INFO] Adding commons-io:commons-io:2.8.0:compile
+[INFO] Adding org.apache.calcite:calcite-core:1.18.0:test
+[INFO] Adding org.codehaus.woodstox:stax2-api:3.1.4:compile
+[INFO] Adding com.tdunning:t-digest:3.1:test
+[INFO] Adding com.google.protobuf:protobuf-java:3.6.1:compile
+[INFO] Adding org.objenesis:objenesis:3.3:compile
+[INFO] Adding commons-collections:commons-collections:3.2.2:test
+[INFO] Adding io.opentracing:opentracing-api:0.33.0:test
+[INFO] Adding org.apache.commons:commons-configuration2:2.1.1:test
+[INFO] Adding org.apache.httpcomponents:httpclient:4.5.13:compile
+[INFO] Adding org.reactivestreams:reactive-streams:1.0.4:compile
+[INFO] Adding io.netty:netty-transport:4.1.50.Final:compile
+[INFO] Adding org.eclipse.jetty.http2:http2-common:9.4.34.v20201102:compile
+[INFO] Adding org.apache.lucene:lucene-queryparser:8.8.2:test
+[INFO] Adding org.eclipse.jetty.http2:http2-hpack:9.4.34.v20201102:compile
+[INFO] Adding org.apache.lucene:lucene-join:8.8.2:test
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\pom-debloated.xml
+[INFO] Analysis done in 10min 5s
+
+DepTrim:
+-------------------------------------------------------
+[INFO] DEPTRIM IS ANALYZING DEPENDENCIES
+[INFO] -------------------------------------------------------
+[INFO] -------------------------------------------------------
+[INFO] DEPTRIM IS SPECIALIZING DEPENDENCIES
+[INFO] -------------------------------------------------------
+[INFO] No dependencies specified, specializing all dependencies except the ignored dependencies.
+[INFO] Specializing dependency: io.netty:netty-common:4.1.50.Final, with file netty-common-4.1.50.Final.jar
+[INFO] Specializing dependency io.netty:netty-common:4.1.50.Final, removing 127/473 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\netty-common-4.1.50.Final.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=netty-common -Dversion=4.1.50.Final
+[INFO] Specializing dependency: ch.qos.logback:logback-classic:1.2.0, with file logback-classic-1.2.0.jar
+[INFO] Specializing dependency ch.qos.logback:logback-classic:1.2.0, removing 70/179 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\logback-classic-1.2.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=logback-classic -Dversion=1.2.0
+[INFO] Specializing dependency: org.apache.solr:solr-solrj:8.8.2, with file solr-solrj-8.8.2.jar
+[INFO] Specializing dependency org.apache.solr:solr-solrj:8.8.2, removing 170/1332 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\solr-solrj-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=solr-solrj -Dversion=8.8.2
+[INFO] Specializing dependency: xerces:xercesImpl:2.12.2, with file xercesImpl-2.12.2.jar
+[INFO] Specializing dependency xerces:xercesImpl:2.12.2, removing 210/962 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\xercesImpl-2.12.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=xercesImpl -Dversion=2.12.2
+[INFO] Specializing dependency: org.apache.logging.log4j:log4j-api:2.13.2, with file log4j-api-2.13.2.jar
+[INFO] Specializing dependency org.apache.logging.log4j:log4j-api:2.13.2, removing 34/183 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\log4j-api-2.13.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=log4j-api -Dversion=2.13.2
+[INFO] Specializing dependency: org.apache.logging.log4j:log4j-web:2.13.2, with file log4j-web-2.13.2.jar
+[INFO] Specializing dependency org.apache.logging.log4j:log4j-web:2.13.2, removing 7/13 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\log4j-web-2.13.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=log4j-web -Dversion=2.13.2
+[INFO] Specializing dependency: commons-lang:commons-lang:2.6, with file commons-lang-2.6.jar
+[INFO] Specializing dependency commons-lang:commons-lang:2.6, removing 75/133 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\commons-lang-2.6.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-lang -Dversion=2.6
+[INFO] Specializing dependency: org.apache.lucene:lucene-queries:8.8.2, with file lucene-queries-8.8.2.jar
+[INFO] Specializing dependency org.apache.lucene:lucene-queries:8.8.2, removing 124/291 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\lucene-queries-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=lucene-queries -Dversion=8.8.2
+[INFO] Specializing dependency: org.apache.lucene:lucene-memory:8.8.2, with file lucene-memory-8.8.2.jar
+[INFO] Specializing dependency org.apache.lucene:lucene-memory:8.8.2, removing 2/21 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\lucene-memory-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=lucene-memory -Dversion=8.8.2
+[INFO] Specializing dependency: com.esotericsoftware:reflectasm:1.11.9, with file reflectasm-1.11.9.jar
+[INFO] Skipping specializing dependency com.esotericsoftware:reflectasm:1.11.9 because all its types are used.
+[INFO] Specializing dependency: org.apache.zookeeper:zookeeper-jute:3.6.2, with file zookeeper-jute-3.6.2.jar
+[INFO] Specializing dependency org.apache.zookeeper:zookeeper-jute:3.6.2, removing 36/110 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\zookeeper-jute-3.6.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=zookeeper-jute -Dversion=3.6.2
+[INFO] Specializing dependency: com.fasterxml.jackson.core:jackson-annotations:2.10.0.pr1, with file jackson-annotations-2.10.0.pr1.jar
+[INFO] Skipping specializing dependency com.fasterxml.jackson.core:jackson-annotations:2.10.0.pr1 because all its types are used.
+[INFO] Specializing dependency: commons-logging:commons-logging:1.2, with file commons-logging-1.2.jar
+[INFO] Specializing dependency commons-logging:commons-logging:1.2, removing 4/28 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\commons-logging-1.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-logging -Dversion=1.2
+[INFO] Specializing dependency: me.tongfei:progressbar:0.5.5, with file progressbar-0.5.5.jar
+[INFO] Skipping specializing dependency me.tongfei:progressbar:0.5.5 because all its types are used.
+[INFO] Specializing dependency: com.google.re2j:re2j:1.2, with file re2j-1.2.jar
+[INFO] Skipping specializing dependency com.google.re2j:re2j:1.2 because all its types are used.
+[INFO] Specializing dependency: org.apache.zookeeper:zookeeper:3.6.2, with file zookeeper-3.6.2.jar
+[INFO] Specializing dependency org.apache.zookeeper:zookeeper:3.6.2, removing 70/664 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\zookeeper-3.6.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=zookeeper -Dversion=3.6.2
+[INFO] Specializing dependency: io.netty:netty-transport-native-unix-common:4.1.50.Final, with file netty-transport-native-unix-common-4.1.50.Final.jar
+[INFO] Specializing dependency io.netty:netty-transport-native-unix-common:4.1.50.Final, removing 1/23 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\netty-transport-native-unix-common-4.1.50.Final.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=netty-transport-native-unix-common -Dversion=4.1.50.Final
+[INFO] Specializing dependency: org.apache.pdfbox:fontbox:2.0.26, with file fontbox-2.0.26.jar
+[INFO] Specializing dependency org.apache.pdfbox:fontbox:2.0.26, removing 3/157 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\fontbox-2.0.26.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=fontbox -Dversion=2.0.26
+[INFO] Specializing dependency: ch.qos.logback:logback-core:1.2.0, with file logback-core-1.2.0.jar
+[INFO] Specializing dependency ch.qos.logback:logback-core:1.2.0, removing 107/373 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\logback-core-1.2.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=logback-core -Dversion=1.2.0
+[INFO] Specializing dependency: com.google.guava:guava:25.1-jre, with file guava-25.1-jre.jar
+[INFO] Specializing dependency com.google.guava:guava:25.1-jre, removing 660/1944 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\guava-25.1-jre.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=guava -Dversion=25.1-jre
+[INFO] Specializing dependency: com.carrotsearch:hppc:0.8.1, with file hppc-0.8.1.jar
+[INFO] Specializing dependency com.carrotsearch:hppc:0.8.1, removing 768/950 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\hppc-0.8.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=hppc -Dversion=0.8.1
+[INFO] Specializing dependency: org.jdom:jdom2:2.0.6.1, with file jdom2-2.0.6.1.jar
+[INFO] Specializing dependency org.jdom:jdom2:2.0.6.1, removing 69/207 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jdom2-2.0.6.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jdom2 -Dversion=2.0.6.1
+[INFO] Specializing dependency: org.ow2.asm:asm-commons:8.0.1, with file asm-commons-8.0.1.jar
+[INFO] Specializing dependency org.ow2.asm:asm-commons:8.0.1, removing 27/28 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\asm-commons-8.0.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=asm-commons -Dversion=8.0.1
+[INFO] Specializing dependency: org.eclipse.jetty:jetty-security:9.4.34.v20201102, with file jetty-security-9.4.34.v20201102.jar
+[INFO] Specializing dependency org.eclipse.jetty:jetty-security:9.4.34.v20201102, removing 23/62 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jetty-security-9.4.34.v20201102.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jetty-security -Dversion=9.4.34.v20201102
+[INFO] Specializing dependency: javax.servlet:javax.servlet-api:3.1.0, with file javax.servlet-api-3.1.0.jar
+[INFO] Specializing dependency javax.servlet:javax.servlet-api:3.1.0, removing 6/79 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\javax.servlet-api-3.1.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=javax.servlet-api -Dversion=3.1.0
+[INFO] Specializing dependency: org.apache.lucene:lucene-highlighter:8.8.2, with file lucene-highlighter-8.8.2.jar
+[INFO] Specializing dependency org.apache.lucene:lucene-highlighter:8.8.2, removing 12/132 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\lucene-highlighter-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=lucene-highlighter -Dversion=8.8.2
+[INFO] Specializing dependency: io.projectreactor:reactor-core:3.5.3, with file reactor-core-3.5.3.jar
+[INFO] Specializing dependency io.projectreactor:reactor-core:3.5.3, removing 31/919 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\reactor-core-3.5.3.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=reactor-core -Dversion=3.5.3
+[INFO] Specializing dependency: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3, with file jakarta.xml.bind-api-2.3.3.jar
+[INFO] Specializing dependency jakarta.xml.bind:jakarta.xml.bind-api:2.3.3, removing 104/112 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jakarta.xml.bind-api-2.3.3.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jakarta.xml.bind-api -Dversion=2.3.3
+[INFO] Specializing dependency: org.apache.httpcomponents:httpcore:4.4.6, with file httpcore-4.4.6.jar
+[INFO] Specializing dependency org.apache.httpcomponents:httpcore:4.4.6, removing 80/252 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\httpcore-4.4.6.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=httpcore -Dversion=4.4.6
+[INFO] Specializing dependency: org.eclipse.jetty:jetty-io:9.4.34.v20201102, with file jetty-io-9.4.34.v20201102.jar
+[INFO] Specializing dependency org.eclipse.jetty:jetty-io:9.4.34.v20201102, removing 13/100 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jetty-io-9.4.34.v20201102.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jetty-io -Dversion=9.4.34.v20201102
+[INFO] Specializing dependency: io.dropwizard.metrics:metrics-jvm:4.1.5, with file metrics-jvm-4.1.5.jar
+[INFO] Specializing dependency io.dropwizard.metrics:metrics-jvm:4.1.5, removing 8/16 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\metrics-jvm-4.1.5.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=metrics-jvm -Dversion=4.1.5
+[INFO] Specializing dependency: org.eclipse.jetty:jetty-alpn-server:9.4.34.v20201102, with file jetty-alpn-server-9.4.34.v20201102.jar
+[INFO] Skipping specializing dependency org.eclipse.jetty:jetty-alpn-server:9.4.34.v20201102 because all its types are used.
+[INFO] Specializing dependency: io.opentracing:opentracing-noop:0.33.0, with file opentracing-noop-0.33.0.jar
+[INFO] Skipping specializing dependency io.opentracing:opentracing-noop:0.33.0 because all its types are used.
+[INFO] Specializing dependency: org.jodd:jodd-core:5.1.6, with file jodd-core-5.1.6.jar
+[INFO] Specializing dependency org.jodd:jodd-core:5.1.6, removing 152/213 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jodd-core-5.1.6.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jodd-core -Dversion=5.1.6
+[INFO] Specializing dependency: org.apache.tika:tika-parser-digest-commons:2.4.1, with file tika-parser-digest-commons-2.4.1.jar
+[INFO] Specializing dependency org.apache.tika:tika-parser-digest-commons:2.4.1, removing 5/10 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\tika-parser-digest-commons-2.4.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=tika-parser-digest-commons -Dversion=2.4.1
+[INFO] Specializing dependency: org.yaml:snakeyaml:2.0, with file snakeyaml-2.0.jar
+[INFO] Specializing dependency org.yaml:snakeyaml:2.0, removing 98/234 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\snakeyaml-2.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=snakeyaml -Dversion=2.0
+[INFO] Specializing dependency: org.apache.calcite.avatica:avatica-core:1.13.0, with file avatica-core-1.13.0.jar
+[INFO] Specializing dependency org.apache.calcite.avatica:avatica-core:1.13.0, removing 59/605 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\avatica-core-1.13.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=avatica-core -Dversion=1.13.0
+[INFO] Specializing dependency: org.slf4j:slf4j-simple:1.7.27, with file slf4j-simple-1.7.27.jar
+[INFO] Skipping specializing dependency org.slf4j:slf4j-simple:1.7.27 because all its types are used.
+[INFO] Specializing dependency: org.apache.httpcomponents:httpmime:4.5.12, with file httpmime-4.5.12.jar
+[INFO] Specializing dependency org.apache.httpcomponents:httpmime:4.5.12, removing 2/23 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\httpmime-4.5.12.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=httpmime -Dversion=4.5.12
+[INFO] Specializing dependency: org.apache.lucene:lucene-core:8.8.2, with file lucene-core-8.8.2.jar
+[INFO] Specializing dependency org.apache.lucene:lucene-core:8.8.2, removing 606/2160 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\lucene-core-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=lucene-core -Dversion=8.8.2
+[INFO] Specializing dependency: org.apache.kerby:kerb-util:1.0.1, with file kerb-util-1.0.1.jar
+[INFO] Specializing dependency org.apache.kerby:kerb-util:1.0.1, removing 6/13 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\kerb-util-1.0.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=kerb-util -Dversion=1.0.1
+[INFO] Specializing dependency: org.eclipse.jetty:jetty-client:9.4.34.v20201102, with file jetty-client-9.4.34.v20201102.jar
+[INFO] Specializing dependency org.eclipse.jetty:jetty-client:9.4.34.v20201102, removing 37/209 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jetty-client-9.4.34.v20201102.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jetty-client -Dversion=9.4.34.v20201102
+[INFO] Specializing dependency: com.github.jai-imageio:jai-imageio-core:1.3.1, with file jai-imageio-core-1.3.1.jar
+[INFO] Specializing dependency com.github.jai-imageio:jai-imageio-core:1.3.1, removing 331/338 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jai-imageio-core-1.3.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jai-imageio-core -Dversion=1.3.1
+[INFO] Specializing dependency: io.opentracing:opentracing-util:0.33.0, with file opentracing-util-0.33.0.jar
+[INFO] Specializing dependency io.opentracing:opentracing-util:0.33.0, removing 2/5 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\opentracing-util-0.33.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=opentracing-util -Dversion=0.33.0
+[INFO] Specializing dependency: org.jodd:jodd-bean:5.1.6, with file jodd-bean-5.1.6.jar
+[INFO] Specializing dependency org.jodd:jodd-bean:5.1.6, removing 4/92 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jodd-bean-5.1.6.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jodd-bean -Dversion=5.1.6
+[INFO] Specializing dependency: io.sgr:s2-geometry-library-java:1.0.0, with file s2-geometry-library-java-1.0.0.jar
+[INFO] Specializing dependency io.sgr:s2-geometry-library-java:1.0.0, removing 23/51 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\s2-geometry-library-java-1.0.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=s2-geometry-library-java -Dversion=1.0.0
+[INFO] Specializing dependency: io.dropwizard.metrics:metrics-jmx:4.1.5, with file metrics-jmx-4.1.5.jar
+[INFO] Skipping specializing dependency io.dropwizard.metrics:metrics-jmx:4.1.5 because all its types are used.
+[INFO] Specializing dependency: org.rrd4j:rrd4j:3.5, with file rrd4j-3.5.jar
+[INFO] Specializing dependency org.rrd4j:rrd4j:3.5, removing 20/293 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\rrd4j-3.5.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=rrd4j -Dversion=3.5
+[INFO] Specializing dependency: javax.xml.bind:jaxb-api:2.3.0, with file jaxb-api-2.3.0.jar
+[INFO] Specializing dependency javax.xml.bind:jaxb-api:2.3.0, removing 104/112 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jaxb-api-2.3.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jaxb-api -Dversion=2.3.0
+[INFO] Specializing dependency: org.codehaus.janino:janino:3.0.9, with file janino-3.0.9.jar
+[INFO] Specializing dependency org.codehaus.janino:janino:3.0.9, removing 60/440 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\janino-3.0.9.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=janino -Dversion=3.0.9
+[INFO] Specializing dependency: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.2, with file jackson-dataformat-yaml-2.14.2.jar
+[INFO] Specializing dependency com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.2, removing 4/21 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jackson-dataformat-yaml-2.14.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jackson-dataformat-yaml -Dversion=2.14.2
+[INFO] Specializing dependency: org.apache.kerby:kerby-asn1:1.0.1, with file kerby-asn1-1.0.1.jar
+[INFO] Specializing dependency org.apache.kerby:kerby-asn1:1.0.1, removing 14/72 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\kerby-asn1-1.0.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=kerby-asn1 -Dversion=1.0.1
+[INFO] Specializing dependency: org.ow2.asm:asm:8.0.1, with file asm-8.0.1.jar
+[INFO] Specializing dependency org.ow2.asm:asm:8.0.1, removing 3/38 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\asm-8.0.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=asm -Dversion=8.0.1
+[INFO] Specializing dependency: commons-cli:commons-cli:1.3.1, with file commons-cli-1.3.1.jar
+[INFO] Specializing dependency commons-cli:commons-cli:1.3.1, removing 5/26 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\commons-cli-1.3.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-cli -Dversion=1.3.1
+[INFO] Specializing dependency: org.apache.lucene:lucene-grouping:8.8.2, with file lucene-grouping-8.8.2.jar
+[INFO] Specializing dependency org.apache.lucene:lucene-grouping:8.8.2, removing 18/63 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\lucene-grouping-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=lucene-grouping -Dversion=8.8.2
+[INFO] Specializing dependency: org.apache.curator:curator-client:2.13.0, with file curator-client-2.13.0.jar
+[INFO] Specializing dependency org.apache.curator:curator-client:2.13.0, removing 1735/1737 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\curator-client-2.13.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=curator-client -Dversion=2.13.0
+[INFO] Specializing dependency: com.fasterxml.jackson.core:jackson-core:2.10.0.pr1, with file jackson-core-2.10.0.pr1.jar
+[INFO] Specializing dependency com.fasterxml.jackson.core:jackson-core:2.10.0.pr1, removing 10/117 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jackson-core-2.10.0.pr1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jackson-core -Dversion=2.10.0.pr1
+[INFO] Specializing dependency: org.apache.pdfbox:jempbox:1.8.16, with file jempbox-1.8.16.jar
+[INFO] Specializing dependency org.apache.pdfbox:jempbox:1.8.16, removing 5/24 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jempbox-1.8.16.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jempbox -Dversion=1.8.16
+[INFO] Specializing dependency: io.netty:netty-buffer:4.1.50.Final, with file netty-buffer-4.1.50.Final.jar
+[INFO] Specializing dependency io.netty:netty-buffer:4.1.50.Final, removing 27/131 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\netty-buffer-4.1.50.Final.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=netty-buffer -Dversion=4.1.50.Final
+[INFO] Specializing dependency: io.netty:netty-transport-native-epoll:4.1.50.Final, with file netty-transport-native-epoll-4.1.50.Final.jar
+[INFO] Specializing dependency io.netty:netty-transport-native-epoll:4.1.50.Final, removing 1/59 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\netty-transport-native-epoll-4.1.50.Final.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=netty-transport-native-epoll -Dversion=4.1.50.Final
+[INFO] Specializing dependency: org.apache.tika:tika-core:2.4.1, with file tika-core-2.4.1.jar
+[INFO] Specializing dependency org.apache.tika:tika-core:2.4.1, removing 200/421 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\tika-core-2.4.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=tika-core -Dversion=2.4.1
+[INFO] Specializing dependency: org.codehaus.woodstox:stax2-api:3.1.4, with file stax2-api-3.1.4.jar
+[INFO] Specializing dependency org.codehaus.woodstox:stax2-api:3.1.4, removing 20/124 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\stax2-api-3.1.4.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=stax2-api -Dversion=3.1.4
+[INFO] Specializing dependency: com.tdunning:t-digest:3.1, with file t-digest-3.1.jar
+[INFO] Specializing dependency com.tdunning:t-digest:3.1, removing 3/25 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\t-digest-3.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=t-digest -Dversion=3.1
+[INFO] Specializing dependency: org.apache.calcite:calcite-core:1.18.0, with file calcite-core-1.18.0.jar
+[INFO] Specializing dependency org.apache.calcite:calcite-core:1.18.0, removing 195/2553 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\calcite-core-1.18.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=calcite-core -Dversion=1.18.0
+[INFO] Specializing dependency: org.objenesis:objenesis:3.3, with file objenesis-3.3.jar
+[INFO] Specializing dependency org.objenesis:objenesis:3.3, removing 20/43 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\objenesis-3.3.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=objenesis -Dversion=3.3
+[INFO] Specializing dependency: io.netty:netty-transport:4.1.50.Final, with file netty-transport-4.1.50.Final.jar
+[INFO] Specializing dependency io.netty:netty-transport:4.1.50.Final, removing 113/357 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\netty-transport-4.1.50.Final.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=netty-transport -Dversion=4.1.50.Final
+[INFO] Specializing dependency: org.eclipse.jetty.http2:http2-common:9.4.34.v20201102, with file http2-common-9.4.34.v20201102.jar
+[INFO] Specializing dependency org.eclipse.jetty.http2:http2-common:9.4.34.v20201102, removing 1/136 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\http2-common-9.4.34.v20201102.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=http2-common -Dversion=9.4.34.v20201102
+[INFO] Specializing dependency: org.eclipse.jetty.http2:http2-hpack:9.4.34.v20201102, with file http2-hpack-9.4.34.v20201102.jar
+[INFO] Specializing dependency org.eclipse.jetty.http2:http2-hpack:9.4.34.v20201102, removing 1/19 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\http2-hpack-9.4.34.v20201102.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=http2-hpack -Dversion=9.4.34.v20201102
+[INFO] Specializing dependency: org.apache.lucene:lucene-join:8.8.2, with file lucene-join-8.8.2.jar
+[INFO] Specializing dependency org.apache.lucene:lucene-join:8.8.2, removing 6/107 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\lucene-join-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=lucene-join -Dversion=8.8.2
+[INFO] Specializing dependency: org.eclipse.jetty:jetty-servlet:9.4.34.v20201102, with file jetty-servlet-9.4.34.v20201102.jar
+[INFO] Specializing dependency org.eclipse.jetty:jetty-servlet:9.4.34.v20201102, removing 20/64 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jetty-servlet-9.4.34.v20201102.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jetty-servlet -Dversion=9.4.34.v20201102
+[INFO] Specializing dependency: org.apache.lucene:lucene-suggest:8.8.2, with file lucene-suggest-8.8.2.jar
+[INFO] Specializing dependency org.apache.lucene:lucene-suggest:8.8.2, removing 127/131 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\lucene-suggest-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=lucene-suggest -Dversion=8.8.2
+[INFO] Specializing dependency: org.glassfish.jaxb:txw2:2.3.6, with file txw2-2.3.6.jar
+[INFO] Specializing dependency org.glassfish.jaxb:txw2:2.3.6, removing 53/54 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\txw2-2.3.6.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=txw2 -Dversion=2.3.6
+[INFO] Specializing dependency: org.apache.logging.log4j:log4j-1.2-api:2.13.2, with file log4j-1.2-api-2.13.2.jar
+[INFO] Specializing dependency org.apache.logging.log4j:log4j-1.2-api:2.13.2, removing 87/119 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\log4j-1.2-api-2.13.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=log4j-1.2-api -Dversion=2.13.2
+[INFO] Specializing dependency: org.eclipse.jetty:jetty-alpn-client:9.4.34.v20201102, with file jetty-alpn-client-9.4.34.v20201102.jar
+[INFO] Skipping specializing dependency org.eclipse.jetty:jetty-alpn-client:9.4.34.v20201102 because all its types are used.
+[INFO] Specializing dependency: org.apache.lucene:lucene-analyzers-common:8.8.2, with file lucene-analyzers-common-8.8.2.jar
+[INFO] Specializing dependency org.apache.lucene:lucene-analyzers-common:8.8.2, removing 544/584 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\lucene-analyzers-common-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=lucene-analyzers-common -Dversion=8.8.2
+[INFO] Specializing dependency: io.netty:netty-resolver:4.1.50.Final, with file netty-resolver-4.1.50.Final.jar
+[INFO] Specializing dependency io.netty:netty-resolver:4.1.50.Final, removing 8/26 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\netty-resolver-4.1.50.Final.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=netty-resolver -Dversion=4.1.50.Final
+[INFO] Specializing dependency: org.apache.hadoop:hadoop-common:3.2.0, with file hadoop-common-3.2.0.jar
+[INFO] Specializing dependency org.apache.hadoop:hadoop-common:3.2.0, removing 1169/2285 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\hadoop-common-3.2.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=hadoop-common -Dversion=3.2.0
+[INFO] Specializing dependency: org.apache.hadoop:hadoop-hdfs-client:3.2.0, with file hadoop-hdfs-client-3.2.0.jar
+[INFO] Specializing dependency org.apache.hadoop:hadoop-hdfs-client:3.2.0, removing 166/2067 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\hadoop-hdfs-client-3.2.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=hadoop-hdfs-client -Dversion=3.2.0
+[INFO] Specializing dependency: org.xerial.snappy:snappy-java:1.1.7.6, with file snappy-java-1.1.7.6.jar
+[INFO] Specializing dependency org.xerial.snappy:snappy-java:1.1.7.6, removing 24/45 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\snappy-java-1.1.7.6.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=snappy-java -Dversion=1.1.7.6
+[INFO] Specializing dependency: org.slf4j:slf4j-api:1.7.27, with file slf4j-api-1.7.27.jar
+[INFO] Specializing dependency org.slf4j:slf4j-api:1.7.27, removing 2/34 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\slf4j-api-1.7.27.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=slf4j-api -Dversion=1.7.27
+[INFO] Specializing dependency: io.netty:netty-handler:4.1.50.Final, with file netty-handler-4.1.50.Final.jar
+[INFO] Specializing dependency io.netty:netty-handler:4.1.50.Final, removing 93/286 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\netty-handler-4.1.50.Final.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=netty-handler -Dversion=4.1.50.Final
+[INFO] Specializing dependency: org.eclipse.jetty:jetty-continuation:9.4.34.v20201102, with file jetty-continuation-9.4.34.v20201102.jar
+[INFO] Specializing dependency org.eclipse.jetty:jetty-continuation:9.4.34.v20201102, removing 8/9 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jetty-continuation-9.4.34.v20201102.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jetty-continuation -Dversion=9.4.34.v20201102
+[INFO] Specializing dependency: org.eclipse.jetty:jetty-server:9.4.34.v20201102, with file jetty-server-9.4.34.v20201102.jar
+[INFO] Specializing dependency org.eclipse.jetty:jetty-server:9.4.34.v20201102, removing 111/343 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jetty-server-9.4.34.v20201102.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jetty-server -Dversion=9.4.34.v20201102
+[INFO] Specializing dependency: io.dropwizard.metrics:metrics-core:4.1.5, with file metrics-core-4.1.5.jar
+[INFO] Specializing dependency io.dropwizard.metrics:metrics-core:4.1.5, removing 31/85 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\metrics-core-4.1.5.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=metrics-core -Dversion=4.1.5
+[INFO] Specializing dependency: org.glassfish.jaxb:jaxb-runtime:2.3.6, with file jaxb-runtime-2.3.6.jar
+[INFO] Specializing dependency org.glassfish.jaxb:jaxb-runtime:2.3.6, removing 642/643 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jaxb-runtime-2.3.6.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jaxb-runtime -Dversion=2.3.6
+[INFO] Specializing dependency: org.apache.solr:solr-core:8.8.2, with file solr-core-8.8.2.jar
+[INFO] Specializing dependency org.apache.solr:solr-core:8.8.2, removing 720/3091 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\solr-core-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=solr-core -Dversion=8.8.2
+[INFO] Specializing dependency: org.bouncycastle:bcprov-jdk15on:1.70, with file bcprov-jdk15on-1.70.jar
+[INFO] Specializing dependency org.bouncycastle:bcprov-jdk15on:1.70, removing 3219/4322 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\bcprov-jdk15on-1.70.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=bcprov-jdk15on -Dversion=1.70
+[INFO] Specializing dependency: com.zaxxer:HikariCP:2.6.3, with file HikariCP-2.6.3.jar
+[INFO] Specializing dependency com.zaxxer:HikariCP:2.6.3, removing 8/67 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\HikariCP-2.6.3.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=HikariCP -Dversion=2.6.3
+[INFO] Specializing dependency: org.eclipse.jetty.http2:http2-server:9.4.34.v20201102, with file http2-server-9.4.34.v20201102.jar
+[INFO] Specializing dependency org.eclipse.jetty.http2:http2-server:9.4.34.v20201102, removing 3/21 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\http2-server-9.4.34.v20201102.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=http2-server -Dversion=9.4.34.v20201102
+[INFO] Specializing dependency: com.esotericsoftware:minlog:1.3.1, with file minlog-1.3.1.jar
+[INFO] Skipping specializing dependency com.esotericsoftware:minlog:1.3.1 because all its types are used.
+[INFO] Specializing dependency: org.apache.tika:tika-parser-xmp-commons:2.4.1, with file tika-parser-xmp-commons-2.4.1.jar
+[INFO] Specializing dependency org.apache.tika:tika-parser-xmp-commons:2.4.1, removing 1/3 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\tika-parser-xmp-commons-2.4.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=tika-parser-xmp-commons -Dversion=2.4.1
+[INFO] Specializing dependency: io.netty:netty-resolver-dns:4.1.90.Final, with file netty-resolver-dns-4.1.90.Final.jar
+[INFO] Specializing dependency io.netty:netty-resolver-dns:4.1.90.Final, removing 8/106 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\netty-resolver-dns-4.1.90.Final.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=netty-resolver-dns -Dversion=4.1.90.Final
+[INFO] Specializing dependency: org.apache.logging.log4j:log4j-core:2.13.2, with file log4j-core-2.13.2.jar
+[INFO] Specializing dependency org.apache.logging.log4j:log4j-core:2.13.2, removing 663/1118 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\log4j-core-2.13.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=log4j-core -Dversion=2.13.2
+[INFO] Specializing dependency: org.apache.poi:poi:5.2.2, with file poi-5.2.2.jar
+[INFO] Specializing dependency org.apache.poi:poi:5.2.2, removing 1576/1652 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\poi-5.2.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=poi -Dversion=5.2.2
+[INFO] Specializing dependency: org.slf4j:jcl-over-slf4j:1.7.24, with file jcl-over-slf4j-1.7.24.jar
+[INFO] Skipping specializing dependency org.slf4j:jcl-over-slf4j:1.7.24 because all its types are used.
+[INFO] Specializing dependency: org.apache.commons:commons-math3:3.6.1, with file commons-math3-3.6.1.jar
+[INFO] Specializing dependency org.apache.commons:commons-math3:3.6.1, removing 784/1301 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\commons-math3-3.6.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-math3 -Dversion=3.6.1
+[INFO] Specializing dependency: org.apache.hadoop:hadoop-auth:3.2.0, with file hadoop-auth-3.2.0.jar
+[INFO] Specializing dependency org.apache.hadoop:hadoop-auth:3.2.0, removing 28/48 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\hadoop-auth-3.2.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=hadoop-auth -Dversion=3.2.0
+[INFO] Specializing dependency: org.apache.tika:tika-parser-html-module:2.4.1, with file tika-parser-html-module-2.4.1.jar
+[INFO] Specializing dependency org.apache.tika:tika-parser-html-module:2.4.1, removing 20/25 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\tika-parser-html-module-2.4.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=tika-parser-html-module -Dversion=2.4.1
+[INFO] Specializing dependency: org.codehaus.janino:commons-compiler:3.0.9, with file commons-compiler-3.0.9.jar
+[INFO] Specializing dependency org.codehaus.janino:commons-compiler:3.0.9, removing 10/28 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\commons-compiler-3.0.9.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-compiler -Dversion=3.0.9
+[INFO] Specializing dependency: jline:jline:2.12, with file jline-2.12.jar
+[INFO] Specializing dependency jline:jline:2.12, removing 46/91 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jline-2.12.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jline -Dversion=2.12
+[INFO] Specializing dependency: org.apache.htrace:htrace-core4:4.1.0-incubating, with file htrace-core4-4.1.0-incubating.jar
+[INFO] Specializing dependency org.apache.htrace:htrace-core4:4.1.0-incubating, removing 29/751 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\htrace-core4-4.1.0-incubating.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=htrace-core4 -Dversion=4.1.0-incubating
+[INFO] Specializing dependency: io.reactivex.rxjava3:rxjava:3.1.6, with file rxjava-3.1.6.jar
+[INFO] Specializing dependency io.reactivex.rxjava3:rxjava:3.1.6, removing 48/1758 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\rxjava-3.1.6.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=rxjava -Dversion=3.1.6
+[INFO] Specializing dependency: commons-codec:commons-codec:1.13, with file commons-codec-1.13.jar
+[INFO] Specializing dependency commons-codec:commons-codec:1.13, removing 84/101 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\commons-codec-1.13.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-codec -Dversion=1.13
+[INFO] Specializing dependency: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.11.2, with file jackson-dataformat-smile-2.11.2.jar
+[INFO] Specializing dependency com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.11.2, removing 2/20 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jackson-dataformat-smile-2.11.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jackson-dataformat-smile -Dversion=2.11.2
+[INFO] Specializing dependency: org.eclipse.jetty:jetty-util:9.4.34.v20201102, with file jetty-util-9.4.34.v20201102.jar
+[INFO] Specializing dependency org.eclipse.jetty:jetty-util:9.4.34.v20201102, removing 103/319 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jetty-util-9.4.34.v20201102.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jetty-util -Dversion=9.4.34.v20201102
+[INFO] Specializing dependency: org.hamcrest:hamcrest-core:1.3, with file hamcrest-core-1.3.jar
+[INFO] Specializing dependency org.hamcrest:hamcrest-core:1.3, removing 35/45 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\hamcrest-core-1.3.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=hamcrest-core -Dversion=1.3
+[INFO] Specializing dependency: org.apache.commons:commons-compress:1.21, with file commons-compress-1.21.jar
+[INFO] Specializing dependency org.apache.commons:commons-compress:1.21, removing 505/524 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\commons-compress-1.21.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-compress -Dversion=1.21
+[INFO] Specializing dependency: junit:junit:4.13.1, with file junit-4.13.1.jar
+[INFO] Specializing dependency junit:junit:4.13.1, removing 313/348 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\junit-4.13.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=junit -Dversion=4.13.1
+[INFO] Specializing dependency: org.apache.calcite:calcite-linq4j:1.18.0, with file calcite-linq4j-1.18.0.jar
+[INFO] Specializing dependency org.apache.calcite:calcite-linq4j:1.18.0, removing 7/360 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\calcite-linq4j-1.18.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=calcite-linq4j -Dversion=1.18.0
+[INFO] Specializing dependency: org.icij.extract:extract-lib:7.4.0, with file extract-lib-7.4.0.jar
+[INFO] Specializing dependency org.icij.extract:extract-lib:7.4.0, removing 26/130 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\extract-lib-7.4.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=extract-lib -Dversion=7.4.0
+[INFO] Specializing dependency: com.sun.istack:istack-commons-runtime:3.0.12, with file istack-commons-runtime-3.0.12.jar
+[INFO] Specializing dependency com.sun.istack:istack-commons-runtime:3.0.12, removing 22/24 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\istack-commons-runtime-3.0.12.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=istack-commons-runtime -Dversion=3.0.12
+[INFO] Specializing dependency: xml-apis:xml-apis:1.4.01, with file xml-apis-1.4.01.jar
+[INFO] Specializing dependency xml-apis:xml-apis:1.4.01, removing 96/346 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\xml-apis-1.4.01.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=xml-apis -Dversion=1.4.01
+[INFO] Specializing dependency: org.apache.tika:tika-parser-pdf-module:2.4.1, with file tika-parser-pdf-module-2.4.1.jar
+[INFO] Specializing dependency org.apache.tika:tika-parser-pdf-module:2.4.1, removing 2/42 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\tika-parser-pdf-module-2.4.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=tika-parser-pdf-module -Dversion=2.4.1
+[INFO] Specializing dependency: org.apache.pdfbox:pdfbox-tools:2.0.26, with file pdfbox-tools-2.0.26.jar
+[INFO] Specializing dependency org.apache.pdfbox:pdfbox-tools:2.0.26, removing 26/30 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\pdfbox-tools-2.0.26.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=pdfbox-tools -Dversion=2.0.26
+[INFO] Specializing dependency: com.sun.activation:jakarta.activation:1.2.2, with file jakarta.activation-1.2.2.jar
+[INFO] Specializing dependency com.sun.activation:jakarta.activation:1.2.2, removing 41/43 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jakarta.activation-1.2.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jakarta.activation -Dversion=1.2.2
+[INFO] Specializing dependency: org.codehaus.woodstox:woodstox-core-asl:4.4.1, with file woodstox-core-asl-4.4.1.jar
+[INFO] Specializing dependency org.codehaus.woodstox:woodstox-core-asl:4.4.1, removing 32/204 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\woodstox-core-asl-4.4.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=woodstox-core-asl -Dversion=4.4.1
+[INFO] Specializing dependency: org.apache.commons:commons-exec:1.3, with file commons-exec-1.3.jar
+[INFO] Specializing dependency org.apache.commons:commons-exec:1.3, removing 10/37 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\commons-exec-1.3.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-exec -Dversion=1.3
+[INFO] Specializing dependency: org.apache.lucene:lucene-misc:8.8.2, with file lucene-misc-8.8.2.jar
+[INFO] Specializing dependency org.apache.lucene:lucene-misc:8.8.2, removing 54/59 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\lucene-misc-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=lucene-misc -Dversion=8.8.2
+[INFO] Specializing dependency: org.apache.pdfbox:pdfbox:2.0.26, with file pdfbox-2.0.26.jar
+[INFO] Specializing dependency org.apache.pdfbox:pdfbox:2.0.26, removing 25/781 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\pdfbox-2.0.26.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=pdfbox -Dversion=2.0.26
+[INFO] Specializing dependency: org.apache.kerby:kerb-core:1.0.1, with file kerb-core-1.0.1.jar
+[INFO] Specializing dependency org.apache.kerby:kerb-core:1.0.1, removing 193/204 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\kerb-core-1.0.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=kerb-core -Dversion=1.0.1
+[INFO] Specializing dependency: com.esotericsoftware:kryo:5.4.0, with file kryo-5.4.0.jar
+[INFO] Specializing dependency com.esotericsoftware:kryo:5.4.0, removing 29/233 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\kryo-5.4.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=kryo -Dversion=5.4.0
+[INFO] Specializing dependency: org.apache.commons:commons-csv:1.4, with file commons-csv-1.4.jar
+[INFO] Skipping specializing dependency org.apache.commons:commons-csv:1.4 because all its types are used.
+[INFO] Specializing dependency: io.netty:netty-codec-dns:4.1.90.Final, with file netty-codec-dns-4.1.90.Final.jar
+[INFO] Specializing dependency io.netty:netty-codec-dns:4.1.90.Final, removing 7/45 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\netty-codec-dns-4.1.90.Final.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=netty-codec-dns -Dversion=4.1.90.Final
+[INFO] Specializing dependency: org.apache.lucene:lucene-sandbox:8.8.2, with file lucene-sandbox-8.8.2.jar
+[INFO] Specializing dependency org.apache.lucene:lucene-sandbox:8.8.2, removing 110/114 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\lucene-sandbox-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=lucene-sandbox -Dversion=8.8.2
+[INFO] Specializing dependency: org.apache.tika:tika-parsers-standard-package:2.4.1, with file tika-parsers-standard-package-2.4.1.jar
+[INFO] Specializing dependency org.apache.tika:tika-parsers-standard-package:2.4.1, removing 661/721 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\tika-parsers-standard-package-2.4.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=tika-parsers-standard-package -Dversion=2.4.1
+[INFO] Specializing dependency: org.bouncycastle:bcpkix-jdk15on:1.70, with file bcpkix-jdk15on-1.70.jar
+[INFO] Specializing dependency org.bouncycastle:bcpkix-jdk15on:1.70, removing 695/804 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\bcpkix-jdk15on-1.70.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=bcpkix-jdk15on -Dversion=1.70
+[INFO] Specializing dependency: io.netty:netty-codec:4.1.50.Final, with file netty-codec-4.1.50.Final.jar
+[INFO] Specializing dependency io.netty:netty-codec:4.1.50.Final, removing 173/198 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\netty-codec-4.1.50.Final.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=netty-codec -Dversion=4.1.50.Final
+[INFO] Specializing dependency: org.apache.tika:tika-parser-ocr-module:2.4.1, with file tika-parser-ocr-module-2.4.1.jar
+[INFO] Skipping specializing dependency org.apache.tika:tika-parser-ocr-module:2.4.1 because all its types are used.
+[INFO] Specializing dependency: org.redisson:redisson:3.20.1, with file redisson-3.20.1.jar
+[INFO] Specializing dependency org.redisson:redisson:3.20.1, removing 158/1412 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\redisson-3.20.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=redisson -Dversion=3.20.1
+[INFO] Specializing dependency: net.bytebuddy:byte-buddy:1.14.0, with file byte-buddy-1.14.0.jar
+[INFO] Specializing dependency net.bytebuddy:byte-buddy:1.14.0, removing 364/2862 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\byte-buddy-1.14.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=byte-buddy -Dversion=1.14.0
+[INFO] Specializing dependency: org.eclipse.jetty.http2:http2-client:9.4.34.v20201102, with file http2-client-9.4.34.v20201102.jar
+[INFO] Skipping specializing dependency org.eclipse.jetty.http2:http2-client:9.4.34.v20201102 because all its types are used.
+[INFO] Specializing dependency: org.apache.lucene:lucene-spatial3d:8.8.2, with file lucene-spatial3d-8.8.2.jar
+[INFO] Specializing dependency org.apache.lucene:lucene-spatial3d:8.8.2, removing 12/145 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\lucene-spatial3d-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=lucene-spatial3d -Dversion=8.8.2
+[INFO] Specializing dependency: org.apache.lucene:lucene-spatial-extras:8.8.2, with file lucene-spatial-extras-8.8.2.jar
+[INFO] Specializing dependency org.apache.lucene:lucene-spatial-extras:8.8.2, removing 27/147 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\lucene-spatial-extras-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=lucene-spatial-extras -Dversion=8.8.2
+[INFO] Specializing dependency: com.lmax:disruptor:3.4.2, with file disruptor-3.4.2.jar
+[INFO] Specializing dependency com.lmax:disruptor:3.4.2, removing 10/80 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\disruptor-3.4.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=disruptor -Dversion=3.4.2
+[INFO] Specializing dependency: com.github.ben-manes.caffeine:caffeine:2.8.4, with file caffeine-2.8.4.jar
+[INFO] Specializing dependency com.github.ben-manes.caffeine:caffeine:2.8.4, removing 538/690 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\caffeine-2.8.4.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=caffeine -Dversion=2.8.4
+[INFO] Specializing dependency: com.jayway.jsonpath:json-path:2.4.0, with file json-path-2.4.0.jar
+[INFO] Specializing dependency com.jayway.jsonpath:json-path:2.4.0, removing 21/174 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\json-path-2.4.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=json-path -Dversion=2.4.0
+[INFO] Specializing dependency: org.apache.commons:commons-collections4:4.4, with file commons-collections4-4.4.jar
+[INFO] Specializing dependency org.apache.commons:commons-collections4:4.4, removing 328/524 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\commons-collections4-4.4.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-collections4 -Dversion=4.4
+[INFO] Specializing dependency: org.eclipse.jetty:jetty-http:9.4.34.v20201102, with file jetty-http-9.4.34.v20201102.jar
+[INFO] Specializing dependency org.eclipse.jetty:jetty-http:9.4.34.v20201102, removing 3/97 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jetty-http-9.4.34.v20201102.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jetty-http -Dversion=9.4.34.v20201102
+[INFO] Specializing dependency: mysql:mysql-connector-java:8.0.16, with file mysql-connector-java-8.0.16.jar
+[INFO] Specializing dependency mysql:mysql-connector-java:8.0.16, removing 452/965 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\mysql-connector-java-8.0.16.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=mysql-connector-java -Dversion=8.0.16
+[INFO] Specializing dependency: com.github.jai-imageio:jai-imageio-jpeg2000:1.3.0, with file jai-imageio-jpeg2000-1.3.0.jar
+[INFO] Specializing dependency com.github.jai-imageio:jai-imageio-jpeg2000:1.3.0, removing 12/193 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jai-imageio-jpeg2000-1.3.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jai-imageio-jpeg2000 -Dversion=1.3.0
+[INFO] Specializing dependency: org.apache.logging.log4j:log4j-slf4j-impl:2.13.2, with file log4j-slf4j-impl-2.13.2.jar
+[INFO] Specializing dependency org.apache.logging.log4j:log4j-slf4j-impl:2.13.2, removing 1/10 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\log4j-slf4j-impl-2.13.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=log4j-slf4j-impl -Dversion=2.13.2
+[INFO] Specializing dependency: org.eclipse.jetty:jetty-rewrite:9.4.34.v20201102, with file jetty-rewrite-9.4.34.v20201102.jar
+[INFO] Specializing dependency org.eclipse.jetty:jetty-rewrite:9.4.34.v20201102, removing 18/24 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jetty-rewrite-9.4.34.v20201102.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jetty-rewrite -Dversion=9.4.34.v20201102
+[INFO] Specializing dependency: org.apache.commons:commons-lang3:3.10, with file commons-lang3-3.10.jar
+[INFO] Specializing dependency org.apache.commons:commons-lang3:3.10, removing 162/288 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\commons-lang3-3.10.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-lang3 -Dversion=3.10
+[INFO] Specializing dependency: org.apache.hadoop:hadoop-annotations:3.2.0, with file hadoop-annotations-3.2.0.jar
+[INFO] Specializing dependency org.apache.hadoop:hadoop-annotations:3.2.0, removing 8/16 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\hadoop-annotations-3.2.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=hadoop-annotations -Dversion=3.2.0
+[INFO] Specializing dependency: org.bouncycastle:bcutil-jdk15on:1.70, with file bcutil-jdk15on-1.70.jar
+[INFO] Specializing dependency org.bouncycastle:bcutil-jdk15on:1.70, removing 381/414 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\bcutil-jdk15on-1.70.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=bcutil-jdk15on -Dversion=1.70
+[INFO] Specializing dependency: org.eclipse.jetty.http2:http2-http-client-transport:9.4.34.v20201102, with file http2-http-client-transport-9.4.34.v20201102.jar
+[INFO] Skipping specializing dependency org.eclipse.jetty.http2:http2-http-client-transport:9.4.34.v20201102 because all its types are used.
+[INFO] Specializing dependency: org.locationtech.spatial4j:spatial4j:0.7, with file spatial4j-0.7.jar
+[INFO] Specializing dependency org.locationtech.spatial4j:spatial4j:0.7, removing 24/109 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\spatial4j-0.7.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=spatial4j -Dversion=0.7
+[INFO] Specializing dependency: com.fasterxml.jackson.core:jackson-databind:2.10.0.pr1, with file jackson-databind-2.10.0.pr1.jar
+[INFO] Specializing dependency com.fasterxml.jackson.core:jackson-databind:2.10.0.pr1, removing 19/650 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\jackson-databind-2.10.0.pr1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=jackson-databind -Dversion=2.10.0.pr1
+[INFO] Specializing dependency: commons-io:commons-io:2.8.0, with file commons-io-2.8.0.jar
+[INFO] Specializing dependency commons-io:commons-io:2.8.0, removing 116/182 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\commons-io-2.8.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-io -Dversion=2.8.0
+[INFO] Specializing dependency: com.google.protobuf:protobuf-java:3.6.1, with file protobuf-java-3.6.1.jar
+[INFO] Specializing dependency com.google.protobuf:protobuf-java:3.6.1, removing 156/581 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\protobuf-java-3.6.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=protobuf-java -Dversion=3.6.1
+[INFO] Specializing dependency: commons-collections:commons-collections:3.2.2, with file commons-collections-3.2.2.jar
+[INFO] Specializing dependency commons-collections:commons-collections:3.2.2, removing 393/460 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\commons-collections-3.2.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-collections -Dversion=3.2.2
+[INFO] Specializing dependency: io.opentracing:opentracing-api:0.33.0, with file opentracing-api-0.33.0.jar
+[INFO] Specializing dependency io.opentracing:opentracing-api:0.33.0, removing 8/29 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\opentracing-api-0.33.0.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=opentracing-api -Dversion=0.33.0
+[INFO] Specializing dependency: org.apache.commons:commons-configuration2:2.1.1, with file commons-configuration2-2.1.1.jar
+[INFO] Specializing dependency org.apache.commons:commons-configuration2:2.1.1, removing 208/369 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\commons-configuration2-2.1.1.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=commons-configuration2 -Dversion=2.1.1
+[INFO] Specializing dependency: org.reactivestreams:reactive-streams:1.0.4, with file reactive-streams-1.0.4.jar
+[INFO] Specializing dependency org.reactivestreams:reactive-streams:1.0.4, removing 9/13 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\reactive-streams-1.0.4.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=reactive-streams -Dversion=1.0.4
+[INFO] Specializing dependency: org.apache.httpcomponents:httpclient:4.5.13, with file httpclient-4.5.13.jar
+[INFO] Specializing dependency org.apache.httpcomponents:httpclient:4.5.13, removing 170/470 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\httpclient-4.5.13.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=httpclient -Dversion=4.5.13
+[INFO] Specializing dependency: org.apache.lucene:lucene-queryparser:8.8.2, with file lucene-queryparser-8.8.2.jar
+[INFO] Specializing dependency org.apache.lucene:lucene-queryparser:8.8.2, removing 178/254 unused types.
+[INFO] mvn deploy:deploy-file -Durl=file:///C:/Users/lolis/.m2/repository/ -Dpackaging=jar -Dfile=D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\libs-specialized\lucene-queryparser-8.8.2.jar -DgroupId=se.kth.castor.deptrim.spl -DartifactId=lucene-queryparser -Dversion=8.8.2
+[INFO] Number of specialized dependencies: 141
+[INFO] -------------------------------------------------------
+[INFO] DEPTRIM IS CREATING SPECIALIZED POMS
+[INFO] -------------------------------------------------------
+[INFO] Starting debloating POM file...
+[INFO] Adding 141 used transitive dependencies as direct dependencies.
+[INFO] Removing 1 unused direct dependency.
+[INFO] Excluding 79 unused transitive dependencies one-by-one.
+[INFO] Adding ch.qos.logback:logback-classic:1.2.0:test
+[INFO] Adding io.netty:netty-common:4.1.50.Final:compile
+[INFO] Adding org.eclipse.jetty:jetty-servlet:9.4.34.v20201102:test
+[INFO] Adding org.apache.solr:solr-solrj:8.8.2:compile
+[INFO] Excluding org.eclipse.jetty:jetty-alpn-java-client from org.apache.solr:solr-solrj:8.8.2
+[INFO] Adding xerces:xercesImpl:2.12.2:compile
+[INFO] Adding org.apache.logging.log4j:log4j-api:2.13.2:compile
+[INFO] Adding org.apache.lucene:lucene-suggest:8.8.2:test
+[INFO] Adding org.apache.logging.log4j:log4j-web:2.13.2:test
+[INFO] Adding org.apache.logging.log4j:log4j-1.2-api:2.13.2:test
+[INFO] Adding org.glassfish.jaxb:txw2:2.3.6:compile
+[INFO] Adding org.apache.lucene:lucene-queries:8.8.2:test
+[INFO] Adding commons-lang:commons-lang:2.6:compile
+[INFO] Adding org.eclipse.jetty:jetty-alpn-client:9.4.34.v20201102:compile
+[INFO] Adding org.apache.lucene:lucene-analyzers-common:8.8.2:test
+[INFO] Adding org.apache.lucene:lucene-memory:8.8.2:test
+[INFO] Adding io.netty:netty-resolver:4.1.50.Final:compile
+[INFO] Adding org.apache.hadoop:hadoop-common:3.2.0:test
+[INFO] Adding org.apache.hadoop:hadoop-hdfs-client:3.2.0:test
+[INFO] Adding com.esotericsoftware:reflectasm:1.11.9:compile
+[INFO] Adding org.xerial.snappy:snappy-java:1.1.7.6:compile
+[INFO] Adding org.apache.zookeeper:zookeeper-jute:3.6.2:compile
+[INFO] Adding com.fasterxml.jackson.core:jackson-annotations:2.10.0.pr1:compile
+[INFO] Adding commons-logging:commons-logging:1.2:compile
+[INFO] Adding org.slf4j:slf4j-api:1.7.27:compile
+[INFO] Adding io.netty:netty-handler:4.1.50.Final:compile
+[INFO] Adding org.eclipse.jetty:jetty-continuation:9.4.34.v20201102:test
+[INFO] Adding me.tongfei:progressbar:0.5.5:compile
+[INFO] Adding org.eclipse.jetty:jetty-server:9.4.34.v20201102:test
+[INFO] Adding io.dropwizard.metrics:metrics-core:4.1.5:test
+[INFO] Adding org.glassfish.jaxb:jaxb-runtime:2.3.6:compile
+[INFO] Adding org.apache.solr:solr-core:8.8.2:test
+[INFO] Excluding org.apache.lucene:lucene-codecs from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.lucene:lucene-expressions from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding io.dropwizard.metrics:metrics-graphite from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.curator:curator-framework from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.lucene:lucene-analyzers-phonetic from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.eclipse.jetty:jetty-servlets from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.eclipse.jetty:jetty-jmx from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.antlr:antlr4-runtime from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.lucene:lucene-analyzers-kuromoji from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.eclipse.jetty:jetty-webapp from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.commons:commons-text from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.lucene:lucene-classification from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.bitbucket.b_c:jose4j from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.eclipse.jetty:jetty-deploy from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding net.hydromatic:eigenbase-properties from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.kerby:kerby-pkix from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.eclipse.jetty:jetty-alpn-java-server from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding com.github.zafarkhaja:java-semver from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding io.dropwizard.metrics:metrics-jetty9 from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.eclipse.jetty:jetty-xml from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.lucene:lucene-analyzers-nori from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.lucene:lucene-backward-codecs from org.apache.solr:solr-core:8.8.2
+[INFO] Excluding org.apache.curator:curator-recipes from org.apache.solr:solr-core:8.8.2
+[INFO] Adding com.zaxxer:HikariCP:2.6.3:compile
+[INFO] Adding org.bouncycastle:bcprov-jdk15on:1.70:compile
+[INFO] Adding com.google.re2j:re2j:1.2:test
+[INFO] Adding org.eclipse.jetty.http2:http2-server:9.4.34.v20201102:test
+[INFO] Adding com.esotericsoftware:minlog:1.3.1:compile
+[INFO] Adding io.netty:netty-resolver-dns:4.1.90.Final:compile
+[INFO] Adding org.apache.tika:tika-parser-xmp-commons:2.4.1:compile
+[INFO] Excluding org.apache.pdfbox:xmpbox from org.apache.tika:tika-parser-xmp-commons:2.4.1
+[INFO] Adding org.apache.zookeeper:zookeeper:3.6.2:compile
+[INFO] Adding org.apache.logging.log4j:log4j-core:2.13.2:test
+[INFO] Adding io.netty:netty-transport-native-unix-common:4.1.50.Final:compile
+[INFO] Adding org.apache.poi:poi:5.2.2:compile
+[INFO] Excluding com.zaxxer:SparseBitSet from org.apache.poi:poi:5.2.2
+[INFO] Adding org.slf4j:jcl-over-slf4j:1.7.24:compile
+[INFO] Adding ch.qos.logback:logback-core:1.2.0:test
+[INFO] Adding org.apache.pdfbox:fontbox:2.0.26:compile
+[INFO] Adding org.apache.commons:commons-math3:3.6.1:compile
+[INFO] Adding org.apache.hadoop:hadoop-auth:3.2.0:test
+[INFO] Adding org.apache.tika:tika-parser-html-module:2.4.1:compile
+[INFO] Excluding org.apache.tika:tika-parser-html-commons from org.apache.tika:tika-parser-html-module:2.4.1
+[INFO] Adding com.google.guava:guava:25.1-jre:test
+[INFO] Adding org.codehaus.janino:commons-compiler:3.0.9:test
+[INFO] Adding jline:jline:2.12:compile
+[INFO] Adding com.carrotsearch:hppc:0.8.1:test
+[INFO] Adding org.apache.htrace:htrace-core4:4.1.0-incubating:test
+[INFO] Adding org.jdom:jdom2:2.0.6.1:compile
+[INFO] Adding org.ow2.asm:asm-commons:8.0.1:test
+[INFO] Adding io.reactivex.rxjava3:rxjava:3.1.6:compile
+[INFO] Adding org.eclipse.jetty:jetty-security:9.4.34.v20201102:test
+[INFO] Adding commons-codec:commons-codec:1.13:compile
+[INFO] Adding com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.11.2:test
+[INFO] Adding org.eclipse.jetty:jetty-util:9.4.34.v20201102:compile
+[INFO] Adding javax.servlet:javax.servlet-api:3.1.0:test
+[INFO] Adding org.apache.lucene:lucene-highlighter:8.8.2:test
+[INFO] Adding org.hamcrest:hamcrest-core:1.3:test
+[INFO] Adding io.projectreactor:reactor-core:3.5.3:compile
+[INFO] Adding org.apache.commons:commons-compress:1.21:compile
+[INFO] Adding junit:junit:4.13.1:test
+[INFO] Adding org.apache.httpcomponents:httpcore:4.4.6:compile
+[INFO] Adding jakarta.xml.bind:jakarta.xml.bind-api:2.3.3:compile
+[INFO] Adding org.apache.calcite:calcite-linq4j:1.18.0:test
+[INFO] Adding org.icij.extract:extract-lib:7.4.0:compile
+[INFO] Excluding org.xerial:sqlite-jdbc from org.icij.extract:extract-lib:7.4.0
+[INFO] Excluding com.levigo.jbig2:levigo-jbig2-imageio from org.icij.extract:extract-lib:7.4.0
+[INFO] Excluding com.pff:java-libpst from org.icij.extract:extract-lib:7.4.0
+[INFO] Adding org.eclipse.jetty:jetty-io:9.4.34.v20201102:compile
+[INFO] Adding io.dropwizard.metrics:metrics-jvm:4.1.5:test
+[INFO] Adding com.sun.istack:istack-commons-runtime:3.0.12:compile
+[INFO] Adding org.eclipse.jetty:jetty-alpn-server:9.4.34.v20201102:test
+[INFO] Adding io.opentracing:opentracing-noop:0.33.0:test
+[INFO] Adding xml-apis:xml-apis:1.4.01:compile
+[INFO] Adding org.jodd:jodd-core:5.1.6:compile
+[INFO] Adding org.apache.tika:tika-parser-pdf-module:2.4.1:compile
+[INFO] Adding org.apache.tika:tika-parser-digest-commons:2.4.1:compile
+[INFO] Adding org.apache.calcite.avatica:avatica-core:1.13.0:test
+[INFO] Adding org.yaml:snakeyaml:2.0:compile
+[INFO] Adding org.slf4j:slf4j-simple:1.7.27:compile
+[INFO] Adding org.apache.pdfbox:pdfbox-tools:2.0.26:compile
+[INFO] Excluding org.apache.pdfbox:pdfbox-debugger from org.apache.pdfbox:pdfbox-tools:2.0.26
+[INFO] Adding com.sun.activation:jakarta.activation:1.2.2:runtime
+[INFO] Adding org.codehaus.woodstox:woodstox-core-asl:4.4.1:compile
+[INFO] Adding org.apache.httpcomponents:httpmime:4.5.12:compile
+[INFO] Adding org.apache.commons:commons-exec:1.3:compile
+[INFO] Adding org.apache.lucene:lucene-misc:8.8.2:test
+[INFO] Adding org.apache.pdfbox:pdfbox:2.0.26:compile
+[INFO] Adding org.apache.lucene:lucene-core:8.8.2:test
+[INFO] Adding org.apache.kerby:kerb-util:1.0.1:test
+[INFO] Adding org.eclipse.jetty:jetty-client:9.4.34.v20201102:compile
+[INFO] Adding org.apache.kerby:kerb-core:1.0.1:test
+[INFO] Adding com.esotericsoftware:kryo:5.4.0:compile
+[INFO] Adding org.apache.commons:commons-csv:1.4:compile
+[INFO] Adding io.netty:netty-codec-dns:4.1.90.Final:compile
+[INFO] Adding org.apache.lucene:lucene-sandbox:8.8.2:test
+[INFO] Adding com.github.jai-imageio:jai-imageio-core:1.3.1:compile
+[INFO] Adding org.bouncycastle:bcpkix-jdk15on:1.70:compile
+[INFO] Adding org.apache.tika:tika-parsers-standard-package:2.4.1:compile
+[INFO] Excluding org.apache.tika:tika-parser-cad-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-image-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.gagravarr:vorbis-java-tika from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-pkg-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-microsoft-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.gagravarr:vorbis-java-core from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-miscoffice-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-mail-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-news-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-audiovideo-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-text-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-webarchive-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-apple-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-code-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-xml-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-crypto-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Excluding org.apache.tika:tika-parser-font-module from org.apache.tika:tika-parsers-standard-package:2.4.1
+[INFO] Adding io.netty:netty-codec:4.1.50.Final:compile
+[INFO] Adding org.apache.tika:tika-parser-ocr-module:2.4.1:compile
+[INFO] Adding org.redisson:redisson:3.20.1:compile
+[INFO] Excluding javax.cache:cache-api from org.redisson:redisson:3.20.1
+[INFO] Excluding org.jboss.marshalling:jboss-marshalling from org.redisson:redisson:3.20.1
+[INFO] Excluding org.jboss.marshalling:jboss-marshalling-river from org.redisson:redisson:3.20.1
+[INFO] Adding net.bytebuddy:byte-buddy:1.14.0:compile
+[INFO] Adding io.opentracing:opentracing-util:0.33.0:test
+[INFO] Adding org.eclipse.jetty.http2:http2-client:9.4.34.v20201102:compile
+[INFO] Adding org.jodd:jodd-bean:5.1.6:compile
+[INFO] Adding io.sgr:s2-geometry-library-java:1.0.0:test
+[INFO] Adding io.dropwizard.metrics:metrics-jmx:4.1.5:test
+[INFO] Adding org.apache.lucene:lucene-spatial3d:8.8.2:test
+[INFO] Adding org.rrd4j:rrd4j:3.5:test
+[INFO] Adding org.apache.lucene:lucene-spatial-extras:8.8.2:test
+[INFO] Adding javax.xml.bind:jaxb-api:2.3.0:compile
+[INFO] Adding org.codehaus.janino:janino:3.0.9:test
+[INFO] Adding com.lmax:disruptor:3.4.2:test
+[INFO] Adding com.github.ben-manes.caffeine:caffeine:2.8.4:test
+[INFO] Adding com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.2:compile
+[INFO] Adding com.jayway.jsonpath:json-path:2.4.0:test
+[INFO] Adding org.apache.commons:commons-collections4:4.4:compile
+[INFO] Adding mysql:mysql-connector-java:8.0.16:compile
+[INFO] Adding org.eclipse.jetty:jetty-http:9.4.34.v20201102:compile
+[INFO] Adding org.ow2.asm:asm:8.0.1:compile
+[INFO] Adding org.apache.kerby:kerby-asn1:1.0.1:test
+[INFO] Adding com.github.jai-imageio:jai-imageio-jpeg2000:1.3.0:compile
+[INFO] Adding commons-cli:commons-cli:1.3.1:compile
+[INFO] Adding org.apache.lucene:lucene-grouping:8.8.2:test
+[INFO] Adding org.apache.logging.log4j:log4j-slf4j-impl:2.13.2:test
+[INFO] Adding org.eclipse.jetty:jetty-rewrite:9.4.34.v20201102:test
+[INFO] Adding org.apache.commons:commons-lang3:3.10:compile
+[INFO] Adding org.apache.curator:curator-client:2.13.0:test
+[INFO] Adding com.fasterxml.jackson.core:jackson-core:2.10.0.pr1:compile
+[INFO] Adding org.apache.hadoop:hadoop-annotations:3.2.0:test
+[INFO] Adding org.bouncycastle:bcutil-jdk15on:1.70:compile
+[INFO] Adding org.apache.pdfbox:jempbox:1.8.16:compile
+[INFO] Adding io.netty:netty-buffer:4.1.50.Final:compile
+[INFO] Adding io.netty:netty-transport-native-epoll:4.1.50.Final:compile
+[INFO] Adding org.eclipse.jetty.http2:http2-http-client-transport:9.4.34.v20201102:compile
+[INFO] Adding org.locationtech.spatial4j:spatial4j:0.7:test
+[INFO] Adding com.fasterxml.jackson.core:jackson-databind:2.10.0.pr1:compile
+[INFO] Adding org.apache.tika:tika-core:2.4.1:compile
+[INFO] Adding commons-io:commons-io:2.8.0:compile
+[INFO] Adding org.apache.calcite:calcite-core:1.18.0:test
+[INFO] Adding org.codehaus.woodstox:stax2-api:3.1.4:compile
+[INFO] Adding com.tdunning:t-digest:3.1:test
+[INFO] Adding com.google.protobuf:protobuf-java:3.6.1:compile
+[INFO] Adding org.objenesis:objenesis:3.3:compile
+[INFO] Adding commons-collections:commons-collections:3.2.2:test
+[INFO] Adding io.opentracing:opentracing-api:0.33.0:test
+[INFO] Adding org.apache.commons:commons-configuration2:2.1.1:test
+[INFO] Adding org.apache.httpcomponents:httpclient:4.5.13:compile
+[INFO] Adding org.reactivestreams:reactive-streams:1.0.4:compile
+[INFO] Adding io.netty:netty-transport:4.1.50.Final:compile
+[INFO] Adding org.eclipse.jetty.http2:http2-common:9.4.34.v20201102:compile
+[INFO] Adding org.apache.lucene:lucene-queryparser:8.8.2:test
+[INFO] Adding org.eclipse.jetty.http2:http2-hpack:9.4.34.v20201102:compile
+[INFO] Adding org.apache.lucene:lucene-join:8.8.2:test
+[INFO] POM debloated successfully
+[INFO] pom-debloated.xml file created in: D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\pom-debloated.xml
+[INFO] Created pom-specialized.xml
+[INFO] DepTrim execution done in 18min 2s
+
+ProGuard:
+Ignoring unused library classes...
+  Original number of library classes:              13736
+  Final number of library classes:                 1727
+Marking classes and class members to be kept...
+Inlining subroutines...
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            40107
+  Final number of program classes:               15870
+Optimizing (pass 1/15)...
+  Number of finalized classes:                   4884
+  Number of unboxed enum classes:                47
+  Number of vertically merged classes:           29
+  Number of horizontally merged classes:         674
+  Number of merged wrapper classes:              1
+  Number of removed write-only fields:           5142
+  Number of privatized fields:                   9879
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             2021
+  Number of inlined constant fields:             922
+  Number of privatized methods:                  7667
+  Number of staticized methods:                  1517
+  Number of finalized methods:                   43035
+  Number of desynchronized methods:              1
+  Number of simplified method signatures:        1474
+  Number of removed method parameters:           1287
+  Number of generalized method invocations:      54446
+  Number of specialized method parameter types:  2562
+  Number of specialized method return types:     2016
+  Number of inlined constant parameters:         2953
+  Number of inlined constant return values:      332
+  Number of inlined short method calls:          7229
+  Number of inlined unique method calls:         7516
+  Number of inlined tail recursion calls:        115
+  Number of merged code blocks:                  380
+  Number of variable peephole optimizations:     54817
+  Number of arithmetic peephole optimizations:   2625
+  Number of cast peephole optimizations:         682
+  Number of field peephole optimizations:        866
+  Number of branch peephole optimizations:       20004
+  Number of object peephole optimizations:       1026
+  Number of string peephole optimizations:       6648
+  Number of math peephole optimizations:         5
+  Number of simplified instructions:             9085
+  Number of removed instructions:                53414
+  Number of removed local variables:             2373
+  Number of removed exception blocks:            1637
+  Number of optimized local variable frames:     20071
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            15870
+  Final number of program classes:               14982
+Optimizing (pass 2/15)...
+  Number of finalized classes:                   137
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           17
+  Number of horizontally merged classes:         60
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           619
+  Number of privatized fields:                   35
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             401
+  Number of inlined constant fields:             554
+  Number of privatized methods:                  103
+  Number of staticized methods:                  128
+  Number of finalized methods:                   630
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        2129
+  Number of removed method parameters:           2836
+  Number of generalized method invocations:      10
+  Number of specialized method parameter types:  1045
+  Number of specialized method return types:     737
+  Number of inlined constant parameters:         3038
+  Number of inlined constant return values:      179
+  Number of inlined short method calls:          305
+  Number of inlined unique method calls:         360
+  Number of inlined tail recursion calls:        23
+  Number of merged code blocks:                  51
+  Number of variable peephole optimizations:     4159
+  Number of arithmetic peephole optimizations:   225
+  Number of cast peephole optimizations:         2
+  Number of field peephole optimizations:        7
+  Number of branch peephole optimizations:       947
+  Number of object peephole optimizations:       264
+  Number of string peephole optimizations:       1451
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             2489
+  Number of removed instructions:                53094
+  Number of removed local variables:             1856
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     1149
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14982
+  Final number of program classes:               14854
+Optimizing (pass 3/15)...
+  Number of finalized classes:                   34
+  Number of unboxed enum classes:                4
+  Number of vertically merged classes:           3
+  Number of horizontally merged classes:         5
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           220
+  Number of privatized fields:                   33
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             220
+  Number of inlined constant fields:             468
+  Number of privatized methods:                  16
+  Number of staticized methods:                  50
+  Number of finalized methods:                   101
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        501
+  Number of removed method parameters:           792
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  529
+  Number of specialized method return types:     204
+  Number of inlined constant parameters:         1236
+  Number of inlined constant return values:      161
+  Number of inlined short method calls:          65
+  Number of inlined unique method calls:         56
+  Number of inlined tail recursion calls:        1
+  Number of merged code blocks:                  7
+  Number of variable peephole optimizations:     785
+  Number of arithmetic peephole optimizations:   17
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        1
+  Number of branch peephole optimizations:       69
+  Number of object peephole optimizations:       32
+  Number of string peephole optimizations:       133
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             776
+  Number of removed instructions:                10889
+  Number of removed local variables:             170
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     234
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14854
+  Final number of program classes:               14820
+Optimizing (pass 4/15)...
+  Number of finalized classes:                   3
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         2
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           88
+  Number of privatized fields:                   10
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             121
+  Number of inlined constant fields:             316
+  Number of privatized methods:                  3
+  Number of staticized methods:                  12
+  Number of finalized methods:                   2
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        203
+  Number of removed method parameters:           278
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  294
+  Number of specialized method return types:     101
+  Number of inlined constant parameters:         909
+  Number of inlined constant return values:      155
+  Number of inlined short method calls:          23
+  Number of inlined unique method calls:         9
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     217
+  Number of arithmetic peephole optimizations:   8
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       11
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       26
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             292
+  Number of removed instructions:                2785
+  Number of removed local variables:             69
+  Number of removed exception blocks:            2
+  Number of optimized local variable frames:     52
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14820
+  Final number of program classes:               14766
+Optimizing (pass 5/15)...
+  Number of finalized classes:                   1
+  Number of unboxed enum classes:                1
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         3
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           32
+  Number of privatized fields:                   6
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             64
+  Number of inlined constant fields:             268
+  Number of privatized methods:                  0
+  Number of staticized methods:                  11
+  Number of finalized methods:                   1
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        104
+  Number of removed method parameters:           137
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  141
+  Number of specialized method return types:     73
+  Number of inlined constant parameters:         793
+  Number of inlined constant return values:      162
+  Number of inlined short method calls:          7
+  Number of inlined unique method calls:         6
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     46
+  Number of arithmetic peephole optimizations:   4
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        1
+  Number of branch peephole optimizations:       13
+  Number of object peephole optimizations:       1
+  Number of string peephole optimizations:       9
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             130
+  Number of removed instructions:                1472
+  Number of removed local variables:             7
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     23
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14766
+  Final number of program classes:               14760
+Optimizing (pass 6/15)...
+  Number of finalized classes:                   1
+  Number of unboxed enum classes:                2
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           25
+  Number of privatized fields:                   3
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             34
+  Number of inlined constant fields:             252
+  Number of privatized methods:                  0
+  Number of staticized methods:                  5
+  Number of finalized methods:                   7
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        41
+  Number of removed method parameters:           59
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  98
+  Number of specialized method return types:     17
+  Number of inlined constant parameters:         744
+  Number of inlined constant return values:      155
+  Number of inlined short method calls:          3
+  Number of inlined unique method calls:         1
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  1
+  Number of variable peephole optimizations:     17
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       2
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       5
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             102
+  Number of removed instructions:                857
+  Number of removed local variables:             8
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     11
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14760
+  Final number of program classes:               14754
+Optimizing (pass 7/15)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           2
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           17
+  Number of privatized fields:                   3
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             18
+  Number of inlined constant fields:             239
+  Number of privatized methods:                  0
+  Number of staticized methods:                  1
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        23
+  Number of removed method parameters:           28
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  65
+  Number of specialized method return types:     19
+  Number of inlined constant parameters:         730
+  Number of inlined constant return values:      156
+  Number of inlined short method calls:          6
+  Number of inlined unique method calls:         4
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     7
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       2
+  Number of object peephole optimizations:       2
+  Number of string peephole optimizations:       2
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             39
+  Number of removed instructions:                319
+  Number of removed local variables:             4
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     6
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14754
+  Final number of program classes:               14751
+Optimizing (pass 8/15)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           6
+  Number of privatized fields:                   1
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             6
+  Number of inlined constant fields:             235
+  Number of privatized methods:                  0
+  Number of staticized methods:                  3
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        17
+  Number of removed method parameters:           17
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  37
+  Number of specialized method return types:     3
+  Number of inlined constant parameters:         728
+  Number of inlined constant return values:      156
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     8
+  Number of arithmetic peephole optimizations:   1
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       2
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             20
+  Number of removed instructions:                82
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     4
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14751
+  Final number of program classes:               14751
+Optimizing (pass 9/15)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           2
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             8
+  Number of inlined constant fields:             231
+  Number of privatized methods:                  0
+  Number of staticized methods:                  1
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        10
+  Number of removed method parameters:           13
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  24
+  Number of specialized method return types:     1
+  Number of inlined constant parameters:         718
+  Number of inlined constant return values:      157
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     1
+  Number of arithmetic peephole optimizations:   1
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       2
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             9
+  Number of removed instructions:                78
+  Number of removed local variables:             2
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     1
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14751
+  Final number of program classes:               14751
+Optimizing (pass 10/15)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           2
+  Number of privatized fields:                   1
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             5
+  Number of inlined constant fields:             232
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        4
+  Number of removed method parameters:           4
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  15
+  Number of specialized method return types:     2
+  Number of inlined constant parameters:         708
+  Number of inlined constant return values:      157
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             10
+  Number of removed instructions:                86
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14751
+  Final number of program classes:               14751
+Optimizing (pass 11/15)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           2
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             1
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  7
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                14
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14751
+  Final number of program classes:               14751
+Optimizing (pass 12/15)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           0
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             1
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  15
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                7
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14751
+  Final number of program classes:               14751
+Optimizing (pass 13/15)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           0
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             0
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  2
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                7
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14751
+  Final number of program classes:               14751
+Optimizing (pass 14/15)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           0
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             0
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  2
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                7
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14751
+  Final number of program classes:               14751
+Optimizing (pass 15/15)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of merged wrapper classes:              0
+  Number of removed write-only fields:           0
+  Number of privatized fields:                   0
+  Number of generalized field accesses:          0   (disabled)
+  Number of specialized field types:             1
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of generalized method invocations:      0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             0
+  Number of removed instructions:                7
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            14751
+  Final number of program classes:               14751
+Preverifying...
+Writing output...
+Preparing output jar [D:\MasterThesis\successfulRealWorldPrograms\icij-extract\artifact_proguard.jar] (filtered)
+  Copying resources from program jar [D:\MasterThesis\successfulRealWorldPrograms\icij-extract\extract\extract-cli\target\extract-cli-7.4.0.jar] (filtered)
