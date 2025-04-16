@@ -1,4 +1,4 @@
--injars       tika/tika-app/target/tika-app-3.1.0.jar
+-injars       artifacts/artifact_vanilla.jar
 -outjars      artifact_proguard.jar
 # Identified with jdeps
 -libraryjars  <java.home>/jmods/java.base.jmod
@@ -14,7 +14,7 @@
 -libraryjars  <java.home>/jmods/java.sql.jmod
 -libraryjars  <java.home>/jmods/java.xml.jmod
 -libraryjars  <java.home>/jmods/java.xml.crypto.jmod
--libraryjars D:/MasterThesis/successfulRealWorldPrograms/apache-tika/javax.servlet-api-4.0.1.jar
+-libraryjars /home/martin/Documents/MasterThesis_ExperimentReady/real_world_programs/tika/javax.servlet-api-4.0.1.jar
 
 -dontobfuscate # Might break stuff, especially enums
 #-printmapping artifacts/mapping.txt
@@ -28,6 +28,19 @@
 # Added at runtime due to errors
 -keep public class com.github.jaiimageio.** {*;}
 -keep class org.apache.fontbox.** { *; }
+-keepclassmembers enum com.drew.imaging.jpeg.JpegSegmentType {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+-keepclassmembers class * {
+    **[] values();
+    ** valueOf(java.lang.String);
+}
+-keepclassmembers enum * {
+    *;
+}
+-keep class com.drew.** { *; }
+
 
 # There are a ton of warnings from proguard, but they're not necessarily critical if the program runs fine.
 -dontwarn **.**
