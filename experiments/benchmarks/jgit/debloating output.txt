@@ -66,7 +66,7 @@ DepTrim:
 
 ProGuard:
 Ignoring unused library classes...
-  Original number of library classes:              9315
+  Original number of library classes:              9350
   Final number of library classes:                 681
 Marking classes and class members to be kept...
 Inlining subroutines...
@@ -80,18 +80,18 @@ Optimizing (pass 1/50)...
   Number of vertically merged classes:           0
   Number of horizontally merged classes:         38
   Number of merged wrapper classes:              0
-  Number of removed write-only fields:           190
+  Number of removed write-only fields:           189
   Number of privatized fields:                   187
   Number of generalized field accesses:          540
   Number of specialized field types:             91
-  Number of inlined constant fields:             371
+  Number of inlined constant fields:             64
   Number of privatized methods:                  305
   Number of staticized methods:                  68
-  Number of finalized methods:                   2018
+  Number of finalized methods:                   2017
   Number of desynchronized methods:              0
   Number of simplified method signatures:        23
   Number of removed method parameters:           21
-  Number of generalized method invocations:      1500
+  Number of generalized method invocations:      1501
   Number of specialized method parameter types:  168
   Number of specialized method return types:     86
   Number of inlined constant parameters:         170
@@ -100,19 +100,19 @@ Optimizing (pass 1/50)...
   Number of inlined unique method calls:         431
   Number of inlined tail recursion calls:        4
   Number of merged code blocks:                  35
-  Number of variable peephole optimizations:     3036
+  Number of variable peephole optimizations:     3037
   Number of arithmetic peephole optimizations:   62
   Number of cast peephole optimizations:         9
   Number of field peephole optimizations:        20
-  Number of branch peephole optimizations:       722
+  Number of branch peephole optimizations:       723
   Number of object peephole optimizations:       8
   Number of string peephole optimizations:       40
   Number of math peephole optimizations:         0
-  Number of simplified instructions:             939
-  Number of removed instructions:                3447
-  Number of removed local variables:             84
+  Number of simplified instructions:             521
+  Number of removed instructions:                3409
+  Number of removed local variables:             83
   Number of removed exception blocks:            33
-  Number of optimized local variable frames:     902
+  Number of optimized local variable frames:     903
 Shrinking...
 Removing unused program classes and class elements...
   Original number of program classes:            661
@@ -137,7 +137,7 @@ Optimizing (pass 2/50)...
   Number of generalized method invocations:      0
   Number of specialized method parameter types:  71
   Number of specialized method return types:     18
-  Number of inlined constant parameters:         192
+  Number of inlined constant parameters:         182
   Number of inlined constant return values:      4
   Number of inlined short method calls:          25
   Number of inlined unique method calls:         24
@@ -151,8 +151,8 @@ Optimizing (pass 2/50)...
   Number of object peephole optimizations:       1
   Number of string peephole optimizations:       6
   Number of math peephole optimizations:         0
-  Number of simplified instructions:             150
-  Number of removed instructions:                2687
+  Number of simplified instructions:             139
+  Number of removed instructions:                2683
   Number of removed local variables:             159
   Number of removed exception blocks:            0
   Number of optimized local variable frames:     64
@@ -164,7 +164,7 @@ Optimizing (pass 3/50)...
   Number of finalized classes:                   5
   Number of unboxed enum classes:                0
   Number of vertically merged classes:           0
-  Number of horizontally merged classes:         4
+  Number of horizontally merged classes:         0
   Number of merged wrapper classes:              0
   Number of removed write-only fields:           12
   Number of privatized fields:                   1
@@ -175,12 +175,12 @@ Optimizing (pass 3/50)...
   Number of staticized methods:                  0
   Number of finalized methods:                   30
   Number of desynchronized methods:              0
-  Number of simplified method signatures:        47
-  Number of removed method parameters:           51
+  Number of simplified method signatures:        38
+  Number of removed method parameters:           42
   Number of generalized method invocations:      0
   Number of specialized method parameter types:  24
   Number of specialized method return types:     7
-  Number of inlined constant parameters:         79
+  Number of inlined constant parameters:         69
   Number of inlined constant return values:      2
   Number of inlined short method calls:          1
   Number of inlined unique method calls:         1
@@ -195,16 +195,16 @@ Optimizing (pass 3/50)...
   Number of string peephole optimizations:       0
   Number of math peephole optimizations:         0
   Number of simplified instructions:             51
-  Number of removed instructions:                440
+  Number of removed instructions:                409
   Number of removed local variables:             10
   Number of removed exception blocks:            0
   Number of optimized local variable frames:     11
 Shrinking...
 Removing unused program classes and class elements...
   Original number of program classes:            605
-  Final number of program classes:               597
+  Final number of program classes:               601
 Optimizing (pass 4/50)...
-  Number of finalized classes:                   4
+  Number of finalized classes:                   0
   Number of unboxed enum classes:                0
   Number of vertically merged classes:           0
   Number of horizontally merged classes:         0
@@ -223,7 +223,7 @@ Optimizing (pass 4/50)...
   Number of generalized method invocations:      0
   Number of specialized method parameter types:  13
   Number of specialized method return types:     5
-  Number of inlined constant parameters:         34
+  Number of inlined constant parameters:         33
   Number of inlined constant return values:      2
   Number of inlined short method calls:          0
   Number of inlined unique method calls:         0
@@ -244,8 +244,8 @@ Optimizing (pass 4/50)...
   Number of optimized local variable frames:     2
 Shrinking...
 Removing unused program classes and class elements...
-  Original number of program classes:            597
-  Final number of program classes:               596
+  Original number of program classes:            601
+  Final number of program classes:               600
 Optimizing (pass 5/50)...
   Number of finalized classes:                   0
   Number of unboxed enum classes:                0
@@ -266,7 +266,7 @@ Optimizing (pass 5/50)...
   Number of generalized method invocations:      0
   Number of specialized method parameter types:  8
   Number of specialized method return types:     0
-  Number of inlined constant parameters:         21
+  Number of inlined constant parameters:         20
   Number of inlined constant return values:      2
   Number of inlined short method calls:          0
   Number of inlined unique method calls:         0
@@ -287,8 +287,8 @@ Optimizing (pass 5/50)...
   Number of optimized local variable frames:     1
 Shrinking...
 Removing unused program classes and class elements...
-  Original number of program classes:            596
-  Final number of program classes:               596
+  Original number of program classes:            600
+  Final number of program classes:               600
 Optimizing (pass 6/50)...
   Number of finalized classes:                   0
   Number of unboxed enum classes:                0
@@ -309,7 +309,7 @@ Optimizing (pass 6/50)...
   Number of generalized method invocations:      0
   Number of specialized method parameter types:  4
   Number of specialized method return types:     0
-  Number of inlined constant parameters:         18
+  Number of inlined constant parameters:         17
   Number of inlined constant return values:      2
   Number of inlined short method calls:          0
   Number of inlined unique method calls:         0
@@ -330,8 +330,8 @@ Optimizing (pass 6/50)...
   Number of optimized local variable frames:     0
 Shrinking...
 Removing unused program classes and class elements...
-  Original number of program classes:            596
-  Final number of program classes:               596
+  Original number of program classes:            600
+  Final number of program classes:               600
 Optimizing (pass 7/50)...
   Number of finalized classes:                   0
   Number of unboxed enum classes:                0
@@ -373,8 +373,8 @@ Optimizing (pass 7/50)...
   Number of optimized local variable frames:     0
 Shrinking...
 Removing unused program classes and class elements...
-  Original number of program classes:            596
-  Final number of program classes:               596
+  Original number of program classes:            600
+  Final number of program classes:               600
 Optimizing (pass 8/50)...
   Number of finalized classes:                   0
   Number of unboxed enum classes:                0
@@ -416,8 +416,8 @@ Optimizing (pass 8/50)...
   Number of optimized local variable frames:     0
 Shrinking...
 Removing unused program classes and class elements...
-  Original number of program classes:            596
-  Final number of program classes:               596
+  Original number of program classes:            600
+  Final number of program classes:               600
 Optimizing (pass 9/50)...
   Number of finalized classes:                   0
   Number of unboxed enum classes:                0
@@ -459,8 +459,8 @@ Optimizing (pass 9/50)...
   Number of optimized local variable frames:     0
 Shrinking...
 Removing unused program classes and class elements...
-  Original number of program classes:            596
-  Final number of program classes:               596
+  Original number of program classes:            600
+  Final number of program classes:               600
 Optimizing (pass 10/50)...
   Number of finalized classes:                   0
   Number of unboxed enum classes:                0
