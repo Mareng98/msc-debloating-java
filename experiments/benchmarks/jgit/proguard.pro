@@ -1,5 +1,5 @@
--injars       target/artifact.jar
--outjars      artifacts/artifact_proguard.jar
+-injars       artifacts/artifact_vanilla.jar
+-outjars      artifact_proguard.jar
 # Identified with jdeps
 -libraryjars  <java.home>/jmods/java.base.jmod
 -libraryjars  <java.home>/jmods/java.management.jmod
@@ -22,6 +22,12 @@
 
 # Added rules after classes were found to be missing at run time
 -keep class org.slf4j.simple.SimpleServiceProvider{*;}
+
+# Keep the Messages class JGit uses to load the resource bundles
+-keep class org.eclipse.jgit.internal.JGitText {*;}
+-keep class org.eclipse.jgit.internal.Messages {
+    *;
+}
 
 # Added rules after proguard obfuscation didn't work
 #-keep public class org.eclipse.jgit.internal.JGitText {*;}
