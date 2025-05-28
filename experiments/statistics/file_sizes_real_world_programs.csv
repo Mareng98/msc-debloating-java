@@ -1,0 +1,26 @@
+Program,Debloating.Tool,Size (bytes)
+CoreNLP,jlink,52353803
+CoreNLP,depclean,27245072
+CoreNLP,deptrim,20562074
+CoreNLP,proguard,6456587
+CoreNLP,vanilla,27764697
+ErrorProne,jlink,83873325
+ErrorProne,depclean,11591249
+ErrorProne,deptrim,9632484
+ErrorProne,proguard,11439523
+ErrorProne,vanilla,11591607
+ExtractCLI,jlink,52727304
+ExtractCLI,depclean,57168630
+ExtractCLI,deptrim,72106020
+ExtractCLI,proguard,35733720
+ExtractCLI,vanilla,81088323
+ApacheTika,jlink,53939009
+ApacheTika,depclean,43449011
+ApacheTika,deptrim,45578696
+ApacheTika,proguard,26474096
+ApacheTika,vanilla,56225362
+Checkstyle,jlink,54338448
+Checkstyle,depclean,19666603
+Checkstyle,deptrim,16773150
+Checkstyle,proguard,10012432
+Checkstyle,vanilla,19647818
