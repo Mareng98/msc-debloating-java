@@ -1,5 +1,5 @@
 Jlink:
-identified modules: java.base,java.desktop,java.xml,java.logging,java.sql,java.naming,jdk.management
+identified modules: java.base,java.desktop,java.xml,java.logging,java.sql,jdk.management
 
 DepClean:
 -------------------------------------------------------

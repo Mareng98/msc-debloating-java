@@ -1,0 +1,5 @@
+$ARTIFACT_FOLDER$/jlink-runtime/bin/java -jar $ARTIFACT_FOLDER$/artifact_proguard.jar spew -o stdout --outputFormat text --outputMetadata no --ocr no icijextractInput/*
+java -jar $ARTIFACT_FOLDER$/artifact_vanilla.jar spew -o stdout --outputFormat text --outputMetadata no --ocr no icijextractInput/*
+java -jar $ARTIFACT_FOLDER$/artifact_depclean.jar spew -o stdout --outputFormat text --outputMetadata no --ocr no icijextractInput/*
+java -jar $ARTIFACT_FOLDER$/artifact_deptrim.jar spew -o stdout --outputFormat text --outputMetadata no --ocr no icijextractInput/*
+java -jar $ARTIFACT_FOLDER$/artifact_proguard.jar spew -o stdout --outputFormat text --outputMetadata no --ocr no icijextractInput/*

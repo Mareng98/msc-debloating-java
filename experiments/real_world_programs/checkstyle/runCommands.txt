@@ -1,0 +1,5 @@
+java -jar $ARTIFACT_FOLDER$/artifact_vanilla.jar -c /sun_checks.xml checkstyleInput/*
+java -jar $ARTIFACT_FOLDER$/artifact_depclean.jar -c /sun_checks.xml checkstyleInput/*
+java -jar $ARTIFACT_FOLDER$/artifact_deptrim.jar -c /sun_checks.xml checkstyleInput/*
+java -jar $ARTIFACT_FOLDER$/artifact_proguard.jar -c /sun_checks.xml checkstyleInput/*
+$ARTIFACT_FOLDER$/jlink-runtime/bin/java -jar $ARTIFACT_FOLDER$/artifact_vanilla.jar -c /sun_checks.xml checkstyleInput/*

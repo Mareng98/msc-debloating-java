@@ -1,0 +1,5 @@
+java -cp "stanford-corenlp-4.5.8-models.jar:$ARTIFACT_FOLDER$/artifact_vanilla.jar" edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,pos,depparse -file coreNLPinput.txt -outputFormat conll -output.columns word
+$ARTIFACT_FOLDER$/jlink-runtime/bin/java -cp "stanford-corenlp-4.5.8-models.jar:$ARTIFACT_FOLDER$/artifact_vanilla.jar" edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,pos,depparse -file coreNLPinput.txt -outputFormat conll -output.columns word
+java -cp "stanford-corenlp-4.5.8-models.jar:$ARTIFACT_FOLDER$/artifact_depclean.jar" edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,pos,depparse -file coreNLPinput.txt -outputFormat conll -output.columns word
+java -cp "stanford-corenlp-4.5.8-models.jar:$ARTIFACT_FOLDER$/artifact_deptrim.jar" edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,pos,depparse -file coreNLPinput.txt -outputFormat conll -output.columns word
+java -cp "stanford-corenlp-4.5.8-models.jar:$ARTIFACT_FOLDER$/artifact_proguard.jar" edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,pos,depparse -file coreNLPinput.txt -outputFormat conll -output.columns word

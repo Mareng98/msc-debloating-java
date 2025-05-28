@@ -1,0 +1,5 @@
+java -jar $ARTIFACT_FOLDER$/artifact_vanilla.jar --text-all tikaInput/*
+java -jar $ARTIFACT_FOLDER$/artifact_depclean.jar --text-all tikaInput/*
+java -jar $ARTIFACT_FOLDER$/artifact_deptrim.jar --text-all tikaInput/*
+java -jar $ARTIFACT_FOLDER$/artifact_proguard.jar --text-all tikaInput/*
+$ARTIFACT_FOLDER$/jlink-runtime/bin/java -jar $ARTIFACT_FOLDER$/artifact_vanilla.jar --text-all tikaInput/*
